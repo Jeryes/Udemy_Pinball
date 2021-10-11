@@ -816,3 +816,1027 @@ LogInit: Object subsystem initialized
 [2021.10.11-18.16.20:237][146]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Bumper7CD8D6CE42CADB2189011BBE3D4B8892.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
 [2021.10.11-18.16.20:239][146]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
 [2021.10.11-18.16.21:096][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2021.10.11-18.16.21:128][242]LogSavePackage: Save=25.75ms
+[2021.10.11-18.16.21:128][242]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Ball7A7D99E4415E853BBF49AB965B2D148C.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Ball.uasset'
+[2021.10.11-18.16.21:131][242]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Ball.uasset
+[2021.10.11-18.59.04:311][309]BlueprintLog: New page: Compile BP_Bumper
+[2021.10.11-18.59.51:741][872]LogSavePackage: Save=35.09ms
+[2021.10.11-18.59.51:741][872]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevel_Auto2B4B746A74D1887F4B0F2339D58D8FA46.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto2.umap'
+[2021.10.11-18.59.51:744][872]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto2.umap
+[2021.10.11-18.59.51:747][872]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.069
+[2021.10.11-18.59.51:747][872]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.069
+[2021.10.11-18.59.51:752][872]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Bumper] ([1] browsable assets)...
+[2021.10.11-18.59.51:762][872]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Bumper.BP_Bumper]
+[2021.10.11-18.59.51:762][872]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Bumper]
+[2021.10.11-18.59.51:799][872]LogSavePackage: Save=27.04ms
+[2021.10.11-18.59.51:799][872]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Bumper_Auto21A828AE446CE5906D0F078A57B992A79.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto2.uasset'
+[2021.10.11-18.59.51:802][872]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto2.uasset
+[2021.10.11-18.59.51:802][872]LogFileHelpers: Auto-saving content packages took 0.053
+[2021.10.11-19.01.03:765][412]BlueprintLog: New page: Compile BP_Bumper
+[2021.10.11-19.01.04:382][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2021.10.11-19.01.04:413][469]LogSavePackage: Save=25.89ms
+[2021.10.11-19.01.04:413][469]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Bumper1AAC6B794E8D8F624556069C5DEFD392.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2021.10.11-19.01.04:420][469]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2021.10.11-19.01.16:924][745]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper)
+[2021.10.11-19.01.19:896][ 95]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2021.10.11-19.01.23:258][491]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper)
+[2021.10.11-19.01.29:228][164]LogSavePackage: Save=31.91ms
+[2021.10.11-19.01.29:228][164]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevelF9E3B84348A11571338258941F4B231D.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2021.10.11-19.01.29:236][164]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2021.10.11-19.01.29:256][164]LogFileHelpers: Saving map 'MainLevel' took 0.131
+[2021.10.11-19.01.30:110][263]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-19.01.30:120][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-19.01.30:120][263]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 11:01:30 AM)
+[2021.10.11-19.01.30:120][263]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-19.01.30:140][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019313s)
+[2021.10.11-19.01.30:140][263]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-19.01.30:140][263]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2021.10.11-19.01.30:140][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.020026s)
+[2021.10.11-19.01.30:187][263]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-19.01.30:201][263]LogInit: FAudioDevice initialized.
+[2021.10.11-19.01.30:230][263]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-19.01.30:232][263]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-15.01.30
+[2021.10.11-19.01.30:232][263]LogWorld: Bringing up level for play took: 0.000860
+[2021.10.11-19.01.30:233][263]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.214
+[2021.10.11-19.01.58:810][ 22]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.10.11-19.08.57:469][576]BlueprintLog: New page: Compile BP_Bumper
+[2021.10.11-19.09.10:022][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2021.10.11-19.09.10:054][  4]LogSavePackage: Save=25.69ms
+[2021.10.11-19.09.10:054][  4]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Bumper68F2EC3D4499D90ADBDDE3AE40A927B3.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2021.10.11-19.09.10:061][  4]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2021.10.11-19.09.36:722][574]BlueprintLog: New page: Compile BP_Bumper
+[2021.10.11-19.09.46:352][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2021.10.11-19.09.46:383][654]LogSavePackage: Save=25.50ms
+[2021.10.11-19.09.46:383][654]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_BumperD1C5A2434463ABCFEC7BF5A4EED8A394.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2021.10.11-19.09.46:389][654]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2021.10.11-19.09.47:824][823]BlueprintLog: New page: Compile BP_Bumper
+[2021.10.11-19.09.48:863][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2021.10.11-19.09.48:893][926]LogSavePackage: Save=25.10ms
+[2021.10.11-19.09.48:893][926]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Bumper61382DA4492BCFCDB59E9384937F69F3.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2021.10.11-19.09.48:895][926]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2021.10.11-19.10.58:937][805]BlueprintLog: New page: Compile BP_Bumper
+[2021.10.11-19.10.59:575][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2021.10.11-19.10.59:607][865]LogSavePackage: Save=27.21ms
+[2021.10.11-19.10.59:607][865]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_BumperC3917B064185ACD4CD39268542751FC5.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2021.10.11-19.10.59:615][865]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2021.10.11-19.11.02:908][211]LogSavePackage: Save=32.02ms
+[2021.10.11-19.11.02:908][211]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevel5684310346254CABABEA9CBC620E8DBB.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2021.10.11-19.11.02:914][211]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2021.10.11-19.11.02:931][211]LogFileHelpers: Saving map 'MainLevel' took 0.125
+[2021.10.11-19.11.04:199][350]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-19.11.04:208][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-19.11.04:208][350]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 11:11:04 AM)
+[2021.10.11-19.11.04:208][350]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-19.11.04:211][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003223s)
+[2021.10.11-19.11.04:212][350]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-19.11.04:212][350]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2021.10.11-19.11.04:212][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004072s)
+[2021.10.11-19.11.04:263][350]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-19.11.04:281][350]LogInit: FAudioDevice initialized.
+[2021.10.11-19.11.04:313][350]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-19.11.04:315][350]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-15.11.04
+[2021.10.11-19.11.04:315][350]LogWorld: Bringing up level for play took: 0.001214
+[2021.10.11-19.11.04:316][350]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.298
+[2021.10.11-19.30.26:403][129]BlueprintLog: New page: Compile BP_Bumper
+[2021.10.11-19.30.27:500][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2021.10.11-19.30.27:538][221]LogSavePackage: Save=31.35ms
+[2021.10.11-19.30.27:538][221]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Bumper4068106E4276F2CD25CEAAA730EA1BD3.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2021.10.11-19.30.27:546][221]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2021.10.11-19.31.57:388][334]BlueprintLog: New page: Compile BP_Bumper
+[2021.10.11-19.31.58:007][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2021.10.11-19.31.58:043][392]LogSavePackage: Save=30.31ms
+[2021.10.11-19.31.58:043][392]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Bumper59F49C314A70E943020C8EA266206B0D.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2021.10.11-19.31.58:051][392]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2021.10.11-19.32.00:690][677]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-19.32.00:699][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-19.32.00:699][677]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 11:32:00 AM)
+[2021.10.11-19.32.00:699][677]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-19.32.00:703][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003452s)
+[2021.10.11-19.32.00:704][677]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-19.32.00:704][677]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2021.10.11-19.32.00:704][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004330s)
+[2021.10.11-19.32.00:750][677]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-19.32.00:773][677]LogInit: FAudioDevice initialized.
+[2021.10.11-19.32.00:805][677]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-19.32.00:807][677]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-15.32.00
+[2021.10.11-19.32.00:807][677]LogWorld: Bringing up level for play took: 0.000742
+[2021.10.11-19.32.00:808][677]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.789
+[2021.10.11-19.32.14:899][253]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-19.32.14:911][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-19.32.14:911][253]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 11:32:14 AM)
+[2021.10.11-19.32.14:911][253]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-19.32.14:915][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003475s)
+[2021.10.11-19.32.14:915][253]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-19.32.14:915][253]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2021.10.11-19.32.14:916][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004260s)
+[2021.10.11-19.32.14:964][253]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-19.32.14:979][253]LogInit: FAudioDevice initialized.
+[2021.10.11-19.32.15:012][253]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-19.32.15:013][253]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-15.32.15
+[2021.10.11-19.32.15:013][253]LogWorld: Bringing up level for play took: 0.000691
+[2021.10.11-19.32.15:014][253]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.995
+[2021.10.11-19.32.49:034][251]LogSavePackage: Save=34.53ms
+[2021.10.11-19.32.49:034][251]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevel3E551ECF4367C340170A9BA1571B8F09.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2021.10.11-19.32.49:041][251]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2021.10.11-19.32.52:990][708]LogMaterialEditor: Applying material M_Bumper
+[2021.10.11-19.32.53:337][708]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2021.10.11-19.32.53:352][708]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.10.11-19.32.53:377][708]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2021.10.11-19.32.53:395][708]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2021.10.11-19.32.53:409][708]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.10.11-19.32.55:179][900]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2021.10.11-19.32.55:179][900]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2021.10.11-19.32.55:179][900]MaterialEditorStats: Info Texture samplers: 4/16
+[2021.10.11-19.33.56:685][365]BlueprintLog: New page: Compile BP_Bumper
+[2021.10.11-19.34.12:480][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2021.10.11-19.34.12:518][852]LogSavePackage: Save=32.70ms
+[2021.10.11-19.34.12:518][852]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Bumper4840E540440532D6E48DFB95EF83D74C.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2021.10.11-19.34.12:526][852]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2021.10.11-19.34.14:356][ 61]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-19.34.14:365][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-19.34.14:366][ 61]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 11:34:14 AM)
+[2021.10.11-19.34.14:366][ 61]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-19.34.14:369][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003324s)
+[2021.10.11-19.34.14:370][ 61]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-19.34.14:370][ 61]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2021.10.11-19.34.14:370][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004107s)
+[2021.10.11-19.34.14:420][ 61]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-19.34.14:435][ 61]LogInit: FAudioDevice initialized.
+[2021.10.11-19.34.14:471][ 61]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-19.34.14:473][ 61]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-15.34.14
+[2021.10.11-19.34.14:474][ 61]LogWorld: Bringing up level for play took: 0.001013
+[2021.10.11-19.34.14:475][ 61]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.455
+[2021.10.11-19.42.51:893][104]LogSavePackage: Save=33.56ms
+[2021.10.11-19.42.51:893][104]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevel_Auto35A880D3E455F75767FBAF7870AF89065.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto3.umap'
+[2021.10.11-19.42.51:896][104]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto3.umap
+[2021.10.11-19.42.51:899][104]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.065
+[2021.10.11-19.42.51:899][104]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.065
+[2021.10.11-19.42.51:903][104]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/M_Bumper] ([1] browsable assets)...
+[2021.10.11-19.42.51:919][104]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/M_Bumper.M_Bumper]
+[2021.10.11-19.42.51:919][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/M_Bumper]
+[2021.10.11-19.42.51:939][104]LogSavePackage: Save=12.56ms
+[2021.10.11-19.42.51:939][104]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/M_Bumper_Auto37E788E7D4D10287A378A4496D4136B82.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/M_Bumper_Auto3.uasset'
+[2021.10.11-19.42.51:941][104]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/M_Bumper_Auto3.uasset
+[2021.10.11-19.42.51:942][104]LogFileHelpers: Auto-saving content packages took 0.041
+[2021.10.11-20.04.14:528][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2021.10.11-20.04.14:559][457]LogSavePackage: Save=23.27ms
+[2021.10.11-20.04.14:559][457]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Bumper2AC8BD454920AEB80504D08C12CB5206.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2021.10.11-20.04.14:562][457]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2021.10.11-20.04.17:975][814]LogSavePackage: Save=32.65ms
+[2021.10.11-20.04.17:975][814]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevelFA147EE54652088A32CE3E85454ECDF4.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2021.10.11-20.04.17:982][814]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2021.10.11-20.04.17:999][814]LogFileHelpers: Saving map 'MainLevel' took 0.127
+[2021.10.11-20.04.18:000][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/M_Bumper.uasset" SILENT=true
+[2021.10.11-20.04.18:013][814]LogSavePackage: Save=5.53ms
+[2021.10.11-20.04.18:013][814]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/M_Bumper570A7E96420B64496EC13B89AC20077A.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/M_Bumper.uasset'
+[2021.10.11-20.04.18:019][814]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/M_Bumper.uasset
+[2021.10.11-20.04.19:393][963]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-20.04.19:403][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-20.04.19:403][963]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 12:04:19 PM)
+[2021.10.11-20.04.19:403][963]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-20.04.19:406][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003025s)
+[2021.10.11-20.04.19:406][963]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-20.04.19:406][963]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2021.10.11-20.04.19:407][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.003795s)
+[2021.10.11-20.04.19:457][963]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-20.04.19:473][963]LogInit: FAudioDevice initialized.
+[2021.10.11-20.04.19:504][963]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-20.04.19:506][963]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-16.04.19
+[2021.10.11-20.04.19:506][963]LogWorld: Bringing up level for play took: 0.000791
+[2021.10.11-20.04.19:507][963]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.512
+[2021.10.11-20.08.23:343][835]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2021.10.11-20.08.23:351][835]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.10.11-20.08.24:228][925]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2021.10.11-20.08.24:229][925]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2021.10.11-20.08.24:229][925]MaterialEditorStats: Info Texture samplers: 1/16
+[2021.10.11-20.08.26:356][179]LogMaterialEditor: Applying material M_Bumper
+[2021.10.11-20.08.26:733][179]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2021.10.11-20.08.26:748][179]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.10.11-20.08.26:772][179]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2021.10.11-20.08.26:793][179]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2021.10.11-20.08.26:807][179]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.10.11-20.08.27:253][224]LogMaterialEditor: Saving and Compiling material M_Bumper
+[2021.10.11-20.08.28:139][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/M_Bumper.uasset" SILENT=true
+[2021.10.11-20.08.28:157][224]LogSavePackage: Save=12.82ms
+[2021.10.11-20.08.28:157][224]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/M_Bumper63A14BA84B13F21B33805185FA682095.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/M_Bumper.uasset'
+[2021.10.11-20.08.28:163][224]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/M_Bumper.uasset
+[2021.10.11-20.08.28:169][224]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2021.10.11-20.08.28:169][224]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2021.10.11-20.08.28:169][224]MaterialEditorStats: Info Texture samplers: 4/16
+[2021.10.11-20.08.29:456][368]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-20.08.29:466][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-20.08.29:466][368]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 12:08:29 PM)
+[2021.10.11-20.08.29:466][368]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-20.08.29:470][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003615s)
+[2021.10.11-20.08.29:470][368]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-20.08.29:470][368]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2021.10.11-20.08.29:471][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004577s)
+[2021.10.11-20.08.29:517][368]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-20.08.29:536][368]LogInit: FAudioDevice initialized.
+[2021.10.11-20.08.29:569][368]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-20.08.29:571][368]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-16.08.29
+[2021.10.11-20.08.29:571][368]LogWorld: Bringing up level for play took: 0.000826
+[2021.10.11-20.08.29:572][368]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.447
+[2021.10.11-20.22.25:734][416]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-20.22.25:747][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-20.22.25:747][416]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 12:22:25 PM)
+[2021.10.11-20.22.25:747][416]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-20.22.25:752][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004727s)
+[2021.10.11-20.22.25:753][416]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-20.22.25:753][416]LogPlayLevel: PIE: World Init took: (0.001273s)
+[2021.10.11-20.22.25:753][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.006269s)
+[2021.10.11-20.22.25:827][416]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-20.22.25:847][416]LogInit: FAudioDevice initialized.
+[2021.10.11-20.22.25:887][416]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-20.22.25:890][416]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-16.22.25
+[2021.10.11-20.22.25:890][416]LogWorld: Bringing up level for play took: 0.001273
+[2021.10.11-20.22.25:891][416]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.128
+[2021.10.11-20.23.51:829][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\SP08_Convoy_Chase_exp.WAV)
+[2021.10.11-20.23.51:891][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave SP08_Convoy_Chase_exp...
+[2021.10.11-20.23.53:215][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/SP08_Convoy_Chase_exp.SP08_Convoy_Chase_exp.
+[2021.10.11-20.23.53:224][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Arcade_Enemy_Death_02.WAV)
+[2021.10.11-20.23.53:229][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Arcade_Enemy_Death_02...
+[2021.10.11-20.23.53:242][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Arcade_Enemy_Death_02.Arcade_Enemy_Death_02.
+[2021.10.11-20.23.53:260][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Arcade_Enemy_Death_03_m1.WAV)
+[2021.10.11-20.23.53:263][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Arcade_Enemy_Death_03_m1...
+[2021.10.11-20.23.53:271][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Arcade_Enemy_Death_03_m1.Arcade_Enemy_Death_03_m1.
+[2021.10.11-20.23.53:274][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Arcade_Enemy_Fire_02_m1.WAV)
+[2021.10.11-20.23.53:278][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Arcade_Enemy_Fire_02_m1...
+[2021.10.11-20.23.53:285][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Arcade_Enemy_Fire_02_m1.Arcade_Enemy_Fire_02_m1.
+[2021.10.11-20.23.53:287][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Arcade_Enemy_Fire_03_m1.WAV)
+[2021.10.11-20.23.53:291][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Arcade_Enemy_Fire_03_m1...
+[2021.10.11-20.23.53:297][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Arcade_Enemy_Fire_03_m1.Arcade_Enemy_Fire_03_m1.
+[2021.10.11-20.23.53:335][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Arcade_GameStart.WAV)
+[2021.10.11-20.23.53:339][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Arcade_GameStart...
+[2021.10.11-20.23.53:358][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Arcade_GameStart.Arcade_GameStart.
+[2021.10.11-20.23.53:375][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Bell_Impact01.WAV)
+[2021.10.11-20.23.53:378][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Bell_Impact01...
+[2021.10.11-20.23.53:388][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Bell_Impact01.Bell_Impact01.
+[2021.10.11-20.23.53:391][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Impact_Punch_High01.WAV)
+[2021.10.11-20.23.53:396][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Impact_Punch_High01...
+[2021.10.11-20.23.53:403][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Impact_Punch_High01.Impact_Punch_High01.
+[2021.10.11-20.23.53:405][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Impact_Punch_High02.WAV)
+[2021.10.11-20.23.53:408][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Impact_Punch_High02...
+[2021.10.11-20.23.53:414][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Impact_Punch_High02.Impact_Punch_High02.
+[2021.10.11-20.23.53:418][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Impact_Punch_High03.WAV)
+[2021.10.11-20.23.53:421][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Impact_Punch_High03...
+[2021.10.11-20.23.53:429][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Impact_Punch_High03.Impact_Punch_High03.
+[2021.10.11-20.23.53:432][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Impact_Punch_High04.WAV)
+[2021.10.11-20.23.53:436][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Impact_Punch_High04...
+[2021.10.11-20.23.53:443][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Impact_Punch_High04.Impact_Punch_High04.
+[2021.10.11-20.23.53:474][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_BallAdded.WAV)
+[2021.10.11-20.23.53:478][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_BallAdded...
+[2021.10.11-20.23.53:493][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_BallAdded.Pinball_BallAdded.
+[2021.10.11-20.23.53:525][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_BallDropFromSlide.WAV)
+[2021.10.11-20.23.53:528][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_BallDropFromSlide...
+[2021.10.11-20.23.53:544][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_BallDropFromSlide.Pinball_BallDropFromSlide.
+[2021.10.11-20.23.53:549][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_BallKickout.WAV)
+[2021.10.11-20.23.53:554][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_BallKickout...
+[2021.10.11-20.23.53:560][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_BallKickout.Pinball_BallKickout.
+[2021.10.11-20.23.53:626][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_BallLaunch.WAV)
+[2021.10.11-20.23.53:631][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_BallLaunch...
+[2021.10.11-20.23.53:673][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_BallLaunch.Pinball_BallLaunch.
+[2021.10.11-20.23.53:712][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_BallLoose.WAV)
+[2021.10.11-20.23.53:716][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_BallLoose...
+[2021.10.11-20.23.53:737][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_BallLoose.Pinball_BallLoose.
+[2021.10.11-20.23.53:786][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_BallRelease.WAV)
+[2021.10.11-20.23.53:790][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_BallRelease...
+[2021.10.11-20.23.53:807][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_BallRelease.Pinball_BallRelease.
+[2021.10.11-20.23.53:848][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_Bell01.WAV)
+[2021.10.11-20.23.53:852][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_Bell01...
+[2021.10.11-20.23.53:868][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_Bell01.Pinball_Bell01.
+[2021.10.11-20.23.53:870][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_BumperImpact01.WAV)
+[2021.10.11-20.23.53:873][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_BumperImpact01...
+[2021.10.11-20.23.53:880][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_BumperImpact01.Pinball_BumperImpact01.
+[2021.10.11-20.23.53:884][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_BumperImpact02.WAV)
+[2021.10.11-20.23.53:887][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_BumperImpact02...
+[2021.10.11-20.23.53:894][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_BumperImpact02.Pinball_BumperImpact02.
+[2021.10.11-20.23.53:896][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_BumperImpact03.WAV)
+[2021.10.11-20.23.53:900][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_BumperImpact03...
+[2021.10.11-20.23.53:904][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_BumperImpact03.Pinball_BumperImpact03.
+[2021.10.11-20.23.53:907][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_BumperImpact04.WAV)
+[2021.10.11-20.23.53:910][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_BumperImpact04...
+[2021.10.11-20.23.53:917][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_BumperImpact04.Pinball_BumperImpact04.
+[2021.10.11-20.23.53:920][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_BumperImpact05.WAV)
+[2021.10.11-20.23.53:926][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_BumperImpact05...
+[2021.10.11-20.23.53:933][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_BumperImpact05.Pinball_BumperImpact05.
+[2021.10.11-20.23.53:965][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_Error01.WAV)
+[2021.10.11-20.23.53:969][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_Error01...
+[2021.10.11-20.23.53:988][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_Error01.Pinball_Error01.
+[2021.10.11-20.23.54:006][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_FlipperLeft.WAV)
+[2021.10.11-20.23.54:011][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_FlipperLeft...
+[2021.10.11-20.23.54:026][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_FlipperLeft.Pinball_FlipperLeft.
+[2021.10.11-20.23.54:043][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_FlipperRight.WAV)
+[2021.10.11-20.23.54:048][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_FlipperRight...
+[2021.10.11-20.23.54:063][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_FlipperRight.Pinball_FlipperRight.
+[2021.10.11-20.23.54:066][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_Popup01.WAV)
+[2021.10.11-20.23.54:069][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_Popup01...
+[2021.10.11-20.23.54:075][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_Popup01.Pinball_Popup01.
+[2021.10.11-20.23.54:079][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_Popup02.WAV)
+[2021.10.11-20.23.54:083][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_Popup02...
+[2021.10.11-20.23.54:089][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_Popup02.Pinball_Popup02.
+[2021.10.11-20.23.54:092][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_Popup03.WAV)
+[2021.10.11-20.23.54:096][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_Popup03...
+[2021.10.11-20.23.54:102][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_Popup03.Pinball_Popup03.
+[2021.10.11-20.23.54:125][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_Reset01.WAV)
+[2021.10.11-20.23.54:128][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_Reset01...
+[2021.10.11-20.23.54:146][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_Reset01.Pinball_Reset01.
+[2021.10.11-20.23.54:174][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_Reset02.WAV)
+[2021.10.11-20.23.54:178][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_Reset02...
+[2021.10.11-20.23.54:195][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_Reset02.Pinball_Reset02.
+[2021.10.11-20.23.54:242][ 76]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GitHub Projects\Udemy_Unreal\PinballAssets\Sounds\Pinball_Rolling01.WAV)
+[2021.10.11-20.23.54:246][ 76]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pinball_Rolling01...
+[2021.10.11-20.23.54:291][ 76]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_Rolling01.Pinball_Rolling01.
+[2021.10.11-20.23.54:473][ 77]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.016
+[2021.10.11-20.23.54:477][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Bumper] ([1] browsable assets)...
+[2021.10.11-20.23.54:487][ 77]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Bumper.BP_Bumper]
+[2021.10.11-20.23.54:487][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Bumper]
+[2021.10.11-20.23.54:526][ 77]LogSavePackage: Save=31.90ms
+[2021.10.11-20.23.54:526][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Bumper_Auto487D601854A5C981761F2B3A808EA5CD7.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto4.uasset'
+[2021.10.11-20.23.54:528][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto4.uasset
+[2021.10.11-20.23.54:531][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/SP08_Convoy_Chase_exp] ([1] browsable assets)...
+[2021.10.11-20.23.54:544][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/SP08_Convoy_Chase_exp.SP08_Convoy_Chase_exp]
+[2021.10.11-20.23.54:544][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/SP08_Convoy_Chase_exp]
+[2021.10.11-20.23.54:559][ 77]LogSavePackage: Save=11.11ms
+[2021.10.11-20.23.54:559][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/SP08_Convoy_Chase_exp_Auto46710024143309F54DA09ADA6673A0713.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/SP08_Convoy_Chase_exp_Auto4.uasset'
+[2021.10.11-20.23.54:562][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/SP08_Convoy_Chase_exp_Auto4.uasset
+[2021.10.11-20.23.54:564][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Arcade_Enemy_Death_02] ([1] browsable assets)...
+[2021.10.11-20.23.54:569][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Arcade_Enemy_Death_02.Arcade_Enemy_Death_02]
+[2021.10.11-20.23.54:569][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Arcade_Enemy_Death_02]
+[2021.10.11-20.23.54:576][ 77]LogSavePackage: Save=4.64ms
+[2021.10.11-20.23.54:576][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Arcade_Enemy_Death_02_Auto4E88185D14864E83203FBA781B6374214.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Arcade_Enemy_Death_02_Auto4.uasset'
+[2021.10.11-20.23.54:579][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Arcade_Enemy_Death_02_Auto4.uasset
+[2021.10.11-20.23.54:581][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Arcade_Enemy_Death_03_m1] ([1] browsable assets)...
+[2021.10.11-20.23.54:586][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Arcade_Enemy_Death_03_m1.Arcade_Enemy_Death_03_m1]
+[2021.10.11-20.23.54:586][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Arcade_Enemy_Death_03_m1]
+[2021.10.11-20.23.54:593][ 77]LogSavePackage: Save=5.08ms
+[2021.10.11-20.23.54:593][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Arcade_Enemy_Death_03_m1_Auto48A8EE43C4D9260C9FFFD52B7EA012F73.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Arcade_Enemy_Death_03_m1_Auto4.uasset'
+[2021.10.11-20.23.54:596][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Arcade_Enemy_Death_03_m1_Auto4.uasset
+[2021.10.11-20.23.54:599][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Arcade_Enemy_Fire_02_m1] ([1] browsable assets)...
+[2021.10.11-20.23.54:603][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Arcade_Enemy_Fire_02_m1.Arcade_Enemy_Fire_02_m1]
+[2021.10.11-20.23.54:603][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Arcade_Enemy_Fire_02_m1]
+[2021.10.11-20.23.54:611][ 77]LogSavePackage: Save=5.13ms
+[2021.10.11-20.23.54:611][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Arcade_Enemy_Fire_02_m1_Auto494FB36BB4672B7CEFAB17792AA2ADB4C.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Arcade_Enemy_Fire_02_m1_Auto4.uasset'
+[2021.10.11-20.23.54:614][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Arcade_Enemy_Fire_02_m1_Auto4.uasset
+[2021.10.11-20.23.54:616][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Arcade_Enemy_Fire_03_m1] ([1] browsable assets)...
+[2021.10.11-20.23.54:620][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Arcade_Enemy_Fire_03_m1.Arcade_Enemy_Fire_03_m1]
+[2021.10.11-20.23.54:620][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Arcade_Enemy_Fire_03_m1]
+[2021.10.11-20.23.54:628][ 77]LogSavePackage: Save=5.37ms
+[2021.10.11-20.23.54:628][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Arcade_Enemy_Fire_03_m1_Auto4ED705CC54875E597D6968CB951FEE650.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Arcade_Enemy_Fire_03_m1_Auto4.uasset'
+[2021.10.11-20.23.54:631][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Arcade_Enemy_Fire_03_m1_Auto4.uasset
+[2021.10.11-20.23.54:634][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Arcade_GameStart] ([1] browsable assets)...
+[2021.10.11-20.23.54:638][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Arcade_GameStart.Arcade_GameStart]
+[2021.10.11-20.23.54:638][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Arcade_GameStart]
+[2021.10.11-20.23.54:646][ 77]LogSavePackage: Save=5.01ms
+[2021.10.11-20.23.54:646][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Arcade_GameStart_Auto4DA118EB34C3D320380D0E79B6878BBEF.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Arcade_GameStart_Auto4.uasset'
+[2021.10.11-20.23.54:649][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Arcade_GameStart_Auto4.uasset
+[2021.10.11-20.23.54:652][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Bell_Impact01] ([1] browsable assets)...
+[2021.10.11-20.23.54:657][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Bell_Impact01.Bell_Impact01]
+[2021.10.11-20.23.54:657][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Bell_Impact01]
+[2021.10.11-20.23.54:664][ 77]LogSavePackage: Save=4.64ms
+[2021.10.11-20.23.54:664][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Bell_Impact01_Auto4344E79B24773B2B225147C84BDAC2DB8.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Bell_Impact01_Auto4.uasset'
+[2021.10.11-20.23.54:667][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Bell_Impact01_Auto4.uasset
+[2021.10.11-20.23.54:669][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Impact_Punch_High01] ([1] browsable assets)...
+[2021.10.11-20.23.54:674][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Impact_Punch_High01.Impact_Punch_High01]
+[2021.10.11-20.23.54:674][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Impact_Punch_High01]
+[2021.10.11-20.23.54:682][ 77]LogSavePackage: Save=4.96ms
+[2021.10.11-20.23.54:682][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Impact_Punch_High01_Auto4895E53504445093913040B940A0E363D.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Impact_Punch_High01_Auto4.uasset'
+[2021.10.11-20.23.54:685][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Impact_Punch_High01_Auto4.uasset
+[2021.10.11-20.23.54:688][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Impact_Punch_High02] ([1] browsable assets)...
+[2021.10.11-20.23.54:871][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Impact_Punch_High02.Impact_Punch_High02]
+[2021.10.11-20.23.54:871][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Impact_Punch_High02]
+[2021.10.11-20.23.54:880][ 77]LogSavePackage: Save=4.71ms
+[2021.10.11-20.23.54:880][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Impact_Punch_High02_Auto4716C9C3A4192E1F9AA7A33871048D799.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Impact_Punch_High02_Auto4.uasset'
+[2021.10.11-20.23.54:882][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Impact_Punch_High02_Auto4.uasset
+[2021.10.11-20.23.54:885][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Impact_Punch_High03] ([1] browsable assets)...
+[2021.10.11-20.23.54:889][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Impact_Punch_High03.Impact_Punch_High03]
+[2021.10.11-20.23.54:889][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Impact_Punch_High03]
+[2021.10.11-20.23.54:898][ 77]LogSavePackage: Save=5.03ms
+[2021.10.11-20.23.54:898][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Impact_Punch_High03_Auto4D43E634B405E8F8E89ECBEA028876565.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Impact_Punch_High03_Auto4.uasset'
+[2021.10.11-20.23.54:901][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Impact_Punch_High03_Auto4.uasset
+[2021.10.11-20.23.54:903][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Impact_Punch_High04] ([1] browsable assets)...
+[2021.10.11-20.23.54:908][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Impact_Punch_High04.Impact_Punch_High04]
+[2021.10.11-20.23.54:908][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Impact_Punch_High04]
+[2021.10.11-20.23.54:915][ 77]LogSavePackage: Save=4.58ms
+[2021.10.11-20.23.54:915][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Impact_Punch_High04_Auto4B7AFDD6A41F253C75CB58D9ED3CF9EB0.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Impact_Punch_High04_Auto4.uasset'
+[2021.10.11-20.23.54:917][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Impact_Punch_High04_Auto4.uasset
+[2021.10.11-20.23.54:920][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_BallAdded] ([1] browsable assets)...
+[2021.10.11-20.23.54:925][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_BallAdded.Pinball_BallAdded]
+[2021.10.11-20.23.54:925][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_BallAdded]
+[2021.10.11-20.23.54:933][ 77]LogSavePackage: Save=5.11ms
+[2021.10.11-20.23.54:933][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BallAdded_Auto4839E94C942C677EB5B975998404C3835.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BallAdded_Auto4.uasset'
+[2021.10.11-20.23.54:935][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BallAdded_Auto4.uasset
+[2021.10.11-20.23.54:938][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_BallDropFromSlide] ([1] browsable assets)...
+[2021.10.11-20.23.54:941][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_BallDropFromSlide.Pinball_BallDropFromSlide]
+[2021.10.11-20.23.54:941][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_BallDropFromSlide]
+[2021.10.11-20.23.54:948][ 77]LogSavePackage: Save=4.61ms
+[2021.10.11-20.23.54:948][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BallDropFromSlide_Auto4261BA9EC49C42BA463A4479560A769D6.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BallDropFromSlide_Auto4.uasset'
+[2021.10.11-20.23.54:951][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BallDropFromSlide_Auto4.uasset
+[2021.10.11-20.23.54:955][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_BallKickout] ([1] browsable assets)...
+[2021.10.11-20.23.54:959][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_BallKickout.Pinball_BallKickout]
+[2021.10.11-20.23.54:959][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_BallKickout]
+[2021.10.11-20.23.54:966][ 77]LogSavePackage: Save=4.55ms
+[2021.10.11-20.23.54:966][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BallKickout_Auto47B193494433C54EA3CCBEE90F5AD7E23.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BallKickout_Auto4.uasset'
+[2021.10.11-20.23.54:969][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BallKickout_Auto4.uasset
+[2021.10.11-20.23.54:971][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_BallLaunch] ([1] browsable assets)...
+[2021.10.11-20.23.54:975][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_BallLaunch.Pinball_BallLaunch]
+[2021.10.11-20.23.54:975][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_BallLaunch]
+[2021.10.11-20.23.54:983][ 77]LogSavePackage: Save=5.86ms
+[2021.10.11-20.23.54:983][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BallLaunch_Auto482CE6C3441DDC56794032FB2CACC1D77.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BallLaunch_Auto4.uasset'
+[2021.10.11-20.23.54:987][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BallLaunch_Auto4.uasset
+[2021.10.11-20.23.54:989][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_BallLoose] ([1] browsable assets)...
+[2021.10.11-20.23.54:993][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_BallLoose.Pinball_BallLoose]
+[2021.10.11-20.23.54:993][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_BallLoose]
+[2021.10.11-20.23.55:001][ 77]LogSavePackage: Save=5.00ms
+[2021.10.11-20.23.55:001][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BallLoose_Auto4DA98553E4865030F64954E841CA0ACC8.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BallLoose_Auto4.uasset'
+[2021.10.11-20.23.55:003][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BallLoose_Auto4.uasset
+[2021.10.11-20.23.55:005][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_BallRelease] ([1] browsable assets)...
+[2021.10.11-20.23.55:009][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_BallRelease.Pinball_BallRelease]
+[2021.10.11-20.23.55:009][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_BallRelease]
+[2021.10.11-20.23.55:018][ 77]LogSavePackage: Save=6.58ms
+[2021.10.11-20.23.55:018][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BallRelease_Auto40E02927E4BE3C0076C09C99A88430FBC.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BallRelease_Auto4.uasset'
+[2021.10.11-20.23.55:021][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BallRelease_Auto4.uasset
+[2021.10.11-20.23.55:024][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_Bell01] ([1] browsable assets)...
+[2021.10.11-20.23.55:028][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_Bell01.Pinball_Bell01]
+[2021.10.11-20.23.55:028][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_Bell01]
+[2021.10.11-20.23.55:046][ 77]LogSavePackage: Save=15.36ms
+[2021.10.11-20.23.55:046][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Bell01_Auto4B74E1E8C434A4A034B228EA4B9D643ED.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Bell01_Auto4.uasset'
+[2021.10.11-20.23.55:051][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Bell01_Auto4.uasset
+[2021.10.11-20.23.55:054][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_BumperImpact01] ([1] browsable assets)...
+[2021.10.11-20.23.55:058][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_BumperImpact01.Pinball_BumperImpact01]
+[2021.10.11-20.23.55:058][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_BumperImpact01]
+[2021.10.11-20.23.55:066][ 77]LogSavePackage: Save=5.65ms
+[2021.10.11-20.23.55:066][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BumperImpact01_Auto40FAC7A1B43C5A115FDEBFB836FFA79CB.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BumperImpact01_Auto4.uasset'
+[2021.10.11-20.23.55:069][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BumperImpact01_Auto4.uasset
+[2021.10.11-20.23.55:071][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_BumperImpact02] ([1] browsable assets)...
+[2021.10.11-20.23.55:076][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_BumperImpact02.Pinball_BumperImpact02]
+[2021.10.11-20.23.55:076][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_BumperImpact02]
+[2021.10.11-20.23.55:086][ 77]LogSavePackage: Save=5.76ms
+[2021.10.11-20.23.55:086][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BumperImpact02_Auto453BA03B24EE0D3DA847DBABC99E56D17.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BumperImpact02_Auto4.uasset'
+[2021.10.11-20.23.55:089][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BumperImpact02_Auto4.uasset
+[2021.10.11-20.23.55:092][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_BumperImpact03] ([1] browsable assets)...
+[2021.10.11-20.23.55:271][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_BumperImpact03.Pinball_BumperImpact03]
+[2021.10.11-20.23.55:271][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_BumperImpact03]
+[2021.10.11-20.23.55:280][ 77]LogSavePackage: Save=6.13ms
+[2021.10.11-20.23.55:280][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BumperImpact03_Auto4388EAFA144B55610F162DAB6ABF0302D.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BumperImpact03_Auto4.uasset'
+[2021.10.11-20.23.55:284][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BumperImpact03_Auto4.uasset
+[2021.10.11-20.23.55:286][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_BumperImpact04] ([1] browsable assets)...
+[2021.10.11-20.23.55:290][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_BumperImpact04.Pinball_BumperImpact04]
+[2021.10.11-20.23.55:290][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_BumperImpact04]
+[2021.10.11-20.23.55:297][ 77]LogSavePackage: Save=5.18ms
+[2021.10.11-20.23.55:297][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BumperImpact04_Auto48D95943B44495B16187DD7AE4E895457.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BumperImpact04_Auto4.uasset'
+[2021.10.11-20.23.55:300][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BumperImpact04_Auto4.uasset
+[2021.10.11-20.23.55:302][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_BumperImpact05] ([1] browsable assets)...
+[2021.10.11-20.23.55:306][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_BumperImpact05.Pinball_BumperImpact05]
+[2021.10.11-20.23.55:306][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_BumperImpact05]
+[2021.10.11-20.23.55:313][ 77]LogSavePackage: Save=5.17ms
+[2021.10.11-20.23.55:314][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BumperImpact05_Auto49CEB336149773131B947F5B513EF1B1A.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BumperImpact05_Auto4.uasset'
+[2021.10.11-20.23.55:316][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_BumperImpact05_Auto4.uasset
+[2021.10.11-20.23.55:319][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_Error01] ([1] browsable assets)...
+[2021.10.11-20.23.55:322][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_Error01.Pinball_Error01]
+[2021.10.11-20.23.55:322][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_Error01]
+[2021.10.11-20.23.55:330][ 77]LogSavePackage: Save=5.20ms
+[2021.10.11-20.23.55:330][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Error01_Auto47C0126E441B00CC517D206A84C1DAC1D.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Error01_Auto4.uasset'
+[2021.10.11-20.23.55:333][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Error01_Auto4.uasset
+[2021.10.11-20.23.55:335][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_FlipperLeft] ([1] browsable assets)...
+[2021.10.11-20.23.55:339][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_FlipperLeft.Pinball_FlipperLeft]
+[2021.10.11-20.23.55:339][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_FlipperLeft]
+[2021.10.11-20.23.55:348][ 77]LogSavePackage: Save=5.90ms
+[2021.10.11-20.23.55:348][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_FlipperLeft_Auto429B92DA24D3CCBFDC9EFDB8EC3EDD120.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_FlipperLeft_Auto4.uasset'
+[2021.10.11-20.23.55:352][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_FlipperLeft_Auto4.uasset
+[2021.10.11-20.23.55:354][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_FlipperRight] ([1] browsable assets)...
+[2021.10.11-20.23.55:359][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_FlipperRight.Pinball_FlipperRight]
+[2021.10.11-20.23.55:360][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_FlipperRight]
+[2021.10.11-20.23.55:367][ 77]LogSavePackage: Save=4.70ms
+[2021.10.11-20.23.55:367][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_FlipperRight_Auto43F2CC83C48694E3FE10DE2A010028318.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_FlipperRight_Auto4.uasset'
+[2021.10.11-20.23.55:370][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_FlipperRight_Auto4.uasset
+[2021.10.11-20.23.55:372][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_Popup01] ([1] browsable assets)...
+[2021.10.11-20.23.55:376][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_Popup01.Pinball_Popup01]
+[2021.10.11-20.23.55:376][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_Popup01]
+[2021.10.11-20.23.55:384][ 77]LogSavePackage: Save=5.51ms
+[2021.10.11-20.23.55:384][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Popup01_Auto478BF0BC84CADC9508A113ABCCB1FBD74.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Popup01_Auto4.uasset'
+[2021.10.11-20.23.55:387][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Popup01_Auto4.uasset
+[2021.10.11-20.23.55:390][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_Popup02] ([1] browsable assets)...
+[2021.10.11-20.23.55:394][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_Popup02.Pinball_Popup02]
+[2021.10.11-20.23.55:394][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_Popup02]
+[2021.10.11-20.23.55:402][ 77]LogSavePackage: Save=5.16ms
+[2021.10.11-20.23.55:402][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Popup02_Auto4E72224B94EB4FE9A46E6DEA61BE0EF6E.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Popup02_Auto4.uasset'
+[2021.10.11-20.23.55:405][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Popup02_Auto4.uasset
+[2021.10.11-20.23.55:407][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_Popup03] ([1] browsable assets)...
+[2021.10.11-20.23.55:411][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_Popup03.Pinball_Popup03]
+[2021.10.11-20.23.55:411][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_Popup03]
+[2021.10.11-20.23.55:419][ 77]LogSavePackage: Save=5.86ms
+[2021.10.11-20.23.55:419][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Popup03_Auto4165E74F547505BADEDB79AB19587824B.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Popup03_Auto4.uasset'
+[2021.10.11-20.23.55:423][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Popup03_Auto4.uasset
+[2021.10.11-20.23.55:425][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_Reset01] ([1] browsable assets)...
+[2021.10.11-20.23.55:429][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_Reset01.Pinball_Reset01]
+[2021.10.11-20.23.55:429][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_Reset01]
+[2021.10.11-20.23.55:436][ 77]LogSavePackage: Save=4.63ms
+[2021.10.11-20.23.55:436][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Reset01_Auto4393EA0A04838E8AE9C0751BB20DEF903.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Reset01_Auto4.uasset'
+[2021.10.11-20.23.55:439][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Reset01_Auto4.uasset
+[2021.10.11-20.23.55:441][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_Reset02] ([1] browsable assets)...
+[2021.10.11-20.23.55:445][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_Reset02.Pinball_Reset02]
+[2021.10.11-20.23.55:445][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_Reset02]
+[2021.10.11-20.23.55:454][ 77]LogSavePackage: Save=6.45ms
+[2021.10.11-20.23.55:454][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Reset02_Auto4763BE0C5427F898C38EF19B3AEB4B96F.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Reset02_Auto4.uasset'
+[2021.10.11-20.23.55:456][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Reset02_Auto4.uasset
+[2021.10.11-20.23.55:459][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Pinball_Rolling01] ([1] browsable assets)...
+[2021.10.11-20.23.55:463][ 77]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Pinball_Rolling01.Pinball_Rolling01]
+[2021.10.11-20.23.55:463][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_Rolling01]
+[2021.10.11-20.23.55:470][ 77]LogSavePackage: Save=4.70ms
+[2021.10.11-20.23.55:470][ 77]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Rolling01_Auto45BC7CF4F4B3B850E7EFA51B7EE45F18C.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Rolling01_Auto4.uasset'
+[2021.10.11-20.23.55:473][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Rolling01_Auto4.uasset
+[2021.10.11-20.23.55:473][ 77]LogFileHelpers: Auto-saving content packages took 0.999
+[2021.10.11-20.25.45:405][ 12]BlueprintLog: New page: Compile BP_Bumper
+[2021.10.11-20.25.52:019][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2021.10.11-20.25.52:057][789]LogSavePackage: Save=32.77ms
+[2021.10.11-20.25.52:057][789]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_BumperF3D3ED174D2FEA6DD61EDBBB76510B24.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2021.10.11-20.25.52:064][789]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2021.10.11-20.26.05:683][372]BlueprintLog: New page: Compile BP_Bumper
+[2021.10.11-20.26.06:210][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2021.10.11-20.26.06:247][417]LogSavePackage: Save=31.08ms
+[2021.10.11-20.26.06:247][417]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_BumperCEF37EE4427AEB003A07D08DF1EC123E.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2021.10.11-20.26.06:255][417]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2021.10.11-20.26.08:335][640]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-20.26.08:346][640]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-20.26.08:346][640]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 12:26:08 PM)
+[2021.10.11-20.26.08:346][640]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-20.26.08:349][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003702s)
+[2021.10.11-20.26.08:350][640]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-20.26.08:350][640]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2021.10.11-20.26.08:350][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004659s)
+[2021.10.11-20.26.08:396][640]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-20.26.08:412][640]LogInit: FAudioDevice initialized.
+[2021.10.11-20.26.08:444][640]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-20.26.08:446][640]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-16.26.08
+[2021.10.11-20.26.08:446][640]LogWorld: Bringing up level for play took: 0.001499
+[2021.10.11-20.26.08:447][640]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.428
+[2021.10.11-20.26.12:571][ 52]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2021.10.11-20.26.36:850][426]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper)
+[2021.10.11-20.26.57:115][601]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-20.26.57:124][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-20.26.57:124][601]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 12:26:57 PM)
+[2021.10.11-20.26.57:125][601]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-20.26.57:128][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003433s)
+[2021.10.11-20.26.57:128][601]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-20.26.57:129][601]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2021.10.11-20.26.57:129][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004189s)
+[2021.10.11-20.26.57:177][601]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-20.26.57:193][601]LogInit: FAudioDevice initialized.
+[2021.10.11-20.26.57:223][601]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-20.26.57:225][601]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-16.26.57
+[2021.10.11-20.26.57:225][601]LogWorld: Bringing up level for play took: 0.001078
+[2021.10.11-20.26.57:226][601]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.793
+[2021.10.11-20.27.01:268][ 62]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2021.10.11-20.27.14:159][451]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-20.27.14:168][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-20.27.14:168][451]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 12:27:14 PM)
+[2021.10.11-20.27.14:168][451]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-20.27.14:172][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003866s)
+[2021.10.11-20.27.14:173][451]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-20.27.14:173][451]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2021.10.11-20.27.14:173][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004863s)
+[2021.10.11-20.27.14:219][451]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-20.27.14:231][451]LogInit: FAudioDevice initialized.
+[2021.10.11-20.27.14:266][451]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-20.27.14:268][451]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-16.27.14
+[2021.10.11-20.27.14:269][451]LogWorld: Bringing up level for play took: 0.001566
+[2021.10.11-20.27.14:270][451]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.251
+[2021.10.11-20.27.19:813][ 90]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper3)
+[2021.10.11-20.27.23:648][482]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper2)
+[2021.10.11-20.27.26:774][827]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-20.27.26:783][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-20.27.26:783][827]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 12:27:26 PM)
+[2021.10.11-20.27.26:783][827]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-20.27.26:786][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003254s)
+[2021.10.11-20.27.26:787][827]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-20.27.26:787][827]LogPlayLevel: PIE: World Init took: (0.000484s)
+[2021.10.11-20.27.26:787][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.003906s)
+[2021.10.11-20.27.26:833][827]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-20.27.26:846][827]LogInit: FAudioDevice initialized.
+[2021.10.11-20.27.26:883][827]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-20.27.26:885][827]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-16.27.26
+[2021.10.11-20.27.26:885][827]LogWorld: Bringing up level for play took: 0.001337
+[2021.10.11-20.27.26:886][827]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.867
+[2021.10.11-20.27.30:994][298]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper3)
+[2021.10.11-20.27.32:882][508]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper2)
+[2021.10.11-20.27.35:151][759]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-20.27.35:162][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-20.27.35:162][759]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 12:27:35 PM)
+[2021.10.11-20.27.35:162][759]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-20.27.35:166][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004044s)
+[2021.10.11-20.27.35:167][759]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-20.27.35:167][759]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2021.10.11-20.27.35:167][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004809s)
+[2021.10.11-20.27.35:216][759]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-20.27.35:231][759]LogInit: FAudioDevice initialized.
+[2021.10.11-20.27.35:265][759]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-20.27.35:268][759]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-16.27.35
+[2021.10.11-20.27.35:268][759]LogWorld: Bringing up level for play took: 0.001388
+[2021.10.11-20.27.35:269][759]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.749
+[2021.10.11-20.27.39:093][198]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper2)
+[2021.10.11-20.27.41:439][458]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-20.27.41:448][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-20.27.41:449][458]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 12:27:41 PM)
+[2021.10.11-20.27.41:449][458]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-20.27.41:452][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003298s)
+[2021.10.11-20.27.41:452][458]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-20.27.41:453][458]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2021.10.11-20.27.41:453][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004070s)
+[2021.10.11-20.27.41:497][458]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-20.27.41:509][458]LogInit: FAudioDevice initialized.
+[2021.10.11-20.27.41:544][458]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-20.27.41:546][458]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-16.27.41
+[2021.10.11-20.27.41:546][458]LogWorld: Bringing up level for play took: 0.001053
+[2021.10.11-20.27.41:547][458]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.472
+[2021.10.11-20.27.47:127][106]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper)
+[2021.10.11-20.27.52:190][635]LogTemp: Repeting last play command: Selected Viewport
+[2021.10.11-20.27.52:199][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.11-20.27.52:199][635]PIE: New page: PIE session: MainLevel (Oct 11, 2021, 12:27:52 PM)
+[2021.10.11-20.27.52:199][635]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.10.11-20.27.52:202][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003203s)
+[2021.10.11-20.27.52:203][635]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.11-20.27.52:203][635]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2021.10.11-20.27.52:203][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.003957s)
+[2021.10.11-20.27.52:255][635]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.10.11-20.27.52:270][635]LogInit: FAudioDevice initialized.
+[2021.10.11-20.27.52:301][635]LogLoad: Game class is 'GameModeBase'
+[2021.10.11-20.27.52:303][635]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.10.11-16.27.52
+[2021.10.11-20.27.52:303][635]LogWorld: Bringing up level for play took: 0.001003
+[2021.10.11-20.27.52:304][635]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.285
+[2021.10.11-20.28.00:048][486]LogSavePackage: Save=40.16ms
+[2021.10.11-20.28.00:048][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevel6D55FC424452BBA0F164608F9BD40C33.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2021.10.11-20.28.00:055][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2021.10.11-20.28.00:075][486]LogFileHelpers: Saving map 'MainLevel' took 0.141
+[2021.10.11-20.28.00:107][486]LogSavePackage: Save=11.36ms
+[2021.10.11-20.28.00:107][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/SP08_Convoy_Chase_exp839E57654C2133E5FB891A9F7673E5E9.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/SP08_Convoy_Chase_exp.uasset'
+[2021.10.11-20.28.00:114][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/SP08_Convoy_Chase_exp.uasset
+[2021.10.11-20.28.00:142][486]LogSavePackage: Save=4.54ms
+[2021.10.11-20.28.00:142][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Arcade_Enemy_Death_02E086FD0F4421DC1AB7B32E880DF7CA7E.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Arcade_Enemy_Death_02.uasset'
+[2021.10.11-20.28.00:148][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Arcade_Enemy_Death_02.uasset
+[2021.10.11-20.28.00:175][486]LogSavePackage: Save=4.70ms
+[2021.10.11-20.28.00:175][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Arcade_Enemy_Death_03_m1E824AC69422C0BB000AD3B95644D82CB.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Arcade_Enemy_Death_03_m1.uasset'
+[2021.10.11-20.28.00:181][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Arcade_Enemy_Death_03_m1.uasset
+[2021.10.11-20.28.00:205][486]LogSavePackage: Save=5.56ms
+[2021.10.11-20.28.00:205][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Arcade_Enemy_Fire_02_m18AEF3B674904DB8D6766E2972B18590E.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Arcade_Enemy_Fire_02_m1.uasset'
+[2021.10.11-20.28.00:212][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Arcade_Enemy_Fire_02_m1.uasset
+[2021.10.11-20.28.00:239][486]LogSavePackage: Save=5.01ms
+[2021.10.11-20.28.00:239][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Arcade_Enemy_Fire_03_m180C6549240735419D6BFD89C0CDBDE7C.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Arcade_Enemy_Fire_03_m1.uasset'
+[2021.10.11-20.28.00:247][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Arcade_Enemy_Fire_03_m1.uasset
+[2021.10.11-20.28.00:272][486]LogSavePackage: Save=4.49ms
+[2021.10.11-20.28.00:272][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Arcade_GameStart0C27EA224DBE869D3A00A4BE16E07D43.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Arcade_GameStart.uasset'
+[2021.10.11-20.28.00:278][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Arcade_GameStart.uasset
+[2021.10.11-20.28.00:303][486]LogSavePackage: Save=4.73ms
+[2021.10.11-20.28.00:303][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Bell_Impact01683FD3D649FC4B9384C2C3BCC5E8AC17.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Bell_Impact01.uasset'
+[2021.10.11-20.28.00:310][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Bell_Impact01.uasset
+[2021.10.11-20.28.00:335][486]LogSavePackage: Save=4.60ms
+[2021.10.11-20.28.00:335][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Impact_Punch_High01DB87BCA64C4E2D6126C36E9068C9D3F6.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Impact_Punch_High01.uasset'
+[2021.10.11-20.28.00:342][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Impact_Punch_High01.uasset
+[2021.10.11-20.28.00:366][486]LogSavePackage: Save=4.56ms
+[2021.10.11-20.28.00:366][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Impact_Punch_High0252F3068641E1EDC9ADE0E4B77C1978EE.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Impact_Punch_High02.uasset'
+[2021.10.11-20.28.00:373][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Impact_Punch_High02.uasset
+[2021.10.11-20.28.00:398][486]LogSavePackage: Save=4.46ms
+[2021.10.11-20.28.00:398][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Impact_Punch_High0360A1C4424DEEB8E459281AA4E7012086.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Impact_Punch_High03.uasset'
+[2021.10.11-20.28.00:404][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Impact_Punch_High03.uasset
+[2021.10.11-20.28.00:428][486]LogSavePackage: Save=4.48ms
+[2021.10.11-20.28.00:428][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Impact_Punch_High048F0B04C743C715195068C4AE0AF93B19.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Impact_Punch_High04.uasset'
+[2021.10.11-20.28.00:435][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Impact_Punch_High04.uasset
+[2021.10.11-20.28.00:460][486]LogSavePackage: Save=4.76ms
+[2021.10.11-20.28.00:460][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BallAdded49C7B8E4402DF4DC5F052486C3088FD5.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BallAdded.uasset'
+[2021.10.11-20.28.00:467][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BallAdded.uasset
+[2021.10.11-20.28.00:491][486]LogSavePackage: Save=4.47ms
+[2021.10.11-20.28.00:491][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BallDropFromSlide17583F7948E082C9C30DB096F0DBE1F4.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BallDropFromSlide.uasset'
+[2021.10.11-20.28.00:498][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BallDropFromSlide.uasset
+[2021.10.11-20.28.00:521][486]LogSavePackage: Save=4.80ms
+[2021.10.11-20.28.00:521][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BallKickout0DD4A0804C11A16205B8599CC14DEB27.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BallKickout.uasset'
+[2021.10.11-20.28.00:537][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BallKickout.uasset
+[2021.10.11-20.28.00:567][486]LogSavePackage: Save=4.73ms
+[2021.10.11-20.28.00:567][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BallLaunch13A014EA464275D17F4D5092455808AD.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BallLaunch.uasset'
+[2021.10.11-20.28.00:573][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BallLaunch.uasset
+[2021.10.11-20.28.00:597][486]LogSavePackage: Save=4.65ms
+[2021.10.11-20.28.00:597][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BallLooseA7B5B3C0452B4859ACCE1B813426EE81.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BallLoose.uasset'
+[2021.10.11-20.28.00:604][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BallLoose.uasset
+[2021.10.11-20.28.00:629][486]LogSavePackage: Save=4.56ms
+[2021.10.11-20.28.00:629][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BallRelease097ACA904F560EA6A2082C908CFBED18.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BallRelease.uasset'
+[2021.10.11-20.28.00:635][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BallRelease.uasset
+[2021.10.11-20.28.00:660][486]LogSavePackage: Save=5.12ms
+[2021.10.11-20.28.00:660][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Bell01B720FAE34D2A7F239915E1A995A6DD57.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Bell01.uasset'
+[2021.10.11-20.28.00:668][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Bell01.uasset
+[2021.10.11-20.28.00:692][486]LogSavePackage: Save=4.45ms
+[2021.10.11-20.28.00:692][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BumperImpact013952B1AE45430C0B0F083EAC5C965CF9.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BumperImpact01.uasset'
+[2021.10.11-20.28.00:698][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BumperImpact01.uasset
+[2021.10.11-20.28.00:722][486]LogSavePackage: Save=4.70ms
+[2021.10.11-20.28.00:722][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BumperImpact02CD73D9C543EB3EEBECE68897309724B5.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BumperImpact02.uasset'
+[2021.10.11-20.28.00:729][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BumperImpact02.uasset
+[2021.10.11-20.28.00:753][486]LogSavePackage: Save=4.59ms
+[2021.10.11-20.28.00:753][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BumperImpact03172385A341E680015E85DBB6F82C1DE4.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BumperImpact03.uasset'
+[2021.10.11-20.28.00:759][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BumperImpact03.uasset
+[2021.10.11-20.28.00:783][486]LogSavePackage: Save=5.01ms
+[2021.10.11-20.28.00:783][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BumperImpact04EE2EE387493050D293EBEB857F8CCBF5.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BumperImpact04.uasset'
+[2021.10.11-20.28.00:789][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BumperImpact04.uasset
+[2021.10.11-20.28.00:813][486]LogSavePackage: Save=4.74ms
+[2021.10.11-20.28.00:813][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_BumperImpact05B58056C9484BA2F78E3085AC94779A90.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BumperImpact05.uasset'
+[2021.10.11-20.28.00:820][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_BumperImpact05.uasset
+[2021.10.11-20.28.00:845][486]LogSavePackage: Save=4.94ms
+[2021.10.11-20.28.00:845][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Error01B642C53447E7E258BDF2E3A9C1614A00.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Error01.uasset'
+[2021.10.11-20.28.00:851][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Error01.uasset
+[2021.10.11-20.28.00:875][486]LogSavePackage: Save=4.81ms
+[2021.10.11-20.28.00:875][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_FlipperLeft26471ED44C57D3F4B23632A12F5A7F59.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_FlipperLeft.uasset'
+[2021.10.11-20.28.00:882][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_FlipperLeft.uasset
+[2021.10.11-20.28.00:906][486]LogSavePackage: Save=4.76ms
+[2021.10.11-20.28.00:906][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_FlipperRight983C6B9A471128CCF1B38688819A9BD7.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_FlipperRight.uasset'
+[2021.10.11-20.28.00:912][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_FlipperRight.uasset
+[2021.10.11-20.28.00:935][486]LogSavePackage: Save=4.76ms
+[2021.10.11-20.28.00:935][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Popup015261233D496D910AFEE2789E94314C83.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Popup01.uasset'
+[2021.10.11-20.28.00:941][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Popup01.uasset
+[2021.10.11-20.28.00:963][486]LogSavePackage: Save=4.45ms
+[2021.10.11-20.28.00:963][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Popup02F91392184969AA38CD1A0DA61C3E2B8B.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Popup02.uasset'
+[2021.10.11-20.28.00:970][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Popup02.uasset
+[2021.10.11-20.28.00:993][486]LogSavePackage: Save=4.47ms
+[2021.10.11-20.28.00:993][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Popup03D9BFBCE14FF78FD724A0C38B25811A3C.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Popup03.uasset'
+[2021.10.11-20.28.01:000][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Popup03.uasset
+[2021.10.11-20.28.01:025][486]LogSavePackage: Save=4.69ms
+[2021.10.11-20.28.01:025][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Reset0192EC91714625E12006A1B1B62FD11096.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Reset01.uasset'
+[2021.10.11-20.28.01:032][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Reset01.uasset
+[2021.10.11-20.28.01:055][486]LogSavePackage: Save=4.57ms
+[2021.10.11-20.28.01:055][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Reset024E916C094D08B2061E028489F861E5BB.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Reset02.uasset'
+[2021.10.11-20.28.01:062][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Reset02.uasset
+[2021.10.11-20.28.01:085][486]LogSavePackage: Save=4.82ms
+[2021.10.11-20.28.01:085][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Pinball_Rolling010E349376414D90EA350F8F8076B9D7C8.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Rolling01.uasset'
+[2021.10.11-20.28.01:092][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/Pinball_Rolling01.uasset
+[2021.10.11-20.28.01:104][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sounds/BumperHit" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/BumperHit.uasset" SILENT=true
+[2021.10.11-20.28.01:111][486]LogSavePackage: Save=4.40ms
+[2021.10.11-20.28.01:111][486]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BumperHit8EADD0A8414674D578774C81A6570539.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/BumperHit.uasset'
+[2021.10.11-20.28.01:118][486]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Sounds/BumperHit.uasset
+[2021.10.11-20.28.44:399][160]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.11-20.28.44:627][160]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2021.10.11-20.28.44:868][161]Cmd: QUIT_EDITOR
+[2021.10.11-20.28.45:684][161]LogExit: Preparing to exit.
+[2021.10.11-20.28.46:787][161]LogDirectoryWatcher: A directory notification for 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/' was aborted.
+[2021.10.11-20.28.46:814][161]LogExit: Editor shut down
+[2021.10.11-20.28.46:814][161]LogExit: Transaction tracking system shut down
+[2021.10.11-20.28.47:198][161]LogObj: Freed 0b from 0 cluster array pools.
+[2021.10.11-20.28.47:198][161]LogExit: Object subsystem successfully closed.
+[2021.10.11-20.28.47:253][161]LogD3D11RHI: Shutdown
+[2021.10.11-20.28.47:253][161]LogD3D11RHI: CleanupD3DDevice
+[2021.10.11-20.28.47:384][161]LogD3D11RHI: ~FD3D11DynamicRHI
+[2021.10.11-20.28.47:718][161]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.10.11-20.28.47:718][161]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDEB442FD-4BBD-0389-0A62-80970C8B4D32%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=dd55dcd44d4de2f3f5b041b7246e1094%7Cf5476c74213e466690d5d7ff3df1aed1%7C051aa251-e9c6-4825-b070-34c45b984ebd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2021.10.11-20.28.47:732][161]LogModuleManager: Shutting down and abandoning module SoundCueEditor (250)
+[2021.10.11-20.28.47:732][161]LogModuleManager: Shutting down and abandoning module MaterialEditor (249)
+[2021.10.11-20.28.47:732][161]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (248)
+[2021.10.11-20.28.47:732][161]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (247)
+[2021.10.11-20.28.47:739][161]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (246)
+[2021.10.11-20.28.47:739][161]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (245)
+[2021.10.11-20.28.47:739][161]LogModuleManager: Shutting down and abandoning module WorldBrowser (244)
+[2021.10.11-20.28.47:739][161]LogModuleManager: Shutting down and abandoning module BlueprintGraph (243)
+[2021.10.11-20.28.47:739][161]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (242)
+[2021.10.11-20.28.47:761][161]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2021.10.11-20.28.47:772][161]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2021.10.11-20.28.47:772][161]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2021.10.11-20.28.47:772][161]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2021.10.11-20.28.47:772][161]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2021.10.11-20.28.47:772][161]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/UE_4.14/FeaturePacks/' was aborted.
+[2021.10.11-20.28.47:773][161]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2021.10.11-20.28.47:773][161]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2021.10.11-20.28.47:773][161]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2021.10.11-20.28.47:773][161]LogDirectoryWatcher: A directory notification for 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Collections/' was aborted.
+[2021.10.11-20.28.47:773][161]LogDirectoryWatcher: A directory notification for 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Developers/jerye/Collections/' was aborted.
+[2021.10.11-20.28.47:773][161]LogDirectoryWatcher: A directory notification for 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Collections/' was aborted.
+[2021.10.11-20.28.47:773][161]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2021.10.11-20.28.47:791][161]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2021.10.11-20.28.47:791][161]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2021.10.11-20.28.47:811][161]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2021.10.11-20.28.47:811][161]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2021.10.11-20.28.47:811][161]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2021.10.11-20.28.47:811][161]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2021.10.11-20.28.47:811][161]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2021.10.11-20.28.47:811][161]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2021.10.11-20.28.47:811][161]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2021.10.11-20.28.47:811][161]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2021.10.11-20.28.47:811][161]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2021.10.11-20.28.47:811][161]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2021.10.11-20.28.47:820][161]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module Media (215)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2021.10.11-20.28.47:828][161]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2021.10.11-20.28.47:835][161]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2021.10.11-20.28.47:846][161]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2021.10.11-20.28.47:855][161]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2021.10.11-20.28.47:855][161]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2021.10.11-20.28.47:855][161]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2021.10.11-20.28.47:855][161]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2021.10.11-20.28.48:855][161]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2021.10.11-20.28.48:855][161]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2021.10.11-20.28.48:855][161]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2021.10.11-20.28.48:855][161]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2021.10.11-20.28.48:855][161]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2021.10.11-20.28.48:866][161]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2021.10.11-20.28.48:875][161]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2021.10.11-20.28.48:875][161]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2021.10.11-20.28.48:875][161]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2021.10.11-20.28.48:875][161]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2021.10.11-20.28.48:875][161]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2021.10.11-20.28.48:879][161]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2021.10.11-20.28.48:879][161]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2021.10.11-20.28.48:894][161]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2021.10.11-20.28.48:908][161]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2021.10.11-20.28.48:908][161]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2021.10.11-20.28.48:908][161]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2021.10.11-20.28.48:908][161]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2021.10.11-20.28.48:908][161]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2021.10.11-20.28.48:908][161]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2021.10.11-20.28.48:908][161]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2021.10.11-20.28.48:908][161]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2021.10.11-20.28.48:919][161]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2021.10.11-20.28.48:927][161]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2021.10.11-20.28.48:943][161]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2021.10.11-20.28.48:943][161]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2021.10.11-20.28.48:995][161]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2021.10.11-20.28.48:995][161]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2021.10.11-20.28.49:010][161]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2021.10.11-20.28.49:034][161]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2021.10.11-20.28.49:034][161]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2021.10.11-20.28.49:034][161]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2021.10.11-20.28.49:034][161]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2021.10.11-20.28.49:034][161]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2021.10.11-20.28.49:041][161]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2021.10.11-20.28.49:046][161]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2021.10.11-20.28.49:046][161]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2021.10.11-20.28.49:047][161]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2021.10.11-20.28.49:047][161]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2021.10.11-20.28.49:053][161]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2021.10.11-20.28.49:066][161]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2021.10.11-20.28.49:073][161]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2021.10.11-20.28.49:085][161]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2021.10.11-20.28.49:086][161]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2021.10.11-20.28.49:086][161]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2021.10.11-20.28.49:086][161]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2021.10.11-20.28.49:086][161]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2021.10.11-20.28.49:086][161]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2021.10.11-20.28.49:086][161]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2021.10.11-20.28.49:086][161]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2021.10.11-20.28.49:086][161]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2021.10.11-20.28.49:086][161]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2021.10.11-20.28.49:086][161]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2021.10.11-20.28.49:129][161]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2021.10.11-20.28.49:142][161]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2021.10.11-20.28.49:142][161]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2021.10.11-20.28.49:142][161]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2021.10.11-20.28.49:142][161]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2021.10.11-20.28.49:142][161]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2021.10.11-20.28.49:142][161]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2021.10.11-20.28.49:142][161]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2021.10.11-20.28.49:142][161]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2021.10.11-20.28.49:142][161]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2021.10.11-20.28.49:142][161]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2021.10.11-20.28.49:142][161]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2021.10.11-20.28.49:142][161]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2021.10.11-20.28.49:165][161]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2021.10.11-20.28.49:172][161]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2021.10.11-20.28.49:172][161]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2021.10.11-20.28.49:172][161]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2021.10.11-20.28.49:172][161]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2021.10.11-20.28.49:179][161]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2021.10.11-20.28.49:179][161]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2021.10.11-20.28.49:179][161]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2021.10.11-20.28.49:179][161]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2021.10.11-20.28.49:179][161]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2021.10.11-20.28.49:188][161]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2021.10.11-20.28.49:189][161]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2021.10.11-20.28.49:190][161]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2021.10.11-20.28.49:191][161]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2021.10.11-20.28.49:194][161]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2021.10.11-20.28.49:295][161]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2021.10.11-20.28.49:396][161]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2021.10.11-20.28.49:396][161]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2021.10.11-20.28.49:396][161]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2021.10.11-20.28.49:396][161]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2021.10.11-20.28.49:412][161]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2021.10.11-20.28.49:412][161]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2021.10.11-20.28.49:412][161]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2021.10.11-20.28.49:412][161]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2021.10.11-20.28.49:412][161]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2021.10.11-20.28.49:412][161]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2021.10.11-20.28.49:419][161]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2021.10.11-20.28.49:419][161]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2021.10.11-20.28.49:429][161]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2021.10.11-20.28.49:448][161]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2021.10.11-20.28.49:448][161]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2021.10.11-20.28.49:448][161]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2021.10.11-20.28.49:448][161]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2021.10.11-20.28.49:460][161]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2021.10.11-20.28.49:472][161]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2021.10.11-20.28.49:495][161]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2021.10.11-20.28.49:495][161]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2021.10.11-20.28.49:496][161]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2021.10.11-20.28.49:496][161]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2021.10.11-20.28.49:496][161]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2021.10.11-20.28.49:496][161]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2021.10.11-20.28.49:496][161]LogModuleManager: Shutting down and abandoning module Core (75)
+[2021.10.11-20.28.49:496][161]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2021.10.11-20.28.49:496][161]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2021.10.11-20.28.49:497][161]LogDirectoryWatcher: A directory notification for '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/' was aborted.
+[2021.10.11-20.28.49:497][161]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2021.10.11-20.28.49:497][161]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2021.10.11-20.28.49:670][161]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2021.10.11-20.28.49:670][161]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2021.10.11-20.28.49:670][161]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2021.10.11-20.28.49:677][161]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2021.10.11-20.28.49:677][161]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2021.10.11-20.28.49:677][161]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2021.10.11-20.28.49:677][161]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2021.10.11-20.28.49:677][161]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2021.10.11-20.28.49:727][161]LogDerivedDataCache: Shutdown
+[2021.10.11-20.28.49:727][161]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2021.10.11-20.28.49:727][161]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2021.10.11-20.28.49:735][161]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2021.10.11-20.28.49:735][161]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2021.10.11-20.28.49:752][161]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2021.10.11-20.28.49:752][161]LogOnline:Display: Unloading online subsystem: NULL
+[2021.10.11-20.28.49:777][161]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2021.10.11-20.28.49:778][161]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2021.10.11-20.28.49:778][161]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2021.10.11-20.28.49:798][161]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2021.10.11-20.28.49:798][161]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2021.10.11-20.28.49:798][161]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2021.10.11-20.28.49:798][161]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2021.10.11-20.28.49:815][161]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2021.10.11-20.28.49:831][161]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2021.10.11-20.28.49:831][161]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2021.10.11-20.28.49:831][161]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2021.10.11-20.28.49:831][161]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2021.10.11-20.28.49:831][161]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2021.10.11-20.28.49:831][161]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2021.10.11-20.28.49:836][161]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2021.10.11-20.28.49:836][161]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2021.10.11-20.28.49:836][161]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2021.10.11-20.28.49:837][161]LogExit: Exiting.
+[2021.10.11-20.28.49:845][161]Log file closed, 10/11/21 16:28:49
