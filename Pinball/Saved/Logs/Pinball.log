@@ -555,3 +555,474 @@ LogInit: Object subsystem initialized
 [2021.10.12-03.37.12:302][387]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_White.uasset
 [2021.10.12-03.37.36:518][682]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:64708).
 [2021.10.12-03.37.54:604][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Flipper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Flipper.uasset" SILENT=true
+[2021.10.12-03.37.54:626][757]LogSavePackage: Save=11.68ms
+[2021.10.12-03.37.54:626][757]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Flipper6A47AFAF4F16CBF6EA9BE3B0A08C7B03.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Flipper.uasset'
+[2021.10.12-03.37.54:632][757]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Flipper.uasset
+[2021.10.12-03.40.02:361][864]LogSavePackage: Save=58.38ms
+[2021.10.12-03.40.02:361][864]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevel79B8448443A5EBF79BD64B9F409238A1.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2021.10.12-03.40.02:370][864]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2021.10.12-03.40.02:400][864]LogFileHelpers: Saving map 'MainLevel' took 0.187
+[2021.10.12-03.56.57:978][898]LogActorFactory: Actor Factory created Flipper
+[2021.10.12-03.56.58:804][974]LogActorFactory: Actor Factory created Flipper
+[2021.10.12-03.57.09:309][967]Cmd: TRANSACTION UNDO
+[2021.10.12-03.57.09:328][967]LogEditorTransaction: Undo Create Actors
+[2021.10.12-03.57.09:370][967]LogMaterial: Missing cached shader map for material M_SimplePlastic, compiling. 
+[2021.10.12-03.57.09:380][967]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.10.12-03.57.12:007][133]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2021.10.12-03.57.12:007][133]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2021.10.12-03.57.12:007][133]MaterialEditorStats: Info Texture samplers: 0/16
+[2021.10.12-03.57.13:826][307]LogEditorViewport: Clicking on Actor (LMB): BP_Flipper_C (BP_Flipper)
+[2021.10.12-03.57.15:830][510]LogEditorViewport: Clicking on Actor (LMB): BP_Flipper_C (BP_Flipper2)
+[2021.10.12-03.57.28:803][ 86]LogEditorViewport: Clicking on Actor (LMB): BP_Flipper_C (BP_Flipper)
+[2021.10.12-03.57.33:611][578]LogEditorViewport: Clicking on Actor (LMB): BP_Flipper_C (BP_Flipper2)
+[2021.10.12-03.57.40:814][336]LogEditorViewport: Clicking on Actor (LMB): BP_Flipper_C (BP_Flipper)
+[2021.10.12-03.57.54:346][ 73]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.10.12-03.59.13:511][124]LogGeometryMode:Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2021.10.12-03.59.13:511][124]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2021.10.12-03.59.32:070][ 58]LogEditorViewport: Clicking on Actor (LMB): BP_Flipper_C (BP_Flipper)
+[2021.10.12-03.59.40:408][966]LogEditorViewport: Clicking on Actor (context menu): BP_Flipper_C (BP_Flipper2)
+[2021.10.12-03.59.41:126][ 34]LogEditorViewport: Clicking on Actor (LMB): BP_Flipper_C (BP_Flipper2)
+[2021.10.12-03.59.50:316][992]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2021.10.12-04.00.25:386][791]Cmd: DUPLICATE
+[2021.10.12-04.00.25:386][791]Cmd: ACTOR DUPLICATE
+[2021.10.12-04.00.41:657][323]Cmd: ACTOR MIRROR X=-1
+[2021.10.12-04.01.51:411][684]LogGeometryMode:Warning: Unable to find BoxBrush3 Brush(s) in new BSP
+[2021.10.12-04.01.51:411][684]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2021.10.12-04.02.25:593][ 59]LogSavePackage: Save=74.48ms
+[2021.10.12-04.02.25:593][ 59]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevel_Auto6ACCBDA9844162E28056BCCBBF08C247A.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto6.umap'
+[2021.10.12-04.02.25:596][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto6.umap
+[2021.10.12-04.02.25:604][ 59]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.118
+[2021.10.12-04.02.25:604][ 59]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.118
+[2021.10.12-04.02.25:608][ 59]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/MI_SimplePlastic_Yellow] ([1] browsable assets)...
+[2021.10.12-04.02.25:609][ 59]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/MI_SimplePlastic_Yellow]
+[2021.10.12-04.02.25:649][ 59]LogSavePackage: Save=28.66ms
+[2021.10.12-04.02.25:649][ 59]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MI_SimplePlastic_Yellow_Auto670D86B2048AD2640E041759EBA49EC5A.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/MI_SimplePlastic_Yellow_Auto6.uasset'
+[2021.10.12-04.02.25:654][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/MI_SimplePlastic_Yellow_Auto6.uasset
+[2021.10.12-04.02.25:657][ 59]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/MI_SimplePlastic_White] ([1] browsable assets)...
+[2021.10.12-04.02.25:657][ 59]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/MI_SimplePlastic_White]
+[2021.10.12-04.02.25:673][ 59]LogSavePackage: Save=4.35ms
+[2021.10.12-04.02.25:673][ 59]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MI_SimplePlastic_White_Auto693D971D1488549FA215446A01DBC6C2B.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/MI_SimplePlastic_White_Auto6.uasset'
+[2021.10.12-04.02.25:676][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/MI_SimplePlastic_White_Auto6.uasset
+[2021.10.12-04.02.25:676][ 59]LogFileHelpers: Auto-saving content packages took 0.071
+[2021.10.12-04.02.26:436][ 62]LogEditorViewport: Clicking on Actor (LMB): BP_Flipper_C (BP_Flipper2)
+[2021.10.12-04.02.27:917][215]Cmd: DUPLICATE
+[2021.10.12-04.02.27:917][215]Cmd: ACTOR DUPLICATE
+[2021.10.12-04.02.32:712][690]LogSavePackage: Save=69.52ms
+[2021.10.12-04.02.32:712][690]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevelFF0EFDA547B1C73E75A3DF9280B36CFC.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2021.10.12-04.02.32:714][690]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap', retrying in .5s...
+[2021.10.12-04.02.33:227][690]LogFileManager:Warning: DeleteFile recovered during retry!
+[2021.10.12-04.02.33:235][690]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2021.10.12-04.02.34:266][777]LogSavePackage: Save=3.49ms
+[2021.10.12-04.02.34:266][777]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MI_SimplePlastic_YellowA9C408294BE21F87EA9C509D2E982C40.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_Yellow.uasset'
+[2021.10.12-04.02.34:274][777]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_Yellow.uasset
+[2021.10.12-04.02.34:288][777]LogSavePackage: Save=3.66ms
+[2021.10.12-04.02.34:288][777]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MI_SimplePlastic_White2A48BF3A4B5258CEF67E0C8D9684BE3E.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_White.uasset'
+[2021.10.12-04.02.34:295][777]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_White.uasset
+[2021.10.12-04.44.42:164][798]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper4)
+[2021.10.12-04.45.25:224][931]LogSavePackage: Save=45.19ms
+[2021.10.12-04.45.25:224][931]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevel_Auto738D932AF472FC50AA535C1BFAD863860.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto7.umap'
+[2021.10.12-04.45.25:228][931]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto7.umap
+[2021.10.12-04.45.25:231][931]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.078
+[2021.10.12-04.45.25:231][931]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.078
+[2021.10.12-04.46.24:310][775]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.10.12-04.49.55:378][851]LogEditorTransaction: Undo Move Node
+[2021.10.12-04.49.55:411][851]LogMaterial: Missing cached shader map for material M_SimplePlastic, compiling. 
+[2021.10.12-04.49.55:419][851]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.10.12-04.49.56:394][941]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2021.10.12-04.49.56:395][941]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2021.10.12-04.49.56:395][941]MaterialEditorStats: Info Texture samplers: 0/16
+[2021.10.12-04.51.07:863][752]BlueprintLog: New page: Compile PinballPlayerController
+[2021.10.12-04.51.09:086][874]LogSavePackage: Save=15.73ms
+[2021.10.12-04.51.09:086][874]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/PinballPlayerController32A6EC1745FC2E074DFA53AC46A52774.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2021.10.12-04.51.09:093][874]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2021.10.12-04.51.11:473][133]LogSavePackage: Save=43.84ms
+[2021.10.12-04.51.11:473][133]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevel2DB49CDD48FE9E7A669FBEA53553DB0B.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2021.10.12-04.51.11:483][133]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2021.10.12-04.51.11:507][133]LogFileHelpers: Saving map 'MainLevel' took 0.160
+[2021.10.12-04.51.11:536][133]LogSavePackage: Save=16.36ms
+[2021.10.12-04.51.11:536][133]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MI_SimplePlastic_YellowAA1D784F4549D97D564A438EDCFB13E6.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_Yellow.uasset'
+[2021.10.12-04.51.11:543][133]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_Yellow.uasset
+[2021.10.12-04.51.11:558][133]LogSavePackage: Save=3.32ms
+[2021.10.12-04.51.11:558][133]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MI_SimplePlastic_White8E2430DC421DC60526C1B3B15110795D.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_White.uasset'
+[2021.10.12-04.51.11:565][133]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_White.uasset
+[2021.10.12-04.51.17:085][461]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.10.12-04.51.17:177][461]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Pinball
+
+[2021.10.12-04.51.17:177][461]LogTemp:Display: CWD: D:\EpicGames\UE_4.14\Engine\Binaries\DotNet\IOS
+
+[2021.10.12-04.51.17:177][461]LogTemp:Display: Initial Dir: D:\EpicGames\UE_4.14
+
+[2021.10.12-04.51.17:177][461]LogTemp:Display: Env CWD: D:\EpicGames\UE_4.14\Engine\Binaries\DotNet\IOS
+
+[2021.10.12-04.51.17:177][461]LogTemp:Display: BranchPath = DESKTOP-GK7AF5R/D/EpicGames/UE_4.14/Engine/Binaries --- GameBranchPath = DESKTOP-GK7AF5R/D/EpicGames/UE_4.14/Engine/Binaries
+
+[2021.10.12-04.51.17:177][461]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\jerye\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2021.10.12-04.51.17:177][461]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2021.10.12-04.51.17:177][461]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2021.10.12-04.51.17:177][461]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2021.10.12-04.51.17:177][461]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2021.10.12-04.51.17:177][461]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2021.10.12-04.51.17:177][461]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2021.10.12-04.51.57:745][129]Cmd: TRANSACTION UNDO
+[2021.10.12-04.51.57:745][129]LogEditorTransaction: Undo Add Action Mapping To Group
+[2021.10.12-04.51.57:748][129]LogMaterial: Missing cached shader map for material M_SimplePlastic, compiling. 
+[2021.10.12-04.51.57:756][129]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.10.12-04.51.58:583][171]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2021.10.12-04.51.58:583][171]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2021.10.12-04.51.58:583][171]MaterialEditorStats: Info Texture samplers: 0/16
+[2021.10.12-04.54.02:120][325]BlueprintLog: New page: Compile BP_Flipper
+[2021.10.12-04.54.03:500][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flipper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Flipper.uasset" SILENT=true
+[2021.10.12-04.54.03:534][458]LogSavePackage: Save=26.29ms
+[2021.10.12-04.54.03:534][458]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Flipper9A279854402473E687FF88BE19E4C78B.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Flipper.uasset'
+[2021.10.12-04.54.03:541][458]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Flipper.uasset
+[2021.10.12-04.54.04:167][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flipper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Flipper.uasset" SILENT=true
+[2021.10.12-04.54.04:192][530]LogSavePackage: Save=20.49ms
+[2021.10.12-04.54.04:192][530]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Flipper6A07F87E4A316854A28330BB9D7D5CD3.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Flipper.uasset'
+[2021.10.12-04.54.04:195][530]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Flipper.uasset
+[2021.10.12-04.54.09:126][ 79]LogSavePackage: Save=41.24ms
+[2021.10.12-04.54.09:126][ 79]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevel1E8B68E84FDCCD2BFDA48880F6D3C8B2.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2021.10.12-04.54.09:132][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2021.10.12-04.54.09:150][ 79]LogFileHelpers: Saving map 'MainLevel' took 0.140
+[2021.10.12-04.54.09:160][ 79]LogSavePackage: Save=3.28ms
+[2021.10.12-04.54.09:160][ 79]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MI_SimplePlastic_Yellow92D7C1B7463F92AD399D8DB5F80829C0.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_Yellow.uasset'
+[2021.10.12-04.54.09:165][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_Yellow.uasset
+[2021.10.12-04.54.09:176][ 79]LogSavePackage: Save=3.00ms
+[2021.10.12-04.54.09:176][ 79]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MI_SimplePlastic_WhiteA70ECDDE40FA5C1B289B77890E2B2F55.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_White.uasset'
+[2021.10.12-04.54.09:182][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_White.uasset
+[2021.10.12-04.54.09:212][ 79]LogSavePackage: Save=19.20ms
+[2021.10.12-04.54.09:212][ 79]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/PinballPlayerController9CAC89314B9F9A9DB32D4584D1AD8E93.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2021.10.12-04.54.09:219][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2021.10.12-04.54.57:179][664]LogSavePackage: Save=45.49ms
+[2021.10.12-04.54.57:179][664]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevelC049841B4ADEC9D1650854B1BB7867A9.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2021.10.12-04.54.57:187][664]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2021.10.12-04.54.57:207][664]LogFileHelpers: Saving map 'MainLevel' took 0.154
+[2021.10.12-04.54.57:220][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flipper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Flipper.uasset" SILENT=true
+[2021.10.12-04.54.57:253][664]LogSavePackage: Save=27.75ms
+[2021.10.12-04.54.57:253][664]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Flipper99DB5680425EC14584770C847F1F82B1.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Flipper.uasset'
+[2021.10.12-04.54.57:261][664]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Flipper.uasset
+[2021.10.12-04.55.01:243][126]BlueprintLog: New page: Compile BP_Flipper
+[2021.10.12-04.55.02:806][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flipper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Flipper.uasset" SILENT=true
+[2021.10.12-04.55.02:838][286]LogSavePackage: Save=26.58ms
+[2021.10.12-04.55.02:838][286]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Flipper4B2E5E154ED11B4FF2128AB0932377FB.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Flipper.uasset'
+[2021.10.12-04.55.02:840][286]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Flipper.uasset
+[2021.10.12-04.55.03:656][382]BlueprintLog: New page: Compile BP_Bumper
+[2021.10.12-04.55.04:094][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2021.10.12-04.55.04:131][415]LogSavePackage: Save=29.89ms
+[2021.10.12-04.55.04:131][415]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_Bumper659A95C64AE06A2985D5228D31049ACB.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2021.10.12-04.55.04:134][415]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2021.10.12-04.55.05:664][592]LogMaterialEditor: Applying material M_SimplePlastic
+[2021.10.12-04.55.06:006][592]LogMaterial: Missing cached shader map for material M_SimplePlastic, compiling. 
+[2021.10.12-04.55.06:020][592]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.10.12-04.55.06:074][592]LogMaterial: Missing cached shader map for material M_SimplePlastic, compiling. 
+[2021.10.12-04.55.06:095][592]LogMaterial: Missing cached shader map for material M_SimplePlastic, compiling. 
+[2021.10.12-04.55.06:109][592]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.10.12-04.55.07:828][743]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2021.10.12-04.55.07:828][743]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2021.10.12-04.55.07:828][743]MaterialEditorStats: Info Texture samplers: 3/16
+[2021.10.12-04.55.08:653][837]LogMaterialEditor: Saving and Compiling material M_SimplePlastic
+[2021.10.12-04.55.08:680][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_SimplePlastic" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/M_SimplePlastic.uasset" SILENT=true
+[2021.10.12-04.55.08:699][837]LogSavePackage: Save=11.23ms
+[2021.10.12-04.55.08:699][837]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/M_SimplePlasticBFB82D7E43CF0B29CBDBC3BB975451B4.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/M_SimplePlastic.uasset'
+[2021.10.12-04.55.08:706][837]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/M_SimplePlastic.uasset
+[2021.10.12-04.55.10:733][ 69]LogSavePackage: Save=3.05ms
+[2021.10.12-04.55.10:733][ 69]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MI_SimplePlastic_YellowFBF08B8644ED87F0207968AF3E46B966.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_Yellow.uasset'
+[2021.10.12-04.55.10:735][ 69]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_Yellow.uasset
+[2021.10.12-04.55.15:068][579]LogSavePackage: Save=3.24ms
+[2021.10.12-04.55.15:068][579]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MI_SimplePlastic_White8F7348434982814CD104C0A37E861179.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_White.uasset'
+[2021.10.12-04.55.15:070][579]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/MI_SimplePlastic_White.uasset
+[2021.10.12-04.55.18:783][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Flipper" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Flipper.uasset" SILENT=true
+[2021.10.12-04.55.18:795][ 13]LogSavePackage: Save=4.50ms
+[2021.10.12-04.55.18:795][ 13]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Flipper4B1F44B84C75B43678CBF4A83ABFB1A8.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Flipper.uasset'
+[2021.10.12-04.55.18:798][ 13]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/Flipper.uasset
+[2021.10.12-04.56.05:650][229]BlueprintLog: New page: Compile PinballPlayerController
+[2021.10.12-04.56.05:694][229]LogBlueprint:Error: [Compiler PinballPlayerController] Error The type of  Array  is undetermined.  Connect something to  K2Node_MacroInstance_14  to imply a specific type.
+[2021.10.12-04.56.05:694][229]LogBlueprint:Error: [Compiler PinballPlayerController] Error The type of  TargetArray  is undetermined.  Connect something to  K2Node_CallArrayFunction_836  to imply a specific type.
+[2021.10.12-04.56.05:865][229]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  K2Node_MacroInstance_14  to imply a specific type.
+[2021.10.12-04.56.05:865][229]BlueprintEditorCompileResults:Error: Error The type of  TargetArray  is undetermined.  Connect something to  K2Node_CallArrayFunction_836  to imply a specific type.
+[2021.10.12-04.56.05:874][229]LogBlueprint:Warning: [Compiler PinballPlayerController] Warning [9501.99] Compile of PinballPlayerController failed. 2 Fatal Issue(s) 0 Warning(s) [in 215 ms] (/Game/Blueprints/PinballPlayerController.PinballPlayerController)
+[2021.10.12-04.56.12:206][976]LogSavePackage: Save=18.30ms
+[2021.10.12-04.56.12:206][976]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/PinballPlayerController9FC1E6C944F30E5EB79427AF2B0935A6.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2021.10.12-04.56.12:213][976]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2021.10.12-04.56.18:262][677]LogSavePackage: Save=44.25ms
+[2021.10.12-04.56.18:262][677]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevelD843C4904F575C5C885BA09F556E07E6.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2021.10.12-04.56.18:270][677]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2021.10.12-04.56.18:288][677]LogFileHelpers: Saving map 'MainLevel' took 0.149
+[2021.10.12-04.56.20:176][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.12-04.56.20:253][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.12-04.56.20:591][877]Cmd: QUIT_EDITOR
+[2021.10.12-04.56.21:057][877]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2021.10.12-04.56.21:128][877]LogExit: Preparing to exit.
+[2021.10.12-04.56.21:653][877]LogDirectoryWatcher: A directory notification for 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/' was aborted.
+[2021.10.12-04.56.21:791][877]LogExit: Editor shut down
+[2021.10.12-04.56.21:791][877]LogExit: Transaction tracking system shut down
+[2021.10.12-04.56.23:471][877]LogObj: Freed 0b from 0 cluster array pools.
+[2021.10.12-04.56.23:471][877]LogExit: Object subsystem successfully closed.
+[2021.10.12-04.56.23:626][877]LogD3D11RHI: Shutdown
+[2021.10.12-04.56.23:634][877]LogD3D11RHI: CleanupD3DDevice
+[2021.10.12-04.56.23:836][877]LogD3D11RHI: ~FD3D11DynamicRHI
+[2021.10.12-04.56.24:634][877]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2021.10.12-04.56.24:634][877]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9584046B-4337-629A-FFBC-068064685ECE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=dd55dcd44d4de2f3f5b041b7246e1094%7Cf5476c74213e466690d5d7ff3df1aed1%7C051aa251-e9c6-4825-b070-34c45b984ebd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2021.10.12-04.56.24:634][877]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9584046B-4337-629A-FFBC-068064685ECE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=dd55dcd44d4de2f3f5b041b7246e1094%7Cf5476c74213e466690d5d7ff3df1aed1%7C051aa251-e9c6-4825-b070-34c45b984ebd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2021.10.12-04.56.24:758][877]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (248)
+[2021.10.12-04.56.24:769][877]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (247)
+[2021.10.12-04.56.24:769][877]LogModuleManager: Shutting down and abandoning module MaterialEditor (246)
+[2021.10.12-04.56.24:769][877]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (245)
+[2021.10.12-04.56.24:778][877]LogModuleManager: Shutting down and abandoning module BlueprintGraph (244)
+[2021.10.12-04.56.24:778][877]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (243)
+[2021.10.12-04.56.24:800][877]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (242)
+[2021.10.12-04.56.24:800][877]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2021.10.12-04.56.24:811][877]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2021.10.12-04.56.24:823][877]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2021.10.12-04.56.24:823][877]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2021.10.12-04.56.24:823][877]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2021.10.12-04.56.24:852][877]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/UE_4.14/FeaturePacks/' was aborted.
+[2021.10.12-04.56.24:853][877]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2021.10.12-04.56.24:853][877]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2021.10.12-04.56.24:853][877]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2021.10.12-04.56.24:869][877]LogDirectoryWatcher: A directory notification for 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Collections/' was aborted.
+[2021.10.12-04.56.24:869][877]LogDirectoryWatcher: A directory notification for 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Developers/jerye/Collections/' was aborted.
+[2021.10.12-04.56.24:869][877]LogDirectoryWatcher: A directory notification for 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Collections/' was aborted.
+[2021.10.12-04.56.24:869][877]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2021.10.12-04.56.24:889][877]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2021.10.12-04.56.24:902][877]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2021.10.12-04.56.24:936][877]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2021.10.12-04.56.24:936][877]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2021.10.12-04.56.24:936][877]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2021.10.12-04.56.24:936][877]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2021.10.12-04.56.24:936][877]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2021.10.12-04.56.24:936][877]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2021.10.12-04.56.24:951][877]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2021.10.12-04.56.24:960][877]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2021.10.12-04.56.24:974][877]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2021.10.12-04.56.24:983][877]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2021.10.12-04.56.24:993][877]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2021.10.12-04.56.25:003][877]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2021.10.12-04.56.25:003][877]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2021.10.12-04.56.25:003][877]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2021.10.12-04.56.25:003][877]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2021.10.12-04.56.25:003][877]LogModuleManager: Shutting down and abandoning module Media (215)
+[2021.10.12-04.56.25:003][877]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2021.10.12-04.56.25:003][877]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2021.10.12-04.56.25:003][877]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2021.10.12-04.56.25:003][877]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2021.10.12-04.56.25:042][877]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2021.10.12-04.56.25:042][877]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2021.10.12-04.56.25:042][877]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2021.10.12-04.56.25:042][877]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2021.10.12-04.56.25:042][877]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2021.10.12-04.56.25:042][877]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2021.10.12-04.56.25:059][877]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2021.10.12-04.56.25:077][877]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2021.10.12-04.56.25:080][877]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2021.10.12-04.56.25:080][877]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2021.10.12-04.56.25:080][877]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2021.10.12-04.56.25:080][877]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2021.10.12-04.56.25:734][877]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2021.10.12-04.56.25:734][877]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2021.10.12-04.56.25:734][877]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2021.10.12-04.56.25:734][877]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2021.10.12-04.56.25:734][877]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2021.10.12-04.56.25:774][877]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2021.10.12-04.56.25:790][877]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2021.10.12-04.56.25:798][877]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2021.10.12-04.56.25:811][877]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2021.10.12-04.56.25:811][877]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2021.10.12-04.56.25:819][877]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2021.10.12-04.56.25:828][877]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2021.10.12-04.56.25:828][877]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2021.10.12-04.56.25:849][877]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2021.10.12-04.56.25:864][877]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2021.10.12-04.56.25:864][877]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2021.10.12-04.56.25:877][877]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2021.10.12-04.56.25:884][877]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2021.10.12-04.56.25:884][877]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2021.10.12-04.56.25:884][877]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2021.10.12-04.56.25:884][877]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2021.10.12-04.56.25:893][877]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2021.10.12-04.56.25:908][877]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2021.10.12-04.56.25:924][877]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2021.10.12-04.56.25:940][877]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2021.10.12-04.56.25:940][877]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2021.10.12-04.56.26:008][877]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2021.10.12-04.56.26:021][877]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2021.10.12-04.56.26:040][877]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2021.10.12-04.56.26:066][877]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2021.10.12-04.56.26:066][877]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2021.10.12-04.56.26:066][877]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2021.10.12-04.56.26:066][877]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2021.10.12-04.56.26:066][877]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2021.10.12-04.56.26:091][877]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2021.10.12-04.56.26:097][877]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2021.10.12-04.56.26:097][877]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2021.10.12-04.56.26:099][877]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2021.10.12-04.56.26:112][877]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2021.10.12-04.56.26:133][877]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2021.10.12-04.56.26:150][877]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2021.10.12-04.56.26:163][877]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2021.10.12-04.56.26:183][877]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2021.10.12-04.56.26:183][877]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2021.10.12-04.56.26:183][877]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2021.10.12-04.56.26:183][877]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2021.10.12-04.56.26:184][877]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2021.10.12-04.56.26:184][877]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2021.10.12-04.56.26:184][877]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2021.10.12-04.56.26:184][877]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2021.10.12-04.56.26:196][877]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2021.10.12-04.56.26:207][877]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2021.10.12-04.56.26:207][877]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2021.10.12-04.56.26:289][877]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2021.10.12-04.56.26:308][877]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2021.10.12-04.56.26:308][877]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2021.10.12-04.56.26:308][877]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2021.10.12-04.56.26:308][877]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2021.10.12-04.56.26:320][877]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2021.10.12-04.56.26:328][877]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2021.10.12-04.56.26:328][877]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2021.10.12-04.56.26:328][877]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2021.10.12-04.56.26:328][877]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2021.10.12-04.56.26:328][877]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2021.10.12-04.56.26:338][877]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2021.10.12-04.56.26:338][877]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2021.10.12-04.56.26:358][877]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2021.10.12-04.56.26:358][877]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2021.10.12-04.56.26:358][877]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2021.10.12-04.56.26:358][877]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2021.10.12-04.56.26:372][877]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2021.10.12-04.56.26:376][877]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2021.10.12-04.56.26:376][877]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2021.10.12-04.56.26:376][877]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2021.10.12-04.56.26:376][877]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2021.10.12-04.56.26:392][877]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2021.10.12-04.56.26:411][877]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2021.10.12-04.56.26:418][877]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2021.10.12-04.56.26:418][877]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2021.10.12-04.56.26:420][877]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2021.10.12-04.56.26:420][877]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2021.10.12-04.56.26:425][877]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2021.10.12-04.56.26:431][877]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2021.10.12-04.56.26:442][877]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2021.10.12-04.56.26:455][877]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2021.10.12-04.56.26:455][877]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2021.10.12-04.56.26:455][877]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2021.10.12-04.56.26:455][877]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2021.10.12-04.56.26:455][877]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2021.10.12-04.56.26:463][877]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2021.10.12-04.56.26:464][877]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2021.10.12-04.56.26:464][877]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2021.10.12-04.56.26:483][877]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2021.10.12-04.56.26:484][877]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2021.10.12-04.56.26:500][877]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2021.10.12-04.56.26:601][877]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2021.10.12-04.56.26:729][877]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2021.10.12-04.56.26:729][877]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2021.10.12-04.56.26:745][877]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2021.10.12-04.56.26:757][877]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2021.10.12-04.56.26:777][877]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2021.10.12-04.56.26:777][877]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2021.10.12-04.56.26:788][877]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2021.10.12-04.56.26:788][877]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2021.10.12-04.56.26:788][877]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2021.10.12-04.56.26:788][877]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2021.10.12-04.56.26:809][877]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2021.10.12-04.56.26:817][877]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2021.10.12-04.56.26:837][877]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2021.10.12-04.56.26:868][877]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2021.10.12-04.56.26:868][877]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2021.10.12-04.56.26:868][877]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2021.10.12-04.56.26:884][877]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2021.10.12-04.56.26:913][877]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2021.10.12-04.56.26:936][877]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2021.10.12-04.56.26:960][877]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2021.10.12-04.56.26:960][877]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2021.10.12-04.56.26:961][877]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2021.10.12-04.56.26:961][877]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2021.10.12-04.56.26:961][877]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2021.10.12-04.56.26:961][877]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2021.10.12-04.56.26:961][877]LogModuleManager: Shutting down and abandoning module Core (75)
+[2021.10.12-04.56.26:961][877]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2021.10.12-04.56.26:961][877]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2021.10.12-04.56.26:962][877]LogDirectoryWatcher: A directory notification for '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/' was aborted.
+[2021.10.12-04.56.26:962][877]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2021.10.12-04.56.26:962][877]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2021.10.12-04.56.27:042][877]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2021.10.12-04.56.27:042][877]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2021.10.12-04.56.27:042][877]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2021.10.12-04.56.27:058][877]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2021.10.12-04.56.27:071][877]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2021.10.12-04.56.27:086][877]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2021.10.12-04.56.27:086][877]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2021.10.12-04.56.27:108][877]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2021.10.12-04.56.27:228][877]LogDerivedDataCache: Shutdown
+[2021.10.12-04.56.27:228][877]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2021.10.12-04.56.27:237][877]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2021.10.12-04.56.27:257][877]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2021.10.12-04.56.27:265][877]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2021.10.12-04.56.27:283][877]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2021.10.12-04.56.27:283][877]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2021.10.12-04.56.27:294][877]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2021.10.12-04.56.27:303][877]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2021.10.12-04.56.27:327][877]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2021.10.12-04.56.27:327][877]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2021.10.12-04.56.27:327][877]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2021.10.12-04.56.27:327][877]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2021.10.12-04.56.27:333][877]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2021.10.12-04.56.27:349][877]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2021.10.12-04.56.27:349][877]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2021.10.12-04.56.27:349][877]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2021.10.12-04.56.27:361][877]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2021.10.12-04.56.27:374][877]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2021.10.12-04.56.27:385][877]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2021.10.12-04.56.27:392][877]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2021.10.12-04.56.27:405][877]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2021.10.12-04.56.27:417][877]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2021.10.12-04.56.27:417][877]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2021.10.12-04.56.27:417][877]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2021.10.12-04.56.27:417][877]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2021.10.12-04.56.27:417][877]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2021.10.12-04.56.27:417][877]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2021.10.12-04.56.27:417][877]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2021.10.12-04.56.27:417][877]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2021.10.12-04.56.27:417][877]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2021.10.12-04.56.27:431][877]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2021.10.12-04.56.27:431][877]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2021.10.12-04.56.27:431][877]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2021.10.12-04.56.27:431][877]LogOnline:Display: Unloading online subsystem: NULL
+[2021.10.12-04.56.27:451][877]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2021.10.12-04.56.27:462][877]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2021.10.12-04.56.27:462][877]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2021.10.12-04.56.27:480][877]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2021.10.12-04.56.27:496][877]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2021.10.12-04.56.27:496][877]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2021.10.12-04.56.27:496][877]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2021.10.12-04.56.27:527][877]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2021.10.12-04.56.27:545][877]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2021.10.12-04.56.27:545][877]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2021.10.12-04.56.27:557][877]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2021.10.12-04.56.27:566][877]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2021.10.12-04.56.27:566][877]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2021.10.12-04.56.27:566][877]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2021.10.12-04.56.27:575][877]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2021.10.12-04.56.27:582][877]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2021.10.12-04.56.27:592][877]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2021.10.12-04.56.27:604][877]LogExit: Exiting.
+[2021.10.12-04.56.27:614][877]Log file closed, 10/12/21 00:56:27
