@@ -1,0 +1,769 @@
+﻿Log file open, 11/08/21 21:32:53
+LogInit:Display: Running engine for game: Pinball
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1690096778) SRandInit(1690096779).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.757384
+LogPluginManager: Loaded Plugin Paper2D, From D:/EpicGames/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/EpicGames/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/EpicGames/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/EpicGames/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/EpicGames/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/EpicGames/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/EpicGames/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/EpicGames/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/EpicGames/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/EpicGames/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/EpicGames/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/EpicGames/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/EpicGames/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/EpicGames/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/EpicGames/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/EpicGames/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/EpicGames/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/EpicGames/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/EpicGames/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/EpicGames/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/EpicGames/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/EpicGames/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/EpicGames/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/EpicGames/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/EpicGames/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/EpicGames/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/EpicGames/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/EpicGames/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/EpicGames/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/EpicGames/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/EpicGames/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/EpicGames/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/EpicGames/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/EpicGames/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/EpicGames/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/EpicGames/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/EpicGames/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/EpicGames/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/EpicGames/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/EpicGames/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/EpicGames/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/EpicGames/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/EpicGames/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/EpicGames/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/EpicGames/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/EpicGames/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/EpicGames/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/EpicGames/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/EpicGames/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/EpicGames/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/EpicGames/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/EpicGames/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/EpicGames/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/EpicGames/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: D:/EpicGames/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2021.11.09-02.32.53:918][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.09-02.32.53:918][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.11.09-02.32.53:941][  0]LogInit: Computer: DESKTOP-GK7AF5R
+[2021.11.09-02.32.53:941][  0]LogInit: User: jerye
+[2021.11.09-02.32.53:941][  0]LogInit: CPU Page size=65536, Cores=6
+[2021.11.09-02.32.53:941][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.11.09-02.32.53:941][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.11.09-02.32.53:941][  0]LogMemory: Platform Memory Stats for Windows
+[2021.11.09-02.32.53:941][  0]LogMemory: Process Physical Memory: 268.04 MB used, 268.04 MB peak
+[2021.11.09-02.32.53:941][  0]LogMemory: Process Virtual Memory: 260.03 MB used, 260.03 MB peak
+[2021.11.09-02.32.53:941][  0]LogMemory: Physical Memory: 9852.21 MB used,  22825.67 MB free, 32677.88 MB total
+[2021.11.09-02.32.53:941][  0]LogMemory: Virtual Memory: 4795.92 MB used,  22825.67 MB free, 134217728.00 MB total
+[2021.11.09-02.32.54:472][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2021.11.09-02.32.59:119][  0]LogD3D11RHI: D3D11 adapters:
+[2021.11.09-02.32.59:158][  0]LogD3D11RHI:    0. 'AMD Radeon RX 5700 XT' (Feature Level 11_0)
+[2021.11.09-02.32.59:158][  0]LogD3D11RHI:       8151/0/16338 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2021.11.09-02.32.59:160][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.11.09-02.32.59:160][  0]LogD3D11RHI:       0/0/16338 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.11.09-02.32.59:160][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.11.09-02.32.59:200][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.11.09-02.32.59:201][  0]LogD3D11RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
+[2021.11.09-02.32.59:201][  0]LogWindows: EnumDisplayDevices:
+[2021.11.09-02.32.59:201][  0]LogWindows:    0. 'AMD Radeon RX 5700 XT' (P:1 D:1)
+[2021.11.09-02.32.59:201][  0]LogWindows:    1. 'AMD Radeon RX 5700 XT' (P:0 D:1)
+[2021.11.09-02.32.59:201][  0]LogWindows:    2. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2021.11.09-02.32.59:201][  0]LogWindows:    3. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2021.11.09-02.32.59:202][  0]LogWindows:    4. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2021.11.09-02.32.59:202][  0]LogWindows:    5. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2021.11.09-02.32.59:202][  0]LogWindows:    6. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2021.11.09-02.32.59:202][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.11.09-02.32.59:202][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 5700 XT
+[2021.11.09-02.32.59:202][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.11.09-02.32.59:202][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.11.09-02.32.59:202][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.11.09-02.32.59:230][  0]LogD3D11RHI: Async texture creation enabled
+[2021.11.09-02.32.59:607][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2021.11.09-02.32.59:735][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Intermediate/Shaders/WorkingDirectory/18036/).
+[2021.11.09-02.32.59:735][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jerye/AppData/Local/Temp/UnrealShaderWorkingDir/790B21FF47A308C8D6CD37AF57BD269A/'.
+[2021.11.09-02.32.59:744][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2021.11.09-02.33.04:882][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2021.11.09-02.33.04:934][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2021.11.09-02.33.04:983][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2021.11.09-02.33.05:034][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2021.11.09-02.33.05:125][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2021.11.09-02.33.05:174][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2021.11.09-02.33.05:226][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2021.11.09-02.33.05:275][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2021.11.09-02.33.05:317][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2021.11.09-02.33.05:385][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2021.11.09-02.33.05:443][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2021.11.09-02.33.05:507][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2021.11.09-02.33.05:563][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2021.11.09-02.33.05:624][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2021.11.09-02.33.05:678][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2021.11.09-02.33.05:814][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2021.11.09-02.33.05:814][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2021.11.09-02.33.05:853][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2021.11.09-02.33.06:045][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2021.11.09-02.33.06:076][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2021.11.09-02.33.06:126][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2021.11.09-02.33.06:175][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2021.11.09-02.33.06:224][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2021.11.09-02.33.06:311][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2021.11.09-02.33.06:312][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.11.09-02.33.07:467][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.11.09-02.33.07:668][  0]LogDerivedDataCache: Loaded boot cache 0.20s 50MB C:/Users/jerye/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2021.11.09-02.33.07:668][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jerye/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2021.11.09-02.33.07:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.11.09-02.33.07:668][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.11.09-02.33.07:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.11.09-02.33.07:668][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.11.09-02.33.07:717][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.11.09-02.33.07:730][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jerye/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.11.09-02.33.18:908][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.09-02.33.19:055][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2021.11.09-02.33.20:398][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.11.09-02.33.20:526][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2021.11.09-02.33.20:615][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2021.11.09-02.33.20:615][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2021.11.09-02.33.20:615][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.11.09-02.33.29:572][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: pinball, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1748929517
+[2021.11.09-02.33.30:940][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2021.11.09-02.33.31:313][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.163041 seconds
+[2021.11.09-02.33.31:366][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2021.11.09-02.33.31:366][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2021.11.09-02.33.31:366][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.11.09-02.33.31:527][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.11.09-02.33.36:614][  0]LogSlate: Using Freetype 2.6.0
+[2021.11.09-02.33.36:709][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.11.09-02.33.36:709][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.11.09-02.33.56:886][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.11.09-02.33.56:946][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.11.09-02.33.58:106][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2021.11.09-02.33.59:057][  0]SourceControl: Info Source control is disabled
+[2021.11.09-02.33.59:118][  0]SourceControl: Info Source control is disabled
+[2021.11.09-02.33.59:282][  0]SourceControl: Info Source control is disabled
+[2021.11.09-02.33.59:368][  0]SourceControl: Info Source control is disabled
+[2021.11.09-02.34.02:338][  0]LogEngine: Initializing Engine...
+[2021.11.09-02.34.02:401][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.11.09-02.34.03:701][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.11.09-02.34.03:923][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.11.09-02.34.03:985][  0]LogInit: FAudioDevice initialized.
+[2021.11.09-02.34.04:014][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/jerye/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2021.11.09-02.34.04:022][  0]LogInit: Texture streaming: Enabled
+[2021.11.09-02.34.04:599][  0]LogInit: Transaction tracking system initialized
+[2021.11.09-02.34.05:297][  0]BlueprintLog: New page: Editor Load
+[2021.11.09-02.34.07:863][  0]LocalizationService: Info Localization service is disabled
+[2021.11.09-02.34.09:159][  0]LogConsoleResponse:Display: 
+[2021.11.09-02.34.11:128][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/' took 0.02s
+[2021.11.09-02.34.11:128][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.11.09-02.34.11:146][  0]LogCook:Display: Mobile HDR setting 1
+[2021.11.09-02.34.15:071][  0]SourceControl: Info Source control is disabled
+[2021.11.09-02.34.15:107][  0]Cmd: MAP LOAD FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.09-02.34.15:118][  0]LightingResults: New page: Lighting Build
+[2021.11.09-02.34.15:336][  0]MapCheck: New page: Map Check
+[2021.11.09-02.34.15:336][  0]LightingResults: New page: Lighting Build
+[2021.11.09-02.34.19:025][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_2991
+[2021.11.09-02.34.19:046][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_2992
+[2021.11.09-02.34.19:046][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_2993
+[2021.11.09-02.34.19:046][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_2994
+[2021.11.09-02.34.19:046][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_2995
+[2021.11.09-02.34.19:269][  0]LogAIModule: Creating AISystem for world MainLevel
+[2021.11.09-02.34.19:871][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.09-02.34.19:902][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.09-02.34.19:972][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.401ms to complete.
+[2021.11.09-02.34.19:972][  0]LogFileHelpers: Loading map 'MainLevel' took 4.872
+[2021.11.09-02.34.21:874][  0]LogCollectionManager: Loaded 0 collections in 0.001169 seconds
+[2021.11.09-02.34.22:115][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Collections/' took 0.01s
+[2021.11.09-02.34.22:115][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Developers/jerye/Collections/' took 0.01s
+[2021.11.09-02.34.22:115][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Collections/' took 0.01s
+[2021.11.09-02.34.22:115][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2021.11.09-02.34.22:138][  0]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 2190 classes and 428 folders.
+[2021.11.09-02.34.22:415][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.11.09-02.34.22:430][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.016 s
+[2021.11.09-02.34.22:433][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
+[2021.11.09-02.34.22:683][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2021.11.09-02.34.24:115][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2021.11.09-02.34.24:255][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2021.11.09-02.34.24:671][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2021.11.09-02.34.24:812][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2021.11.09-02.34.25:406][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2021.11.09-02.34.25:406][  0]LogLoad: (Engine Initialization) Total time: 96.64 seconds
+[2021.11.09-02.34.25:406][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.50 seconds
+[2021.11.09-02.34.25:406][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.11.09-02.34.25:764][  0]LogOcInput: OculusInput pre-init called
+[2021.11.09-02.34.26:007][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.11.09-02.34.26:946][  0]LogRenderer: Reallocating scene render targets to support 1172x576 NumSamples 1 (Frame:2).
+[2021.11.09-02.34.27:553][  2]LogAssetRegistry: Asset discovery search completed in 56.6367 seconds
+[2021.11.09-02.34.27:564][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2021.11.09-02.34.27:564][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.011110 seconds (updated 0 objects)
+[2021.11.09-03.19.42:844][461]LogEditorViewport: Clicking on Actor (LMB): BP_DropTarget_C (BP_DropTarget3000)
+[2021.11.09-03.19.54:588][748]Cmd: TRANSACTION UNDO
+[2021.11.09-03.19.54:588][748]LogEditorTransaction: Undo Move Actors
+[2021.11.09-03.20.10:146][746]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 111 classes and 0 folders.
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.BP_DropTarget:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.BP_DropTarget_C:ExecuteUbergraph_BP_DropTarget' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.BP_DropTarget_C:UserConstructionScript' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.BP_DropTarget_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.BP_DropTarget_C' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.BP_DropTarget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.BP_DropTarget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.BP_DropTarget:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.BP_DropTarget_C:ReceiveHit' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.BP_DropTarget_C:TextRender' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.BP_DropTarget_C:DTMesh' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.BP_DropTarget_C:DefaultSceneRoot' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.BP_DropTarget_C:DropLetter' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.SKEL_BP_DropTarget_C:DropLetter' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.SKEL_BP_DropTarget_C:DefaultSceneRoot' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.SKEL_BP_DropTarget_C:DTMesh' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.SKEL_BP_DropTarget_C:TextRender' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.SKEL_BP_DropTarget_C:ReceiveHit' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.SKEL_BP_DropTarget_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.SKEL_BP_DropTarget_C:UserConstructionScript' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.SKEL_BP_DropTarget_C:ExecuteUbergraph_BP_DropTarget' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:897][ 51]LogMetaData: Removing '/Game/Blueprints/BP_DropTarget.SKEL_BP_DropTarget_C' ref from Metadata '/Game/Assets/BP_DropTarget.PackageMetaData'
+[2021.11.09-03.20.41:976][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2021.11.09-03.20.42:062][ 51]LogSavePackage: Save=74.98ms
+[2021.11.09-03.20.42:062][ 51]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_DropTarget23B99C1C4ADB28BAAEC1E39176CF364B.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2021.11.09-03.20.42:093][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2021.11.09-03.20.42:160][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BP_DropTarget" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/BP_DropTarget.uasset" SILENT=true
+[2021.11.09-03.20.42:397][ 51]LogSavePackage: Save=3.99ms
+[2021.11.09-03.20.42:397][ 51]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_DropTarget35AAD0F845B3907F41DA58B2D8C38A94.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/BP_DropTarget.uasset'
+[2021.11.09-03.20.42:403][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Assets/BP_DropTarget.uasset
+[2021.11.09-03.21.07:064][995]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_17.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:065][995]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_18.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:065][995]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_19.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:065][995]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_20.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:065][995]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_21.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:069][995]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3135.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:069][995]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3134.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:069][995]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3133.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:069][995]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3132.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:069][995]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3131.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:082][995]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_47.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:082][995]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_46.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:082][995]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_45.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:082][995]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_44.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:082][995]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_43.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:086][995]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3145.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:086][995]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3144.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:086][995]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3143.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:086][995]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3142.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.07:086][995]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3141.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:286][486]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_65.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:286][486]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_64.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:286][486]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_63.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:286][486]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_62.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:286][486]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_61.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:289][486]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3155.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:289][486]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3154.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:289][486]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3153.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:289][486]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3152.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:289][486]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3151.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:303][486]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_83.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:303][486]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_82.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:303][486]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_81.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:303][486]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_80.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:303][486]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_79.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:306][486]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3165.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:306][486]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3164.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:306][486]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3163.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:306][486]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3162.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.11:306][486]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3161.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.36:440][449]LogSavePackage: Save=77.82ms
+[2021.11.09-03.21.36:440][449]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevel_Auto1B15EA67147F49AD80F86B29B5371B357.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto1.umap'
+[2021.11.09-03.21.36:444][449]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto1.umap
+[2021.11.09-03.21.36:461][449]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.192
+[2021.11.09-03.21.36:462][449]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.192
+[2021.11.09-03.21.36:465][449]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_DropTarget] ([1] browsable assets)...
+[2021.11.09-03.21.36:474][449]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_DropTarget.BP_DropTarget]
+[2021.11.09-03.21.36:474][449]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_DropTarget]
+[2021.11.09-03.21.36:510][449]LogSavePackage: Save=28.14ms
+[2021.11.09-03.21.36:510][449]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_DropTarget_Auto135234F9147A3977CBC5AD7A9DE6981FB.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_DropTarget_Auto1.uasset'
+[2021.11.09-03.21.36:513][449]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_DropTarget_Auto1.uasset
+[2021.11.09-03.21.36:513][449]LogFileHelpers: Auto-saving content packages took 0.051
+[2021.11.09-03.21.47:878][386]BlueprintLog: New page: Compile BP_DropTarget
+[2021.11.09-03.21.48:967][386]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_12.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.48:967][386]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_11.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.48:967][386]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_10.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.48:967][386]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_9.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.48:967][386]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_8.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.48:970][386]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3005.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.48:970][386]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3004.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.48:970][386]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3003.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.48:970][386]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3002.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.48:970][386]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3001.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.49:266][418]BlueprintLog: New page: Compile BP_DropTarget
+[2021.11.09-03.21.50:168][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_9.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.50:168][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_8.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.50:168][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_7.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.50:168][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_6.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.50:169][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.50:173][418]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3005.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.50:173][418]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3004.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.50:173][418]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3003.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.50:173][418]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3002.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.50:173][418]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3001.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.21.50:242][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2021.11.09-03.21.50:278][418]LogSavePackage: Save=27.31ms
+[2021.11.09-03.21.50:278][418]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_DropTargetEF74BB7449E67852E2C54289935FB338.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2021.11.09-03.21.50:285][418]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2021.11.09-03.31.08:232][902]BlueprintLog: New page: Compile PinballGameMode
+[2021.11.09-03.31.11:210][170]BlueprintLog: New page: Compile BP_DropTargetSet
+[2021.11.09-03.31.12:440][288]LogSavePackage: Save=44.30ms
+[2021.11.09-03.31.12:440][288]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_DropTargetSetB7FA836241DE9C5C3EA67790D9E27F18.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2021.11.09-03.31.12:447][288]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2021.11.09-03.31.13:933][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2021.11.09-03.31.13:986][457]LogSavePackage: Save=42.63ms
+[2021.11.09-03.31.13:986][457]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/PinballGameMode857C10194C46B1B2ABA20AAE1515B198.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2021.11.09-03.31.13:992][457]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset
+[2021.11.09-03.32.46:208][424]LogEditorTransaction: Undo Delete current selection
+[2021.11.09-03.32.46:215][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_336.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:216][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_335.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:216][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_334.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:219][424]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3155.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:219][424]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3154.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:219][424]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3153.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:220][424]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3152.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:220][424]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3151.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:220][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_338.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:220][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_337.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:223][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_352.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:223][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_351.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:223][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_350.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:223][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_349.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:223][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_348.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:227][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_362.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:227][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_361.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:227][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_360.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:228][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_359.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.32.46:228][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_358.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:823][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_380.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:823][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_379.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:823][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_378.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:823][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_377.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:823][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_376.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:826][689]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3165.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:826][689]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3164.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:826][689]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3163.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:826][689]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3162.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:826][689]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3161.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:830][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_390.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:830][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_389.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:830][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_388.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:830][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_387.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:830][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_386.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:833][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_400.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:833][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_399.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:833][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_398.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:833][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_397.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.26:833][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_396.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.29:696][ 29]BlueprintLog: New page: Compile BP_DropTarget
+[2021.11.09-03.33.31:490][ 29]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3019.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:490][ 29]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3018.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:490][ 29]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3017.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:490][ 29]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3016.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:490][ 29]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_3010.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:494][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_291.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:494][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_290.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:494][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_289.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:494][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_288.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:494][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_287.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:497][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_301.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:497][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_300.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:497][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_299.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:497][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_298.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:497][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_297.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:500][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_311.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:500][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_310.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:500][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_309.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:500][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_308.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.31:500][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_307.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.11.09-03.33.32:108][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2021.11.09-03.33.32:145][ 95]LogSavePackage: Save=26.88ms
+[2021.11.09-03.33.32:145][ 95]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/BP_DropTargetAA1036B14265CF645D63509A846C7CDC.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2021.11.09-03.33.32:152][ 95]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2021.11.09-03.33.39:802][985]LogTemp: Repeting last play command: Selected Viewport
+[2021.11.09-03.33.39:849][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.09-03.33.39:888][985]PIE: New page: PIE session: MainLevel (Nov 8, 2021, 5:33:39 PM)
+[2021.11.09-03.33.39:894][985]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2021.11.09-03.33.39:920][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025671s)
+[2021.11.09-03.33.39:921][985]LogAIModule: Creating AISystem for world MainLevel
+[2021.11.09-03.33.39:921][985]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2021.11.09-03.33.39:921][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.033080s)
+[2021.11.09-03.33.39:981][985]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.11.09-03.33.40:006][985]LogInit: FAudioDevice initialized.
+[2021.11.09-03.33.40:136][985]LogLoad: Game class is 'PinballGameMode_C'
+[2021.11.09-03.33.40:146][985]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.11.08-22.33.40
+[2021.11.09-03.33.40:167][985]LogWorld: Bringing up level for play took: 0.022822
+[2021.11.09-03.33.40:296][985]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2021.11.09-03.33.40:358][985]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.614
+[2021.11.09-03.34.07:786][228]LogActor:Warning: BP_Ball_189 is outside the world bounds!
+[2021.11.09-03.34.43:848][462]LogSavePackage: Save=66.27ms
+[2021.11.09-03.34.43:848][462]LogSavePackage: Moving '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/MainLevel3C539DB14755FEB1A1F5E3AFCAF873AA.tmp' to '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2021.11.09-03.34.43:856][462]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2021.11.09-03.34.43:877][462]LogFileHelpers: Saving map 'MainLevel' took 0.177
+[2021.11.09-03.34.49:162][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.11.09-03.34.49:228][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.11.09-03.34.49:500][745]Cmd: QUIT_EDITOR
+[2021.11.09-03.34.50:518][745]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2021.11.09-03.34.50:541][745]LogExit: Preparing to exit.
+[2021.11.09-03.34.50:852][745]LogDirectoryWatcher: A directory notification for 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/' was aborted.
+[2021.11.09-03.34.50:884][745]LogExit: Editor shut down
+[2021.11.09-03.34.50:885][745]LogExit: Transaction tracking system shut down
+[2021.11.09-03.34.51:343][745]LogObj: Freed 0b from 0 cluster array pools.
+[2021.11.09-03.34.51:347][745]LogExit: Object subsystem successfully closed.
+[2021.11.09-03.34.51:451][745]LogD3D11RHI: Shutdown
+[2021.11.09-03.34.51:451][745]LogD3D11RHI: CleanupD3DDevice
+[2021.11.09-03.34.51:587][745]LogD3D11RHI: ~FD3D11DynamicRHI
+[2021.11.09-03.34.51:834][745]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.11.09-03.34.51:834][745]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA6998E2E-4CAD-01CD-75C7-BFB023D11EFE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=dd55dcd44d4de2f3f5b041b7246e1094%7Cf5476c74213e466690d5d7ff3df1aed1%7C051aa251-e9c6-4825-b070-34c45b984ebd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2021.11.09-03.34.51:881][745]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (244)
+[2021.11.09-03.34.51:881][745]LogModuleManager: Shutting down and abandoning module BlueprintGraph (243)
+[2021.11.09-03.34.51:881][745]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (242)
+[2021.11.09-03.34.51:901][745]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2021.11.09-03.34.51:912][745]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2021.11.09-03.34.51:912][745]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2021.11.09-03.34.51:912][745]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2021.11.09-03.34.51:912][745]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2021.11.09-03.34.51:912][745]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/UE_4.14/FeaturePacks/' was aborted.
+[2021.11.09-03.34.51:913][745]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2021.11.09-03.34.51:913][745]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2021.11.09-03.34.51:913][745]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2021.11.09-03.34.51:913][745]LogDirectoryWatcher: A directory notification for 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Collections/' was aborted.
+[2021.11.09-03.34.51:914][745]LogDirectoryWatcher: A directory notification for 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/Developers/jerye/Collections/' was aborted.
+[2021.11.09-03.34.51:914][745]LogDirectoryWatcher: A directory notification for 'D:/GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Saved/Collections/' was aborted.
+[2021.11.09-03.34.51:914][745]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2021.11.09-03.34.51:931][745]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2021.11.09-03.34.51:931][745]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2021.11.09-03.34.51:946][745]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2021.11.09-03.34.51:946][745]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2021.11.09-03.34.51:946][745]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2021.11.09-03.34.51:946][745]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2021.11.09-03.34.51:946][745]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2021.11.09-03.34.51:946][745]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2021.11.09-03.34.51:946][745]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2021.11.09-03.34.51:946][745]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2021.11.09-03.34.51:946][745]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2021.11.09-03.34.51:946][745]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2021.11.09-03.34.51:961][745]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module Media (215)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2021.11.09-03.34.51:968][745]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2021.11.09-03.34.51:975][745]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2021.11.09-03.34.51:986][745]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2021.11.09-03.34.51:995][745]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2021.11.09-03.34.51:995][745]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2021.11.09-03.34.51:995][745]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2021.11.09-03.34.51:995][745]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2021.11.09-03.34.52:475][745]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2021.11.09-03.34.52:475][745]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2021.11.09-03.34.52:475][745]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2021.11.09-03.34.52:475][745]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2021.11.09-03.34.52:475][745]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2021.11.09-03.34.52:515][745]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2021.11.09-03.34.52:524][745]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2021.11.09-03.34.52:524][745]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2021.11.09-03.34.52:524][745]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2021.11.09-03.34.52:524][745]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2021.11.09-03.34.52:524][745]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2021.11.09-03.34.52:528][745]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2021.11.09-03.34.52:528][745]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2021.11.09-03.34.52:543][745]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2021.11.09-03.34.52:556][745]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2021.11.09-03.34.52:556][745]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2021.11.09-03.34.52:556][745]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2021.11.09-03.34.52:556][745]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2021.11.09-03.34.52:556][745]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2021.11.09-03.34.52:556][745]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2021.11.09-03.34.52:556][745]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2021.11.09-03.34.52:563][745]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2021.11.09-03.34.52:576][745]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2021.11.09-03.34.52:583][745]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2021.11.09-03.34.52:600][745]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2021.11.09-03.34.52:600][745]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2021.11.09-03.34.52:652][745]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2021.11.09-03.34.52:652][745]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2021.11.09-03.34.52:668][745]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2021.11.09-03.34.52:691][745]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2021.11.09-03.34.52:691][745]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2021.11.09-03.34.52:705][745]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2021.11.09-03.34.52:706][745]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2021.11.09-03.34.52:706][745]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2021.11.09-03.34.52:715][745]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2021.11.09-03.34.52:722][745]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2021.11.09-03.34.52:722][745]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2021.11.09-03.34.52:733][745]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2021.11.09-03.34.52:733][745]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2021.11.09-03.34.52:751][745]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2021.11.09-03.34.52:765][745]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2021.11.09-03.34.52:772][745]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2021.11.09-03.34.52:784][745]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2021.11.09-03.34.52:784][745]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2021.11.09-03.34.52:784][745]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2021.11.09-03.34.52:784][745]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2021.11.09-03.34.52:784][745]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2021.11.09-03.34.52:784][745]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2021.11.09-03.34.52:784][745]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2021.11.09-03.34.52:784][745]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2021.11.09-03.34.52:784][745]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2021.11.09-03.34.52:784][745]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2021.11.09-03.34.52:784][745]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2021.11.09-03.34.52:867][745]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2021.11.09-03.34.52:882][745]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2021.11.09-03.34.52:882][745]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2021.11.09-03.34.52:882][745]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2021.11.09-03.34.52:882][745]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2021.11.09-03.34.52:882][745]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2021.11.09-03.34.52:893][745]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2021.11.09-03.34.52:893][745]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2021.11.09-03.34.52:893][745]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2021.11.09-03.34.52:893][745]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2021.11.09-03.34.52:893][745]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2021.11.09-03.34.52:893][745]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2021.11.09-03.34.52:893][745]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2021.11.09-03.34.52:907][745]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2021.11.09-03.34.52:921][745]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2021.11.09-03.34.52:921][745]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2021.11.09-03.34.52:921][745]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2021.11.09-03.34.52:921][745]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2021.11.09-03.34.52:927][745]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2021.11.09-03.34.52:927][745]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2021.11.09-03.34.52:927][745]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2021.11.09-03.34.52:927][745]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2021.11.09-03.34.52:927][745]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2021.11.09-03.34.52:937][745]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2021.11.09-03.34.52:938][745]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2021.11.09-03.34.52:938][745]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2021.11.09-03.34.52:938][745]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2021.11.09-03.34.52:939][745]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2021.11.09-03.34.52:942][745]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2021.11.09-03.34.53:043][745]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2021.11.09-03.34.53:144][745]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2021.11.09-03.34.53:144][745]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2021.11.09-03.34.53:144][745]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2021.11.09-03.34.53:144][745]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2021.11.09-03.34.53:152][745]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2021.11.09-03.34.53:153][745]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2021.11.09-03.34.53:153][745]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2021.11.09-03.34.53:153][745]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2021.11.09-03.34.53:153][745]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2021.11.09-03.34.53:153][745]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2021.11.09-03.34.53:159][745]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2021.11.09-03.34.53:160][745]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2021.11.09-03.34.53:169][745]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2021.11.09-03.34.53:182][745]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2021.11.09-03.34.53:182][745]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2021.11.09-03.34.53:182][745]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2021.11.09-03.34.53:182][745]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2021.11.09-03.34.53:182][745]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2021.11.09-03.34.53:182][745]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2021.11.09-03.34.53:202][745]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2021.11.09-03.34.53:202][745]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2021.11.09-03.34.53:204][745]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2021.11.09-03.34.53:204][745]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2021.11.09-03.34.53:204][745]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2021.11.09-03.34.53:204][745]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2021.11.09-03.34.53:204][745]LogModuleManager: Shutting down and abandoning module Core (75)
+[2021.11.09-03.34.53:204][745]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2021.11.09-03.34.53:204][745]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2021.11.09-03.34.53:204][745]LogDirectoryWatcher: A directory notification for '../../../../../GitHub Projects/Udemy_Unreal/Udemy_Pinball/Udemy_Pinball/Pinball/Content/' was aborted.
+[2021.11.09-03.34.53:204][745]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2021.11.09-03.34.53:205][745]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2021.11.09-03.34.53:369][745]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2021.11.09-03.34.53:369][745]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2021.11.09-03.34.53:369][745]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2021.11.09-03.34.53:376][745]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2021.11.09-03.34.53:376][745]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2021.11.09-03.34.53:376][745]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2021.11.09-03.34.53:376][745]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2021.11.09-03.34.53:383][745]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2021.11.09-03.34.53:477][745]LogDerivedDataCache: Shutdown
+[2021.11.09-03.34.53:477][745]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2021.11.09-03.34.53:477][745]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2021.11.09-03.34.53:484][745]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2021.11.09-03.34.53:484][745]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2021.11.09-03.34.53:501][745]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2021.11.09-03.34.53:502][745]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2021.11.09-03.34.53:508][745]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2021.11.09-03.34.53:508][745]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2021.11.09-03.34.53:508][745]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2021.11.09-03.34.53:508][745]LogOnline:Display: Unloading online subsystem: NULL
+[2021.11.09-03.34.53:527][745]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2021.11.09-03.34.53:528][745]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2021.11.09-03.34.53:528][745]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2021.11.09-03.34.53:548][745]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2021.11.09-03.34.53:549][745]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2021.11.09-03.34.53:549][745]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2021.11.09-03.34.53:549][745]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2021.11.09-03.34.53:564][745]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2021.11.09-03.34.53:581][745]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2021.11.09-03.34.53:581][745]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2021.11.09-03.34.53:581][745]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2021.11.09-03.34.53:581][745]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2021.11.09-03.34.53:581][745]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2021.11.09-03.34.53:581][745]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2021.11.09-03.34.53:581][745]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2021.11.09-03.34.53:581][745]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2021.11.09-03.34.53:581][745]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2021.11.09-03.34.53:583][745]LogExit: Exiting.
+[2021.11.09-03.34.53:584][745]Log file closed, 11/08/21 22:34:53
