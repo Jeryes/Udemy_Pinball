@@ -1198,3 +1198,508 @@ LogInit: Object subsystem initialized
 [2022.05.01-17.21.59:096][137]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset
 [2022.05.01-17.22.14:208][911]LogUObjectGlobals:Warning: Failed to find object 'Class None.None'
 [2022.05.01-17.22.28:557][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2022.05.01-17.22.28:599][ 52]LogSavePackage: Save=37.18ms
+[2022.05.01-17.22.28:599][ 52]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballGameModeFD5C540941BE3FA5A03DE19A54299EE0.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2022.05.01-17.22.28:601][ 52]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset
+[2022.05.01-17.37.50:428][471]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0008 seconds. Added 2 classes and 2 folders.
+[2022.05.01-17.37.50:438][471]LogTexture:Display: Building textures: OrientParticle (AutoDXT)
+[2022.05.01-17.37.50:456][471]LogMaterial: Missing cached shader map for material DefaultParticle, compiling. 
+[2022.05.01-17.37.50:601][471]LogTexture:Display: Building textures: CASC_Normal (BC5)
+[2022.05.01-17.37.50:608][471]LogTexture:Display: Building textures: CASC_Point (AutoDXT)
+[2022.05.01-17.37.50:616][471]LogTexture:Display: Building textures: CASC_Lights (BC5)
+[2022.05.01-17.37.50:624][471]LogTexture:Display: Building textures: CASC_CurveEd (AutoDXT)
+[2022.05.01-17.37.50:632][471]LogTexture:Display: Building textures: CASC_ModuleEnable (AutoDXT)
+[2022.05.01-17.37.50:641][471]LogTexture:Display: Building textures: CASC_ModuleDisable (AutoDXT)
+[2022.05.01-17.37.50:647][471]LogTexture:Display: Building textures: CASC_Solo_On (AutoDXT)
+[2022.05.01-17.37.50:652][471]LogTexture:Display: Building textures: CASC_Solo_Off (AutoDXT)
+[2022.05.01-17.37.50:658][471]LogTexture:Display: Building textures: CASC_DisabledModule (AutoDXT)
+[2022.05.01-17.38.17:887][661]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.017
+[2022.05.01-17.38.17:889][661]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/P_BumperSparks] ([1] browsable assets)...
+[2022.05.01-17.38.17:895][661]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Assets/P_BumperSparks.P_BumperSparks]
+[2022.05.01-17.38.17:895][661]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/P_BumperSparks]
+[2022.05.01-17.38.17:895][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/P_BumperSparks" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/P_BumperSparks_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2022.05.01-17.38.17:901][661]LogSavePackage: Save=5.00ms
+[2022.05.01-17.38.17:901][661]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/P_BumperSparks_Auto6FB166E63453E39F15184DD82BF695D1B.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/P_BumperSparks_Auto6.uasset'
+[2022.05.01-17.38.17:902][661]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/P_BumperSparks_Auto6.uasset
+[2022.05.01-17.38.17:902][661]LogFileHelpers: Auto-saving content packages took 0.014
+[2022.05.01-17.41.11:020][739]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.41.30:072][ 21]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.05.01-17.41.33:541][435]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.41.40:662][287]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.41.42:388][494]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.41.52:802][742]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.42.09:214][710]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.42.40:655][394]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.42.40:716][394]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.42.40:724][394]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.42.41:535][467]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 43 instructions
+[2022.05.01-17.42.41:535][467]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.05.01-17.42.41:535][467]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.05.01-17.43.00:941][781]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.43.00:948][781]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.43.01:326][818]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 43 instructions
+[2022.05.01-17.43.01:326][818]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.05.01-17.43.01:326][818]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.05.01-17.43.07:042][502]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.43.07:050][502]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.43.07:483][543]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2022.05.01-17.43.07:483][543]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.05.01-17.43.07:483][543]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.05.01-17.43.23:525][437]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.43.23:538][437]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.43.23:548][437]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.43.24:317][507]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 41 instructions
+[2022.05.01-17.43.24:317][507]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 78 instructions
+[2022.05.01-17.43.24:317][507]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-17.43.24:317][507]MaterialEditorStats: Info Texture samplers: 4/16
+[2022.05.01-17.43.27:790][922]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.43.27:801][922]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.43.28:869][ 26]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 41 instructions
+[2022.05.01-17.43.28:869][ 26]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 78 instructions
+[2022.05.01-17.43.28:869][ 26]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-17.43.28:869][ 26]MaterialEditorStats: Info Texture samplers: 4/16
+[2022.05.01-17.43.48:322][ 26]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.43.48:333][ 26]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.43.49:060][ 97]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2022.05.01-17.43.49:060][ 97]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2022.05.01-17.43.49:060][ 97]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-17.43.49:060][ 97]MaterialEditorStats: Info Texture samplers: 4/16
+[2022.05.01-17.43.54:922][799]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.43.54:932][799]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.43.54:936][799]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.43.55:279][834]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2022.05.01-17.43.55:279][834]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-17.43.55:279][834]MaterialEditorStats: Info Texture samplers: 3/16
+[2022.05.01-17.44.08:949][987]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.44.08:953][987]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.44.09:333][ 27]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2022.05.01-17.44.09:333][ 27]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-17.44.09:333][ 27]MaterialEditorStats: Info Texture samplers: 3/16
+[2022.05.01-17.44.14:046][590]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.44.14:050][590]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.44.14:419][633]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
+[2022.05.01-17.44.14:419][633]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-17.44.14:419][633]MaterialEditorStats: Info Texture samplers: 3/16
+[2022.05.01-17.44.24:747][865]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.44.24:752][865]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.44.24:755][865]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.44.24:760][865]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.44.25:138][906]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
+[2022.05.01-17.44.25:138][906]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-17.44.25:138][906]MaterialEditorStats: Info Texture samplers: 3/16
+[2022.05.01-17.44.28:457][302]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.44.28:461][302]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.44.28:835][345]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
+[2022.05.01-17.44.28:835][345]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-17.44.28:835][345]MaterialEditorStats: Info Texture samplers: 3/16
+[2022.05.01-17.44.32:745][811]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.44.32:749][811]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.44.33:125][851]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
+[2022.05.01-17.44.33:125][851]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-17.44.33:125][851]MaterialEditorStats: Info Texture samplers: 3/16
+[2022.05.01-17.44.36:147][212]LogMaterialEditor: Applying material M_SimpleSpot
+[2022.05.01-17.44.37:047][212]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.44.37:056][212]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.44.37:072][212]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.44.37:082][212]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.44.37:092][212]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.44.37:742][286]LogMaterialEditor: Saving and Compiling material M_SimpleSpot
+[2022.05.01-17.44.38:331][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_SimpleSpot" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_SimpleSpot.uasset" SILENT=true
+[2022.05.01-17.44.38:340][286]LogSavePackage: Save=8.17ms
+[2022.05.01-17.44.38:340][286]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/M_SimpleSpot26B49DF0469C1678EFFDECB5C92EF4F7.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_SimpleSpot.uasset'
+[2022.05.01-17.44.38:342][286]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_SimpleSpot.uasset
+[2022.05.01-17.44.38:349][286]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2022.05.01-17.44.38:349][286]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-17.44.38:349][286]MaterialEditorStats: Info Texture samplers: 3/16
+[2022.05.01-17.45.11:680][123]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.45.11:682][123]LogMaterial:Warning: Material /Game/Assets/M_SimpleSpot.M_SimpleSpot needed to have new flag set bUsedWithParticleSprites !
+[2022.05.01-17.45.11:682][123]LogMaterial:Warning: Material /Engine/Transient.M_SimpleSpot needed to have new flag set bUsedWithParticleSprites !
+[2022.05.01-17.45.11:684][123]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.45.11:689][123]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.45.11:691][123]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.45.11:704][123]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.45.13:429][324]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2022.05.01-17.45.13:429][324]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-17.45.13:429][324]MaterialEditorStats: Info Texture samplers: 7/16
+[2022.05.01-17.45.52:463][  2]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.45.55:440][359]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.46.01:268][ 58]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.46.37:032][ 65]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.46.38:500][241]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.46.56:380][255]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.47.36:897][118]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.48.02:013][338]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.48.06:500][868]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.48.24:355][ 10]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.48.25:556][154]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.48.30:307][724]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.48.34:252][197]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.48.36:719][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/P_BumperSparks" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/P_BumperSparks.uasset" SILENT=true
+[2022.05.01-17.48.36:727][490]LogSavePackage: Save=7.44ms
+[2022.05.01-17.48.36:727][490]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/P_BumperSparks631805774394F64DB41A15917F57BAF2.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/P_BumperSparks.uasset'
+[2022.05.01-17.48.36:729][490]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/P_BumperSparks.uasset
+[2022.05.01-17.49.34:495][175]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.49.34:501][175]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.49.34:506][175]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.49.35:250][255]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
+[2022.05.01-17.49.35:250][255]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-17.49.35:250][255]MaterialEditorStats: Info Texture samplers: 3/16
+[2022.05.01-17.49.36:817][442]LogMaterialEditor: Applying material M_SimpleSpot
+[2022.05.01-17.49.37:101][442]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.49.37:110][442]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.49.37:127][442]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.49.37:149][442]LogMaterial: Missing cached shader map for material M_SimpleSpot, compiling. 
+[2022.05.01-17.49.37:168][442]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-17.49.37:960][529]LogMaterialEditor: Saving and Compiling material M_SimpleSpot
+[2022.05.01-17.49.38:754][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_SimpleSpot" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_SimpleSpot.uasset" SILENT=true
+[2022.05.01-17.49.38:768][529]LogSavePackage: Save=7.77ms
+[2022.05.01-17.49.38:768][529]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/M_SimpleSpotD7F861B741EF15AE1F7CA5996AC1C433.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_SimpleSpot.uasset'
+[2022.05.01-17.49.38:770][529]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_SimpleSpot.uasset
+[2022.05.01-17.49.38:776][529]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2022.05.01-17.49.38:776][529]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-17.49.38:776][529]MaterialEditorStats: Info Texture samplers: 7/16
+[2022.05.01-17.50.11:703][849]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.50.27:324][722]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.50.43:661][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/P_BumperSparks" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/P_BumperSparks.uasset" SILENT=true
+[2022.05.01-17.50.43:673][ 81]LogSavePackage: Save=5.35ms
+[2022.05.01-17.50.43:673][ 81]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/P_BumperSparks63D9B0E14ABFA0B0795152B43CA3B272.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/P_BumperSparks.uasset'
+[2022.05.01-17.50.43:675][ 81]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/P_BumperSparks.uasset
+[2022.05.01-17.51.46:488][430]LogParticles:Warning: MaxCount = 1502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.52.21:591][ 53]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_BumperSparks)
+[2022.05.01-17.52.54:275][ 35]LogParticles:Warning: MaxCount =  752 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.52.59:430][651]LogParticles:Warning: MaxCount =  752 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.53.02:135][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/P_BumperSparks" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/P_BumperSparks.uasset" SILENT=true
+[2022.05.01-17.53.02:147][973]LogSavePackage: Save=5.54ms
+[2022.05.01-17.53.02:147][973]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/P_BumperSparks99A3F2204D2B0F46D2BC5DABC3E90244.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/P_BumperSparks.uasset'
+[2022.05.01-17.53.02:148][973]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/P_BumperSparks.uasset
+[2022.05.01-17.53.08:352][708]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper2)
+[2022.05.01-17.53.09:183][799]LogEditorViewport: Clicking on Actor (context menu): BP_Bumper_C (BP_Bumper2)
+[2022.05.01-17.54.39:135][174]BlueprintLog: New page: Compile BP_Bumper
+[2022.05.01-17.54.40:645][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2022.05.01-17.54.40:678][336]LogSavePackage: Save=27.21ms
+[2022.05.01-17.54.40:678][336]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/BP_BumperB4A1E7CB4842B4ABA956708A7E26E3BB.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2022.05.01-17.54.40:680][336]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2022.05.01-17.55.11:131][642]LogParticles:Warning: MaxCount =  751 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.55.28:228][690]LogParticles:Warning: MaxCount =  751 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/P_BumperSparks.P_BumperSparks)
+[2022.05.01-17.55.54:249][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.05.01-17.55.54:322][804]LogSavePackage: Save=62.05ms
+[2022.05.01-17.55.54:322][804]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainLevel_Auto7636662E74B284D64F86715B50F7A1147.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto7.umap'
+[2022.05.01-17.55.54:323][804]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto7.umap
+[2022.05.01-17.55.54:325][804]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.097
+[2022.05.01-17.55.54:325][804]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.097
+[2022.05.01-17.55.54:327][804]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Bumper] ([1] browsable assets)...
+[2022.05.01-17.55.54:337][804]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Bumper.BP_Bumper]
+[2022.05.01-17.55.54:337][804]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Bumper]
+[2022.05.01-17.55.54:337][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2022.05.01-17.55.54:375][804]LogSavePackage: Save=31.45ms
+[2022.05.01-17.55.54:375][804]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/BP_Bumper_Auto7EE30EB8A4606984CCB22A4AD230E0471.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto7.uasset'
+[2022.05.01-17.55.54:377][804]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto7.uasset
+[2022.05.01-17.55.54:378][804]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu] ([1] browsable assets)...
+[2022.05.01-17.55.54:378][804]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu]
+[2022.05.01-17.55.54:378][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/MainMenu_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2022.05.01-17.55.54:404][804]LogSavePackage: Save=15.32ms
+[2022.05.01-17.55.54:404][804]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainMenu_Auto747AD253D4484A85FAEF160BD43743368.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/MainMenu_Auto7.uasset'
+[2022.05.01-17.55.54:405][804]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/MainMenu_Auto7.uasset
+[2022.05.01-17.55.54:405][804]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/P_BumperSparks] ([1] browsable assets)...
+[2022.05.01-17.55.54:410][804]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Assets/P_BumperSparks.P_BumperSparks]
+[2022.05.01-17.55.54:410][804]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/P_BumperSparks]
+[2022.05.01-17.55.54:410][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/P_BumperSparks" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/P_BumperSparks_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2022.05.01-17.55.54:422][804]LogSavePackage: Save=6.26ms
+[2022.05.01-17.55.54:422][804]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/P_BumperSparks_Auto74D4DA31344B2445BF8448CB195351509.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/P_BumperSparks_Auto7.uasset'
+[2022.05.01-17.55.54:423][804]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/P_BumperSparks_Auto7.uasset
+[2022.05.01-17.55.54:423][804]LogFileHelpers: Auto-saving content packages took 0.097
+[2022.05.01-17.56.37:247][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/P_BumperSparks" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/P_BumperSparks.uasset" SILENT=true
+[2022.05.01-17.56.37:256][  8]LogSavePackage: Save=4.05ms
+[2022.05.01-17.56.37:256][  8]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/P_BumperSparks20607C30419AB69017765B9D699597D9.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/P_BumperSparks.uasset'
+[2022.05.01-17.56.37:258][  8]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/P_BumperSparks.uasset
+[2022.05.01-17.56.39:680][296]BlueprintLog: New page: Compile BP_Bumper
+[2022.05.01-17.56.40:388][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2022.05.01-17.56.40:420][363]LogSavePackage: Save=26.91ms
+[2022.05.01-17.56.40:420][363]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/BP_Bumper69BDD2654E16C444F455C98333DF6F5E.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2022.05.01-17.56.40:422][363]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2022.05.01-17.56.43:043][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2022.05.01-17.56.43:063][665]LogSavePackage: Save=15.09ms
+[2022.05.01-17.56.43:063][665]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainMenu2B5405EA4827471CA5D7578AF4CAAFA1.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset'
+[2022.05.01-17.56.43:065][665]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset
+[2022.05.01-17.56.46:382][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.01-17.56.46:460][889]LogSavePackage: Save=56.91ms
+[2022.05.01-17.56.46:460][889]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainLevelAC7E38FB41A678DB8BF615AD724C8534.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2022.05.01-17.56.46:463][889]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2022.05.01-17.56.46:482][889]LogFileHelpers: Saving map 'MainLevel' took 1.370
+[2022.05.01-17.56.47:715][ 33]BlueprintLog: New page: Compile MainMenu
+[2022.05.01-17.56.48:466][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2022.05.01-17.56.48:487][104]LogSavePackage: Save=15.07ms
+[2022.05.01-17.56.48:487][104]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainMenu6A0872E5476E346DD931C39B9811D81E.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset'
+[2022.05.01-17.56.48:488][104]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset
+[2022.05.01-17.57.06:270][158]LogCascade: Quitting Cascade. FXSystem=0x0000017542692AC0
+[2022.05.01-17.57.06:448][158]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.05.01-17.57.06:725][159]Cmd: QUIT_EDITOR
+[2022.05.01-17.57.07:681][159]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2022.05.01-17.57.07:708][159]LogExit: Preparing to exit.
+[2022.05.01-17.57.08:902][159]LogExit: Editor shut down
+[2022.05.01-17.57.08:903][159]LogExit: Transaction tracking system shut down
+[2022.05.01-17.57.09:093][159]LogObj: Freed 0b from 0 cluster array pools.
+[2022.05.01-17.57.09:093][159]LogExit: Object subsystem successfully closed.
+[2022.05.01-17.57.09:113][159]LogD3D11RHI: Shutdown
+[2022.05.01-17.57.09:113][159]LogD3D11RHI: CleanupD3DDevice
+[2022.05.01-17.57.09:333][159]LogD3D11RHI: ~FD3D11DynamicRHI
+[2022.05.01-17.57.09:343][159]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.05.01-17.57.09:343][159]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC60FD558-4CE2-4E7B-EC56-BE840C2022BC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=d23f48a54f9141244e0964a7bb2ac381%7Cf5476c74213e466690d5d7ff3df1aed1%7C051aa251-e9c6-4825-b070-34c45b984ebd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2022.05.01-17.57.09:355][159]LogModuleManager: Shutting down and abandoning module DistCurveEditor (250)
+[2022.05.01-17.57.09:355][159]LogModuleManager: Shutting down and abandoning module Cascade (249)
+[2022.05.01-17.57.09:355][159]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (248)
+[2022.05.01-17.57.09:355][159]LogModuleManager: Shutting down and abandoning module SequencerWidgets (247)
+[2022.05.01-17.57.09:355][159]LogModuleManager: Shutting down and abandoning module BlueprintGraph (246)
+[2022.05.01-17.57.09:355][159]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (245)
+[2022.05.01-17.57.09:356][159]LogModuleManager: Shutting down and abandoning module MaterialEditor (244)
+[2022.05.01-17.57.09:356][159]LogModuleManager: Shutting down and abandoning module TextureEditor (243)
+[2022.05.01-17.57.09:356][159]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (242)
+[2022.05.01-17.57.09:356][159]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (241)
+[2022.05.01-17.57.09:356][159]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2022.05.01-17.57.09:356][159]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2022.05.01-17.57.09:356][159]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2022.05.01-17.57.09:356][159]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2022.05.01-17.57.09:356][159]LogDirectoryWatcher: A directory notification for 'F:/EpicGames/UE_4.14/FeaturePacks/' was aborted.
+[2022.05.01-17.57.09:360][159]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2022.05.01-17.57.09:360][159]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2022.05.01-17.57.09:360][159]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2022.05.01-17.57.09:360][159]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Collections/' was aborted.
+[2022.05.01-17.57.09:360][159]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Developers/jerye/Collections/' was aborted.
+[2022.05.01-17.57.09:360][159]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Collections/' was aborted.
+[2022.05.01-17.57.09:360][159]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2022.05.01-17.57.09:360][159]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2022.05.01-17.57.09:360][159]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module Media (215)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2022.05.01-17.57.09:361][159]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2022.05.01-17.57.10:132][159]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2022.05.01-17.57.10:133][159]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2022.05.01-17.57.10:133][159]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2022.05.01-17.57.10:133][159]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2022.05.01-17.57.10:133][159]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2022.05.01-17.57.10:133][159]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2022.05.01-17.57.10:133][159]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2022.05.01-17.57.10:133][159]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2022.05.01-17.57.10:133][159]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2022.05.01-17.57.10:166][159]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2022.05.01-17.57.10:166][159]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2022.05.01-17.57.10:166][159]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2022.05.01-17.57.10:166][159]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2022.05.01-17.57.10:166][159]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2022.05.01-17.57.10:166][159]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2022.05.01-17.57.10:166][159]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2022.05.01-17.57.10:166][159]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2022.05.01-17.57.10:166][159]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2022.05.01-17.57.10:174][159]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2022.05.01-17.57.10:174][159]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2022.05.01-17.57.10:175][159]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2022.05.01-17.57.10:175][159]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2022.05.01-17.57.10:175][159]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2022.05.01-17.57.10:175][159]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2022.05.01-17.57.10:175][159]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2022.05.01-17.57.10:175][159]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2022.05.01-17.57.10:175][159]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2022.05.01-17.57.10:175][159]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2022.05.01-17.57.10:176][159]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2022.05.01-17.57.10:176][159]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2022.05.01-17.57.10:176][159]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2022.05.01-17.57.10:176][159]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2022.05.01-17.57.10:176][159]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2022.05.01-17.57.10:176][159]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2022.05.01-17.57.10:176][159]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2022.05.01-17.57.10:176][159]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2022.05.01-17.57.10:200][159]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2022.05.01-17.57.10:201][159]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2022.05.01-17.57.10:201][159]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2022.05.01-17.57.10:201][159]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2022.05.01-17.57.10:201][159]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2022.05.01-17.57.10:201][159]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2022.05.01-17.57.10:201][159]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2022.05.01-17.57.10:202][159]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2022.05.01-17.57.10:202][159]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2022.05.01-17.57.10:202][159]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2022.05.01-17.57.10:202][159]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2022.05.01-17.57.10:202][159]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2022.05.01-17.57.10:202][159]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2022.05.01-17.57.10:202][159]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2022.05.01-17.57.10:202][159]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2022.05.01-17.57.10:202][159]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2022.05.01-17.57.10:206][159]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2022.05.01-17.57.10:207][159]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2022.05.01-17.57.10:207][159]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2022.05.01-17.57.10:308][159]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2022.05.01-17.57.10:408][159]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2022.05.01-17.57.10:408][159]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2022.05.01-17.57.10:408][159]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2022.05.01-17.57.10:408][159]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2022.05.01-17.57.10:409][159]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2022.05.01-17.57.10:411][159]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2022.05.01-17.57.10:411][159]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2022.05.01-17.57.10:411][159]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2022.05.01-17.57.10:411][159]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2022.05.01-17.57.10:411][159]LogModuleManager: Shutting down and abandoning module Core (75)
+[2022.05.01-17.57.10:411][159]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2022.05.01-17.57.10:411][159]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2022.05.01-17.57.10:411][159]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/' was aborted.
+[2022.05.01-17.57.10:412][159]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2022.05.01-17.57.10:413][159]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2022.05.01-17.57.10:613][159]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2022.05.01-17.57.10:613][159]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2022.05.01-17.57.10:613][159]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2022.05.01-17.57.10:613][159]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2022.05.01-17.57.10:613][159]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2022.05.01-17.57.10:613][159]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2022.05.01-17.57.10:613][159]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2022.05.01-17.57.10:613][159]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2022.05.01-17.57.10:687][159]LogDerivedDataCache: Shutdown
+[2022.05.01-17.57.10:687][159]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2022.05.01-17.57.10:687][159]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2022.05.01-17.57.10:687][159]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2022.05.01-17.57.10:687][159]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2022.05.01-17.57.10:687][159]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2022.05.01-17.57.10:687][159]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2022.05.01-17.57.10:687][159]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2022.05.01-17.57.10:687][159]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2022.05.01-17.57.10:688][159]LogOnline:Display: Unloading online subsystem: NULL
+[2022.05.01-17.57.10:688][159]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2022.05.01-17.57.10:691][159]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2022.05.01-17.57.10:691][159]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2022.05.01-17.57.10:691][159]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2022.05.01-17.57.10:691][159]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2022.05.01-17.57.10:691][159]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2022.05.01-17.57.10:691][159]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2022.05.01-17.57.10:701][159]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2022.05.01-17.57.10:701][159]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2022.05.01-17.57.10:701][159]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2022.05.01-17.57.10:701][159]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2022.05.01-17.57.10:701][159]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2022.05.01-17.57.10:701][159]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2022.05.01-17.57.10:701][159]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2022.05.01-17.57.10:701][159]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2022.05.01-17.57.10:701][159]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2022.05.01-17.57.10:701][159]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2022.05.01-17.57.10:703][159]LogExit: Exiting.
+[2022.05.01-17.57.10:716][159]Log file closed, 05/01/22 13:57:10
