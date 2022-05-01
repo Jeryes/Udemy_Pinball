@@ -1,0 +1,738 @@
+﻿Log file open, 04/28/22 23:14:46
+LogInit:Display: Running engine for game: Pinball
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-660946426) SRandInit(-660946425).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.148279
+LogPluginManager: Loaded Plugin Paper2D, From F:/EpicGames/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From F:/EpicGames/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From F:/EpicGames/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From F:/EpicGames/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From F:/EpicGames/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From F:/EpicGames/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From F:/EpicGames/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From F:/EpicGames/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From F:/EpicGames/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From F:/EpicGames/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From F:/EpicGames/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From F:/EpicGames/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From F:/EpicGames/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From F:/EpicGames/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From F:/EpicGames/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From F:/EpicGames/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From F:/EpicGames/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From F:/EpicGames/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From F:/EpicGames/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From F:/EpicGames/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From F:/EpicGames/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From F:/EpicGames/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From F:/EpicGames/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From F:/EpicGames/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From F:/EpicGames/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From F:/EpicGames/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From F:/EpicGames/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From F:/EpicGames/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From F:/EpicGames/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From F:/EpicGames/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From F:/EpicGames/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From F:/EpicGames/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From F:/EpicGames/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From F:/EpicGames/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From F:/EpicGames/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From F:/EpicGames/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From F:/EpicGames/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From F:/EpicGames/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From F:/EpicGames/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From F:/EpicGames/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From F:/EpicGames/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From F:/EpicGames/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From F:/EpicGames/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From F:/EpicGames/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From F:/EpicGames/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From F:/EpicGames/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From F:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From F:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From F:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From F:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From F:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From F:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From F:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From F:/EpicGames/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From F:/EpicGames/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From F:/EpicGames/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From F:/EpicGames/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From F:/EpicGames/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From F:/EpicGames/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From F:/EpicGames/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From F:/EpicGames/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From F:/EpicGames/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: F:/EpicGames/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2022.04.29-03.14.47:219][  0]LogInit: Selected Device Profile: [Windows]
+[2022.04.29-03.14.47:219][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.04.29-03.14.47:239][  0]LogInit: Computer: DESKTOP-GK7AF5R
+[2022.04.29-03.14.47:239][  0]LogInit: User: jerye
+[2022.04.29-03.14.47:239][  0]LogInit: CPU Page size=65536, Cores=6
+[2022.04.29-03.14.47:239][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.04.29-03.14.47:239][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.04.29-03.14.47:239][  0]LogMemory: Platform Memory Stats for Windows
+[2022.04.29-03.14.47:239][  0]LogMemory: Process Physical Memory: 268.75 MB used, 268.75 MB peak
+[2022.04.29-03.14.47:239][  0]LogMemory: Process Virtual Memory: 269.20 MB used, 269.20 MB peak
+[2022.04.29-03.14.47:239][  0]LogMemory: Physical Memory: 6652.32 MB used,  9641.09 MB free, 16293.42 MB total
+[2022.04.29-03.14.47:239][  0]LogMemory: Virtual Memory: 4810.77 MB used,  9641.09 MB free, 134217728.00 MB total
+[2022.04.29-03.14.47:412][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2022.04.29-03.14.49:462][  0]LogD3D11RHI: D3D11 adapters:
+[2022.04.29-03.14.49:524][  0]LogD3D11RHI:    0. 'AMD Radeon RX 5700 XT' (Feature Level 11_0)
+[2022.04.29-03.14.49:524][  0]LogD3D11RHI:       8151/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2022.04.29-03.14.49:525][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.04.29-03.14.49:525][  0]LogD3D11RHI:       0/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.04.29-03.14.49:525][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.04.29-03.14.49:532][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.04.29-03.14.49:532][  0]LogD3D11RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
+[2022.04.29-03.14.49:532][  0]LogWindows: EnumDisplayDevices:
+[2022.04.29-03.14.49:532][  0]LogWindows:    0. 'AMD Radeon RX 5700 XT' (P:1 D:1)
+[2022.04.29-03.14.49:533][  0]LogWindows:    1. 'AMD Radeon RX 5700 XT' (P:0 D:1)
+[2022.04.29-03.14.49:533][  0]LogWindows:    2. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2022.04.29-03.14.49:533][  0]LogWindows:    3. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2022.04.29-03.14.49:533][  0]LogWindows:    4. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2022.04.29-03.14.49:533][  0]LogWindows:    5. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2022.04.29-03.14.49:533][  0]LogWindows:    6. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2022.04.29-03.14.49:533][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2022.04.29-03.14.49:533][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 5700 XT
+[2022.04.29-03.14.49:533][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.04.29-03.14.49:533][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.04.29-03.14.49:533][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2022.04.29-03.14.49:559][  0]LogD3D11RHI: Async texture creation enabled
+[2022.04.29-03.14.49:587][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2022.04.29-03.14.49:592][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Intermediate/Shaders/WorkingDirectory/18696/).
+[2022.04.29-03.14.49:592][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jerye/AppData/Local/Temp/UnrealShaderWorkingDir/5BEC56D84ED6C52714E8AFBFE370335C/'.
+[2022.04.29-03.14.49:592][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2022.04.29-03.14.51:658][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2022.04.29-03.14.51:695][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2022.04.29-03.14.51:731][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2022.04.29-03.14.51:767][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2022.04.29-03.14.51:807][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2022.04.29-03.14.51:843][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2022.04.29-03.14.51:879][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.04.29-03.14.51:915][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2022.04.29-03.14.51:943][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2022.04.29-03.14.51:982][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2022.04.29-03.14.52:018][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2022.04.29-03.14.52:053][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2022.04.29-03.14.52:088][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2022.04.29-03.14.52:124][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2022.04.29-03.14.52:160][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2022.04.29-03.14.52:231][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2022.04.29-03.14.52:231][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.04.29-03.14.52:254][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2022.04.29-03.14.52:341][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2022.04.29-03.14.52:363][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2022.04.29-03.14.52:399][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2022.04.29-03.14.52:435][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.04.29-03.14.52:470][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2022.04.29-03.14.52:509][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2022.04.29-03.14.52:509][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2022.04.29-03.14.53:025][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2022.04.29-03.14.53:247][  0]LogDerivedDataCache: Loaded boot cache 0.22s 50MB C:/Users/jerye/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2022.04.29-03.14.53:247][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jerye/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2022.04.29-03.14.53:247][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.04.29-03.14.53:247][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.04.29-03.14.53:247][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.04.29-03.14.53:247][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.04.29-03.14.53:269][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.04.29-03.14.53:282][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jerye/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.04.29-03.14.56:084][  0]LogInit: Selected Device Profile: [Windows]
+[2022.04.29-03.14.56:090][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2022.04.29-03.14.56:265][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.04.29-03.14.56:308][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2022.04.29-03.14.56:340][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2022.04.29-03.14.56:340][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2022.04.29-03.14.56:340][  0]LogMeshUtilities: No automatic mesh merging module available
+[2022.04.29-03.14.57:347][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: pinball, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1748929517
+[2022.04.29-03.14.57:404][  0]LogAssetRegistry: FAssetRegistry took 0.0226 seconds to start up
+[2022.04.29-03.14.57:690][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.274272 seconds
+[2022.04.29-03.14.57:694][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2022.04.29-03.14.57:694][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2022.04.29-03.14.57:694][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.04.29-03.14.57:723][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2022.04.29-03.14.58:234][  0]LogSlate: Using Freetype 2.6.0
+[2022.04.29-03.14.58:244][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.04.29-03.14.58:244][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.04.29-03.15.03:677][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.04.29-03.15.03:707][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.04.29-03.15.04:078][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2022.04.29-03.15.04:410][  0]SourceControl: Info Source control is disabled
+[2022.04.29-03.15.04:459][  0]SourceControl: Info Source control is disabled
+[2022.04.29-03.15.04:492][  0]SourceControl: Info Source control is disabled
+[2022.04.29-03.15.04:524][  0]SourceControl: Info Source control is disabled
+[2022.04.29-03.15.05:492][  0]LogEngine: Initializing Engine...
+[2022.04.29-03.15.05:494][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.04.29-03.15.05:764][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.04.29-03.15.05:790][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.29-03.15.05:803][  0]LogInit: FAudioDevice initialized.
+[2022.04.29-03.15.05:837][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/jerye/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2022.04.29-03.15.05:843][  0]LogInit: Texture streaming: Enabled
+[2022.04.29-03.15.05:955][  0]LogInit: Transaction tracking system initialized
+[2022.04.29-03.15.06:166][  0]BlueprintLog: New page: Editor Load
+[2022.04.29-03.15.06:719][  0]LocalizationService: Info Localization service is disabled
+[2022.04.29-03.15.07:158][  0]LogConsoleResponse:Display: 
+[2022.04.29-03.15.07:543][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.04.29-03.15.07:543][  0]LogCook:Display: Mobile HDR setting 1
+[2022.04.29-03.15.08:218][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/' took 0.01s
+[2022.04.29-03.15.08:260][  0]SourceControl: Info Source control is disabled
+[2022.04.29-03.15.08:260][  0]Cmd: MAP LOAD FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.04.29-03.15.08:261][  0]LightingResults: New page: Lighting Build
+[2022.04.29-03.15.08:290][  0]MapCheck: New page: Map Check
+[2022.04.29-03.15.08:290][  0]LightingResults: New page: Lighting Build
+[2022.04.29-03.15.10:482][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_755
+[2022.04.29-03.15.10:482][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_756
+[2022.04.29-03.15.10:482][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_757
+[2022.04.29-03.15.10:482][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_758
+[2022.04.29-03.15.10:482][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_759
+[2022.04.29-03.15.10:974][  0]LogAIModule: Creating AISystem for world MainLevel
+[2022.04.29-03.15.11:040][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.04.29-03.15.11:040][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.04.29-03.15.11:082][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.832ms to complete.
+[2022.04.29-03.15.11:082][  0]LogFileHelpers: Loading map 'MainLevel' took 2.822
+[2022.04.29-03.15.11:286][  0]LogCollectionManager: Loaded 0 collections in 0.027294 seconds
+[2022.04.29-03.15.11:355][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Collections/' took 0.01s
+[2022.04.29-03.15.11:355][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Developers/jerye/Collections/' took 0.01s
+[2022.04.29-03.15.11:355][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Collections/' took 0.01s
+[2022.04.29-03.15.11:355][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2022.04.29-03.15.11:366][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2190 classes and 428 folders.
+[2022.04.29-03.15.11:393][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.04.29-03.15.11:393][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.04.29-03.15.11:394][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
+[2022.04.29-03.15.11:429][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.04.29-03.15.11:752][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.04.29-03.15.11:784][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2022.04.29-03.15.11:833][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2022.04.29-03.15.11:845][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2022.04.29-03.15.11:899][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2022.04.29-03.15.11:899][  0]LogLoad: (Engine Initialization) Total time: 28.10 seconds
+[2022.04.29-03.15.11:899][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.29 seconds
+[2022.04.29-03.15.11:899][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2022.04.29-03.15.11:909][  0]LogOcInput: OculusInput pre-init called
+[2022.04.29-03.15.11:926][  0]LogAssetRegistry: Asset discovery search completed in 14.5440 seconds
+[2022.04.29-03.15.11:926][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2022.04.29-03.15.11:926][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000186 seconds (updated 0 objects)
+[2022.04.29-03.15.11:931][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.04.29-03.15.12:131][  0]LogRenderer: Reallocating scene render targets to support 1208x568 NumSamples 1 (Frame:2).
+[2022.04.29-03.35.17:608][399]LogTemp: Repeting last play command: Selected Viewport
+[2022.04.29-03.35.17:618][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-03.35.17:621][399]PIE: New page: PIE session: MainLevel (Apr 28, 2022, 7:35:17 PM)
+[2022.04.29-03.35.17:621][399]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.04.29-03.35.17:628][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006766s)
+[2022.04.29-03.35.17:629][399]LogAIModule: Creating AISystem for world MainLevel
+[2022.04.29-03.35.17:629][399]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2022.04.29-03.35.17:629][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.008044s)
+[2022.04.29-03.35.17:660][399]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.29-03.35.17:668][399]LogInit: FAudioDevice initialized.
+[2022.04.29-03.35.17:720][399]LogLoad: Game class is 'PinballGameMode_C'
+[2022.04.29-03.35.17:727][399]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.04.28-23.35.17
+[2022.04.29-03.35.17:731][399]LogWorld: Bringing up level for play took: 0.006354
+[2022.04.29-03.35.17:761][399]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2022.04.29-03.35.18:014][399]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.11
+[2022.04.29-03.35.18:030][399]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.04.29-03.35.24:727][131]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 111 classes and 0 folders.
+[2022.04.29-03.35.30:767][758]BlueprintLog: New page: Compile BP_Ball
+[2022.04.29-03.35.31:515][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2022.04.29-03.35.31:955][829]LogSavePackage: Save=44.03ms
+[2022.04.29-03.35.31:955][829]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/BP_Ball969EFFBF473A5D58E924D69CE1575E21.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/BP_Ball.uasset'
+[2022.04.29-03.35.31:976][829]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/BP_Ball.uasset
+[2022.04.29-03.36.30:493][632]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.04.29-03.36.30:570][634]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Pinball
+
+[2022.04.29-03.36.30:570][634]LogTemp:Display: CWD: F:\EpicGames\UE_4.14\Engine\Binaries\DotNet\IOS
+
+[2022.04.29-03.36.30:570][634]LogTemp:Display: Initial Dir: F:\EpicGames\UE_4.14
+
+[2022.04.29-03.36.30:570][634]LogTemp:Display: Env CWD: F:\EpicGames\UE_4.14\Engine\Binaries\DotNet\IOS
+
+[2022.04.29-03.36.30:573][634]LogTemp:Display: BranchPath = DESKTOP-GK7AF5R/F/EpicGames/UE_4.14/Engine/Binaries --- GameBranchPath = DESKTOP-GK7AF5R/F/EpicGames/UE_4.14/Engine/Binaries
+
+[2022.04.29-03.36.30:641][640]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\jerye\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2022.04.29-03.36.30:641][640]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2022.04.29-03.36.30:641][640]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2022.04.29-03.36.30:641][640]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2022.04.29-03.36.30:641][640]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2022.04.29-03.36.30:641][640]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2022.04.29-03.36.30:641][640]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2022.04.29-03.38.20:001][402]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.013
+[2022.04.29-03.38.20:235][402]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballPlayerController] ([1] browsable assets)...
+[2022.04.29-03.38.20:236][402]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballPlayerController]
+[2022.04.29-03.38.20:282][402]LogSavePackage: Save=39.89ms
+[2022.04.29-03.38.20:282][402]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController_Auto1A0E2EBB04748C5ECD468A9A11DDD095C.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto1.uasset'
+[2022.04.29-03.38.20:296][402]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto1.uasset
+[2022.04.29-03.38.20:296][402]LogFileHelpers: Auto-saving content packages took 0.293
+[2022.04.29-03.40.31:681][993]BlueprintLog: New page: Compile PinballPlayerController
+[2022.04.29-03.40.32:316][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2022.04.29-03.40.32:341][ 50]LogSavePackage: Save=20.07ms
+[2022.04.29-03.40.32:341][ 50]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController14DC318F4372D5D58DDD8082D1ACAAF1.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2022.04.29-03.40.32:343][ 50]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2022.04.29-03.44.44:794][187]BlueprintLog: New page: Compile PinballPlayerController
+[2022.04.29-03.44.45:465][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2022.04.29-03.44.45:530][250]LogSavePackage: Save=31.43ms
+[2022.04.29-03.44.45:530][250]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController02921A4D44EEC5CAD150C7B438488E5D.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2022.04.29-03.44.45:532][250]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2022.04.29-03.46.38:345][ 76]BlueprintLog: New page: Compile PinballPlayerController
+[2022.04.29-03.46.39:021][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2022.04.29-03.46.39:075][140]LogSavePackage: Save=49.20ms
+[2022.04.29-03.46.39:075][140]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerControllerF14E0059431629D219EB1BBE32761A53.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2022.04.29-03.46.39:077][140]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2022.04.29-03.52.31:744][700]BlueprintLog: New page: Collapse to Function
+[2022.04.29-03.54.38:315][699]BlueprintLog: New page: Compile PinballPlayerController
+[2022.04.29-03.54.38:974][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2022.04.29-03.54.39:230][759]LogSavePackage: Save=28.17ms
+[2022.04.29-03.54.39:230][759]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController5BC481DE498DD0EB50F80089327DFEDC.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2022.04.29-03.54.39:232][759]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2022.04.29-03.54.58:833][ 77]BlueprintLog: New page: Compile PinballPlayerController
+[2022.04.29-03.56.03:642][863]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.015
+[2022.04.29-03.56.03:644][863]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballPlayerController] ([1] browsable assets)...
+[2022.04.29-03.56.03:644][863]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballPlayerController]
+[2022.04.29-03.56.03:905][863]LogSavePackage: Save=255.95ms
+[2022.04.29-03.56.03:905][863]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController_Auto249860A944431658CB48987A67493E358.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto2.uasset'
+[2022.04.29-03.56.03:906][863]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto2.uasset
+[2022.04.29-03.56.03:906][863]LogFileHelpers: Auto-saving content packages took 0.263
+[2022.04.29-04.09.37:934][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2022.04.29-04.09.38:186][587]LogSavePackage: Save=246.09ms
+[2022.04.29-04.09.38:186][587]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController09D88D7E464AD332FCE144B9C125718F.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2022.04.29-04.09.38:187][587]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2022.04.29-04.10.13:902][123]BlueprintLog: New page: Compile PinballGameMode
+[2022.04.29-04.10.14:623][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2022.04.29-04.10.14:680][170]LogSavePackage: Save=46.42ms
+[2022.04.29-04.10.14:680][170]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballGameModeC1C8C54E49325AA9A8F49A82AFD8062C.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2022.04.29-04.10.14:683][170]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset
+[2022.04.29-04.10.18:220][589]BlueprintLog: New page: Compile PinballGameMode
+[2022.04.29-04.10.18:974][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2022.04.29-04.10.19:015][652]LogSavePackage: Save=36.56ms
+[2022.04.29-04.10.19:015][652]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballGameModeAB826F3F4DC6747BCDB4B8903E9FEC71.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2022.04.29-04.10.19:018][652]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset
+[2022.04.29-04.11.49:486][552]LogEditorTransaction: Undo Move Node
+[2022.04.29-04.11.50:483][663]LogEditorTransaction: Undo Create Reroute Node
+[2022.04.29-04.11.55:023][199]LogEditorTransaction: Undo Move Node
+[2022.04.29-04.11.56:104][321]LogEditorTransaction: Undo Create Reroute Node
+[2022.04.29-04.12.23:196][561]LogEditorTransaction: Undo Move Node
+[2022.04.29-04.12.23:634][604]LogEditorTransaction: Undo Create Reroute Node
+[2022.04.29-04.12.48:937][626]BlueprintLog: New page: Compile PinballGameMode
+[2022.04.29-04.12.49:749][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2022.04.29-04.12.49:791][697]LogSavePackage: Save=37.91ms
+[2022.04.29-04.12.49:791][697]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballGameMode67A395284EE5F63CE4651E944DCF3175.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2022.04.29-04.12.49:793][697]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset
+[2022.04.29-04.14.44:738][409]BlueprintLog: New page: Compile PinballPlayerController
+[2022.04.29-04.14.45:518][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2022.04.29-04.14.45:623][478]LogSavePackage: Save=99.85ms
+[2022.04.29-04.14.45:623][478]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController2149DD1040905BE16D14E7BD8D3BB142.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2022.04.29-04.14.45:626][478]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2022.04.29-04.15.20:206][114]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.017
+[2022.04.29-04.15.20:207][114]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballPlayerController] ([1] browsable assets)...
+[2022.04.29-04.15.20:207][114]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballPlayerController]
+[2022.04.29-04.15.20:239][114]LogSavePackage: Save=27.65ms
+[2022.04.29-04.15.20:239][114]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController_Auto3414C7D804F71DE9885EF109D275416C9.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto3.uasset'
+[2022.04.29-04.15.20:240][114]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto3.uasset
+[2022.04.29-04.15.20:240][114]LogFileHelpers: Auto-saving content packages took 0.034
+[2022.04.29-04.16.44:475][350]BlueprintLog: New page: Compile PinballPlayerController
+[2022.04.29-04.16.45:291][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2022.04.29-04.16.45:326][424]LogSavePackage: Save=30.42ms
+[2022.04.29-04.16.45:326][424]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerControllerA1A1D0F54CFCC5CED47DBA90DB3EB3DE.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2022.04.29-04.16.45:328][424]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2022.04.29-04.17.03:030][268]LogTemp: Repeting last play command: Selected Viewport
+[2022.04.29-04.17.03:046][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-04.17.03:046][268]PIE: New page: PIE session: MainLevel (Apr 28, 2022, 8:17:03 PM)
+[2022.04.29-04.17.03:046][268]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.04.29-04.17.03:083][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036957s)
+[2022.04.29-04.17.03:084][268]LogAIModule: Creating AISystem for world MainLevel
+[2022.04.29-04.17.03:084][268]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2022.04.29-04.17.03:084][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.037952s)
+[2022.04.29-04.17.03:112][268]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.29-04.17.03:120][268]LogInit: FAudioDevice initialized.
+[2022.04.29-04.17.03:151][268]LogLoad: Game class is 'PinballGameMode_C'
+[2022.04.29-04.17.03:154][268]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.04.29-00.17.03
+[2022.04.29-04.17.03:154][268]LogWorld: Bringing up level for play took: 0.001522
+[2022.04.29-04.17.03:158][268]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 1.033
+[2022.04.29-04.17.03:164][268]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.04.29-04.35.10:733][818]BlueprintLog: New page: Compile PinballPlayerController
+[2022.04.29-04.35.11:384][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2022.04.29-04.35.11:446][872]LogSavePackage: Save=31.02ms
+[2022.04.29-04.35.11:446][872]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController195FC8C6405400F8C4B2E4B3AC429F3B.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2022.04.29-04.35.11:448][872]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2022.04.29-04.36.18:463][  2]BlueprintLog: New page: Compile TiltShake
+[2022.04.29-04.36.19:668][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TiltShake" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/TiltShake.uasset" SILENT=true
+[2022.04.29-04.36.19:670][134]LogSavePackage: Save=1.75ms
+[2022.04.29-04.36.19:671][134]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/TiltShake44C9207F4E07A532BBEECFACCD6509A9.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/TiltShake.uasset'
+[2022.04.29-04.36.19:672][134]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/TiltShake.uasset
+[2022.04.29-04.36.25:246][794]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.04.29-04.37.30:479][698]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.018
+[2022.04.29-04.37.30:481][698]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballPlayerController] ([1] browsable assets)...
+[2022.04.29-04.37.30:481][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballPlayerController]
+[2022.04.29-04.37.30:516][698]LogSavePackage: Save=30.24ms
+[2022.04.29-04.37.30:516][698]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController_Auto41CD29A474ED47BC83AC678B6C35D7B96.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto4.uasset'
+[2022.04.29-04.37.30:517][698]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto4.uasset
+[2022.04.29-04.37.30:517][698]LogFileHelpers: Auto-saving content packages took 0.037
+[2022.04.29-04.47.31:368][408]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.019
+[2022.04.29-04.47.31:370][408]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballPlayerController] ([1] browsable assets)...
+[2022.04.29-04.47.31:370][408]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballPlayerController]
+[2022.04.29-04.47.31:407][408]LogSavePackage: Save=31.16ms
+[2022.04.29-04.47.31:407][408]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController_Auto53FCBC293401E1317A7BDA8A7473F4AAA.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto5.uasset'
+[2022.04.29-04.47.31:595][408]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto5.uasset
+[2022.04.29-04.47.31:595][408]LogFileHelpers: Auto-saving content packages took 0.225
+[2022.04.29-04.55.15:987][635]BlueprintLog: New page: Compile PinballPlayerController
+[2022.04.29-04.55.16:543][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2022.04.29-04.55.16:807][677]LogSavePackage: Save=257.59ms
+[2022.04.29-04.55.16:807][677]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController0CA3D2984C71FACA605BAB903B1D18A2.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2022.04.29-04.55.16:809][677]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2022.04.29-04.57.36:757][238]BlueprintLog: New page: Compile PinballPlayerController
+[2022.04.29-04.57.37:737][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2022.04.29-04.57.37:811][331]LogSavePackage: Save=69.70ms
+[2022.04.29-04.57.37:811][331]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerControllerE7FED0574213519C01CD859153861314.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2022.04.29-04.57.37:813][331]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2022.04.29-04.58.41:273][683]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.29-04.58.41:330][683]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.29-04.58.41:622][684]Cmd: QUIT_EDITOR
+[2022.04.29-04.58.42:027][684]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2022.04.29-04.58.42:047][684]LogExit: Preparing to exit.
+[2022.04.29-04.58.42:818][684]LogExit: Editor shut down
+[2022.04.29-04.58.42:818][684]LogExit: Transaction tracking system shut down
+[2022.04.29-04.58.42:944][684]LogObj: Freed 0b from 0 cluster array pools.
+[2022.04.29-04.58.42:944][684]LogExit: Object subsystem successfully closed.
+[2022.04.29-04.58.42:970][684]LogD3D11RHI: Shutdown
+[2022.04.29-04.58.42:970][684]LogD3D11RHI: CleanupD3DDevice
+[2022.04.29-04.58.43:119][684]LogD3D11RHI: ~FD3D11DynamicRHI
+[2022.04.29-04.58.43:134][684]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2022.04.29-04.58.43:134][684]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB176BF2F-437E-ACBD-2EFA-7EA4295387EF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=d23f48a54f9141244e0964a7bb2ac381%7Cf5476c74213e466690d5d7ff3df1aed1%7C051aa251-e9c6-4825-b070-34c45b984ebd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2022.04.29-04.58.43:134][684]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB176BF2F-437E-ACBD-2EFA-7EA4295387EF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=d23f48a54f9141244e0964a7bb2ac381%7Cf5476c74213e466690d5d7ff3df1aed1%7C051aa251-e9c6-4825-b070-34c45b984ebd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2022.04.29-04.58.43:156][684]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (245)
+[2022.04.29-04.58.43:156][684]LogModuleManager: Shutting down and abandoning module BlueprintGraph (244)
+[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (243)
+[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (242)
+[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2022.04.29-04.58.43:158][684]LogDirectoryWatcher: A directory notification for 'F:/EpicGames/UE_4.14/FeaturePacks/' was aborted.
+[2022.04.29-04.58.43:160][684]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2022.04.29-04.58.43:160][684]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2022.04.29-04.58.43:160][684]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2022.04.29-04.58.43:160][684]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Collections/' was aborted.
+[2022.04.29-04.58.43:160][684]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Developers/jerye/Collections/' was aborted.
+[2022.04.29-04.58.43:160][684]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Collections/' was aborted.
+[2022.04.29-04.58.43:160][684]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2022.04.29-04.58.43:162][684]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2022.04.29-04.58.43:162][684]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module Media (215)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2022.04.29-04.58.44:023][684]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2022.04.29-04.58.44:023][684]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2022.04.29-04.58.44:023][684]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2022.04.29-04.58.44:023][684]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2022.04.29-04.58.44:023][684]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2022.04.29-04.58.44:024][684]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2022.04.29-04.58.44:024][684]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2022.04.29-04.58.44:024][684]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2022.04.29-04.58.44:024][684]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2022.04.29-04.58.44:024][684]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2022.04.29-04.58.44:025][684]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2022.04.29-04.58.44:025][684]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2022.04.29-04.58.44:025][684]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2022.04.29-04.58.44:025][684]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2022.04.29-04.58.44:025][684]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2022.04.29-04.58.44:025][684]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2022.04.29-04.58.44:027][684]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2022.04.29-04.58.44:027][684]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2022.04.29-04.58.44:027][684]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2022.04.29-04.58.44:060][684]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2022.04.29-04.58.44:060][684]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2022.04.29-04.58.44:061][684]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2022.04.29-04.58.44:061][684]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2022.04.29-04.58.44:061][684]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2022.04.29-04.58.44:061][684]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2022.04.29-04.58.44:061][684]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2022.04.29-04.58.44:061][684]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2022.04.29-04.58.44:062][684]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2022.04.29-04.58.44:070][684]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2022.04.29-04.58.44:071][684]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2022.04.29-04.58.44:072][684]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2022.04.29-04.58.44:072][684]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2022.04.29-04.58.44:072][684]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2022.04.29-04.58.44:072][684]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2022.04.29-04.58.44:256][684]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2022.04.29-04.58.44:260][684]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2022.04.29-04.58.44:260][684]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2022.04.29-04.58.44:261][684]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2022.04.29-04.58.44:261][684]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2022.04.29-04.58.44:261][684]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2022.04.29-04.58.44:261][684]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2022.04.29-04.58.44:263][684]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2022.04.29-04.58.44:263][684]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2022.04.29-04.58.44:264][684]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2022.04.29-04.58.44:264][684]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2022.04.29-04.58.44:265][684]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2022.04.29-04.58.44:365][684]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2022.04.29-04.58.44:466][684]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2022.04.29-04.58.44:466][684]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2022.04.29-04.58.44:466][684]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2022.04.29-04.58.44:466][684]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2022.04.29-04.58.44:467][684]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2022.04.29-04.58.44:469][684]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2022.04.29-04.58.44:469][684]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2022.04.29-04.58.44:469][684]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2022.04.29-04.58.44:469][684]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2022.04.29-04.58.44:470][684]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2022.04.29-04.58.44:470][684]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2022.04.29-04.58.44:471][684]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2022.04.29-04.58.44:471][684]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2022.04.29-04.58.44:472][684]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2022.04.29-04.58.44:472][684]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2022.04.29-04.58.44:472][684]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2022.04.29-04.58.44:472][684]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2022.04.29-04.58.44:472][684]LogModuleManager: Shutting down and abandoning module Core (75)
+[2022.04.29-04.58.44:472][684]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2022.04.29-04.58.44:472][684]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2022.04.29-04.58.44:473][684]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/' was aborted.
+[2022.04.29-04.58.44:473][684]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2022.04.29-04.58.44:474][684]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2022.04.29-04.58.44:564][684]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2022.04.29-04.58.44:564][684]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2022.04.29-04.58.44:565][684]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2022.04.29-04.58.44:565][684]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2022.04.29-04.58.44:565][684]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2022.04.29-04.58.44:565][684]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2022.04.29-04.58.44:565][684]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2022.04.29-04.58.44:566][684]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2022.04.29-04.58.44:583][684]LogDerivedDataCache: Shutdown
+[2022.04.29-04.58.44:583][684]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2022.04.29-04.58.44:583][684]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2022.04.29-04.58.44:583][684]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2022.04.29-04.58.44:584][684]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2022.04.29-04.58.44:584][684]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2022.04.29-04.58.44:584][684]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2022.04.29-04.58.44:584][684]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2022.04.29-04.58.44:584][684]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2022.04.29-04.58.44:585][684]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2022.04.29-04.58.44:585][684]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2022.04.29-04.58.44:585][684]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2022.04.29-04.58.44:585][684]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2022.04.29-04.58.44:585][684]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2022.04.29-04.58.44:587][684]LogOnline:Display: Unloading online subsystem: NULL
+[2022.04.29-04.58.44:588][684]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2022.04.29-04.58.44:589][684]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2022.04.29-04.58.44:589][684]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2022.04.29-04.58.44:590][684]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2022.04.29-04.58.44:591][684]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2022.04.29-04.58.44:591][684]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2022.04.29-04.58.44:591][684]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2022.04.29-04.58.44:597][684]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2022.04.29-04.58.44:600][684]LogExit: Exiting.
+[2022.04.29-04.58.44:609][684]Log file closed, 04/29/22 00:58:44

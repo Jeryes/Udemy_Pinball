@@ -1,9 +1,9 @@
-﻿Log file open, 04/28/22 23:14:46
+﻿Log file open, 04/30/22 18:58:09
 LogInit:Display: Running engine for game: Pinball
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-660946426) SRandInit(-660946425).
+LogInit:Display: RandInit(1108713823) SRandInit(1108713823).
 LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.148279
+LogStats: Stats thread started at 0.159824
 LogPluginManager: Loaded Plugin Paper2D, From F:/EpicGames/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From F:/EpicGames/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From F:/EpicGames/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -143,596 +143,711 @@ LogInit: Base directory: F:/EpicGames/UE_4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2022.04.29-03.14.47:219][  0]LogInit: Selected Device Profile: [Windows]
-[2022.04.29-03.14.47:219][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.04.29-03.14.47:239][  0]LogInit: Computer: DESKTOP-GK7AF5R
-[2022.04.29-03.14.47:239][  0]LogInit: User: jerye
-[2022.04.29-03.14.47:239][  0]LogInit: CPU Page size=65536, Cores=6
-[2022.04.29-03.14.47:239][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2022.04.29-03.14.47:239][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2022.04.29-03.14.47:239][  0]LogMemory: Platform Memory Stats for Windows
-[2022.04.29-03.14.47:239][  0]LogMemory: Process Physical Memory: 268.75 MB used, 268.75 MB peak
-[2022.04.29-03.14.47:239][  0]LogMemory: Process Virtual Memory: 269.20 MB used, 269.20 MB peak
-[2022.04.29-03.14.47:239][  0]LogMemory: Physical Memory: 6652.32 MB used,  9641.09 MB free, 16293.42 MB total
-[2022.04.29-03.14.47:239][  0]LogMemory: Virtual Memory: 4810.77 MB used,  9641.09 MB free, 134217728.00 MB total
-[2022.04.29-03.14.47:412][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
-[2022.04.29-03.14.49:462][  0]LogD3D11RHI: D3D11 adapters:
-[2022.04.29-03.14.49:524][  0]LogD3D11RHI:    0. 'AMD Radeon RX 5700 XT' (Feature Level 11_0)
-[2022.04.29-03.14.49:524][  0]LogD3D11RHI:       8151/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2022.04.29-03.14.49:525][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2022.04.29-03.14.49:525][  0]LogD3D11RHI:       0/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2022.04.29-03.14.49:525][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2022.04.29-03.14.49:532][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2022.04.29-03.14.49:532][  0]LogD3D11RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
-[2022.04.29-03.14.49:532][  0]LogWindows: EnumDisplayDevices:
-[2022.04.29-03.14.49:532][  0]LogWindows:    0. 'AMD Radeon RX 5700 XT' (P:1 D:1)
-[2022.04.29-03.14.49:533][  0]LogWindows:    1. 'AMD Radeon RX 5700 XT' (P:0 D:1)
-[2022.04.29-03.14.49:533][  0]LogWindows:    2. 'AMD Radeon RX 5700 XT' (P:0 D:0)
-[2022.04.29-03.14.49:533][  0]LogWindows:    3. 'AMD Radeon RX 5700 XT' (P:0 D:0)
-[2022.04.29-03.14.49:533][  0]LogWindows:    4. 'AMD Radeon RX 5700 XT' (P:0 D:0)
-[2022.04.29-03.14.49:533][  0]LogWindows:    5. 'AMD Radeon RX 5700 XT' (P:0 D:0)
-[2022.04.29-03.14.49:533][  0]LogWindows:    6. 'AMD Radeon RX 5700 XT' (P:0 D:0)
-[2022.04.29-03.14.49:533][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2022.04.29-03.14.49:533][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 5700 XT
-[2022.04.29-03.14.49:533][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2022.04.29-03.14.49:533][  0]LogD3D11RHI:      Driver Date: Unknown
-[2022.04.29-03.14.49:533][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2022.04.29-03.14.49:559][  0]LogD3D11RHI: Async texture creation enabled
-[2022.04.29-03.14.49:587][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
-[2022.04.29-03.14.49:592][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Intermediate/Shaders/WorkingDirectory/18696/).
-[2022.04.29-03.14.49:592][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jerye/AppData/Local/Temp/UnrealShaderWorkingDir/5BEC56D84ED6C52714E8AFBFE370335C/'.
-[2022.04.29-03.14.49:592][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2022.04.29-03.14.51:658][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2022.04.29-03.14.51:695][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2022.04.29-03.14.51:731][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2022.04.29-03.14.51:767][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2022.04.29-03.14.51:807][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2022.04.29-03.14.51:843][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2022.04.29-03.14.51:879][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2022.04.29-03.14.51:915][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2022.04.29-03.14.51:943][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2022.04.29-03.14.51:982][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2022.04.29-03.14.52:018][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2022.04.29-03.14.52:053][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2022.04.29-03.14.52:088][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2022.04.29-03.14.52:124][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2022.04.29-03.14.52:160][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2022.04.29-03.14.52:231][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2022.04.29-03.14.52:231][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2022.04.29-03.14.52:254][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2022.04.29-03.14.52:341][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2022.04.29-03.14.52:363][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2022.04.29-03.14.52:399][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2022.04.29-03.14.52:435][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2022.04.29-03.14.52:470][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2022.04.29-03.14.52:509][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2022.04.29-03.14.52:509][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2022.04.29-03.14.53:025][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2022.04.29-03.14.53:247][  0]LogDerivedDataCache: Loaded boot cache 0.22s 50MB C:/Users/jerye/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2022.04.29-03.14.53:247][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jerye/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2022.04.29-03.14.53:247][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2022.04.29-03.14.53:247][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2022.04.29-03.14.53:247][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.04.29-03.14.53:247][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2022.04.29-03.14.53:269][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2022.04.29-03.14.53:282][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jerye/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2022.04.29-03.14.56:084][  0]LogInit: Selected Device Profile: [Windows]
-[2022.04.29-03.14.56:090][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2022.04.29-03.14.56:265][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2022.04.29-03.14.56:308][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2022.04.29-03.14.56:340][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2022.04.29-03.14.56:340][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2022.04.29-03.14.56:340][  0]LogMeshUtilities: No automatic mesh merging module available
-[2022.04.29-03.14.57:347][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: pinball, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1748929517
-[2022.04.29-03.14.57:404][  0]LogAssetRegistry: FAssetRegistry took 0.0226 seconds to start up
-[2022.04.29-03.14.57:690][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.274272 seconds
-[2022.04.29-03.14.57:694][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2022.04.29-03.14.57:694][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2022.04.29-03.14.57:694][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.04.29-03.14.57:723][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2022.04.29-03.14.58:234][  0]LogSlate: Using Freetype 2.6.0
-[2022.04.29-03.14.58:244][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.04.29-03.14.58:244][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.04.29-03.15.03:677][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2022.04.29-03.15.03:707][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2022.04.29-03.15.04:078][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2022.04.29-03.15.04:410][  0]SourceControl: Info Source control is disabled
-[2022.04.29-03.15.04:459][  0]SourceControl: Info Source control is disabled
-[2022.04.29-03.15.04:492][  0]SourceControl: Info Source control is disabled
-[2022.04.29-03.15.04:524][  0]SourceControl: Info Source control is disabled
-[2022.04.29-03.15.05:492][  0]LogEngine: Initializing Engine...
-[2022.04.29-03.15.05:494][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.04.29-03.15.05:764][  0]LogAIModule: Creating AISystem for world Untitled
-[2022.04.29-03.15.05:790][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.04.29-03.15.05:803][  0]LogInit: FAudioDevice initialized.
-[2022.04.29-03.15.05:837][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/jerye/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2022.04.29-03.15.05:843][  0]LogInit: Texture streaming: Enabled
-[2022.04.29-03.15.05:955][  0]LogInit: Transaction tracking system initialized
-[2022.04.29-03.15.06:166][  0]BlueprintLog: New page: Editor Load
-[2022.04.29-03.15.06:719][  0]LocalizationService: Info Localization service is disabled
-[2022.04.29-03.15.07:158][  0]LogConsoleResponse:Display: 
-[2022.04.29-03.15.07:543][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2022.04.29-03.15.07:543][  0]LogCook:Display: Mobile HDR setting 1
-[2022.04.29-03.15.08:218][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/' took 0.01s
-[2022.04.29-03.15.08:260][  0]SourceControl: Info Source control is disabled
-[2022.04.29-03.15.08:260][  0]Cmd: MAP LOAD FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.04.29-03.15.08:261][  0]LightingResults: New page: Lighting Build
-[2022.04.29-03.15.08:290][  0]MapCheck: New page: Map Check
-[2022.04.29-03.15.08:290][  0]LightingResults: New page: Lighting Build
-[2022.04.29-03.15.10:482][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_755
-[2022.04.29-03.15.10:482][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_756
-[2022.04.29-03.15.10:482][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_757
-[2022.04.29-03.15.10:482][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_758
-[2022.04.29-03.15.10:482][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_759
-[2022.04.29-03.15.10:974][  0]LogAIModule: Creating AISystem for world MainLevel
-[2022.04.29-03.15.11:040][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.04.29-03.15.11:040][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.04.29-03.15.11:082][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.832ms to complete.
-[2022.04.29-03.15.11:082][  0]LogFileHelpers: Loading map 'MainLevel' took 2.822
-[2022.04.29-03.15.11:286][  0]LogCollectionManager: Loaded 0 collections in 0.027294 seconds
-[2022.04.29-03.15.11:355][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Collections/' took 0.01s
-[2022.04.29-03.15.11:355][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Developers/jerye/Collections/' took 0.01s
-[2022.04.29-03.15.11:355][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Collections/' took 0.01s
-[2022.04.29-03.15.11:355][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2022.04.29-03.15.11:366][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2190 classes and 428 folders.
-[2022.04.29-03.15.11:393][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2022.04.29-03.15.11:393][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2022.04.29-03.15.11:394][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
-[2022.04.29-03.15.11:429][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2022.04.29-03.15.11:752][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2022.04.29-03.15.11:784][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2022.04.29-03.15.11:833][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2022.04.29-03.15.11:845][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2022.04.29-03.15.11:899][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2022.04.29-03.15.11:899][  0]LogLoad: (Engine Initialization) Total time: 28.10 seconds
-[2022.04.29-03.15.11:899][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.29 seconds
-[2022.04.29-03.15.11:899][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2022.04.29-03.15.11:909][  0]LogOcInput: OculusInput pre-init called
-[2022.04.29-03.15.11:926][  0]LogAssetRegistry: Asset discovery search completed in 14.5440 seconds
-[2022.04.29-03.15.11:926][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2022.04.29-03.15.11:926][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000186 seconds (updated 0 objects)
-[2022.04.29-03.15.11:931][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2022.04.29-03.15.12:131][  0]LogRenderer: Reallocating scene render targets to support 1208x568 NumSamples 1 (Frame:2).
-[2022.04.29-03.35.17:608][399]LogTemp: Repeting last play command: Selected Viewport
-[2022.04.29-03.35.17:618][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.04.29-03.35.17:621][399]PIE: New page: PIE session: MainLevel (Apr 28, 2022, 7:35:17 PM)
-[2022.04.29-03.35.17:621][399]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
-[2022.04.29-03.35.17:628][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006766s)
-[2022.04.29-03.35.17:629][399]LogAIModule: Creating AISystem for world MainLevel
-[2022.04.29-03.35.17:629][399]LogPlayLevel: PIE: World Init took: (0.000854s)
-[2022.04.29-03.35.17:629][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.008044s)
-[2022.04.29-03.35.17:660][399]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.04.29-03.35.17:668][399]LogInit: FAudioDevice initialized.
-[2022.04.29-03.35.17:720][399]LogLoad: Game class is 'PinballGameMode_C'
-[2022.04.29-03.35.17:727][399]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.04.28-23.35.17
-[2022.04.29-03.35.17:731][399]LogWorld: Bringing up level for play took: 0.006354
-[2022.04.29-03.35.17:761][399]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2022.04.29-03.35.18:014][399]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.11
-[2022.04.29-03.35.18:030][399]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
-[2022.04.29-03.35.24:727][131]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 111 classes and 0 folders.
-[2022.04.29-03.35.30:767][758]BlueprintLog: New page: Compile BP_Ball
-[2022.04.29-03.35.31:515][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/BP_Ball.uasset" SILENT=true
-[2022.04.29-03.35.31:955][829]LogSavePackage: Save=44.03ms
-[2022.04.29-03.35.31:955][829]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/BP_Ball969EFFBF473A5D58E924D69CE1575E21.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/BP_Ball.uasset'
-[2022.04.29-03.35.31:976][829]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/BP_Ball.uasset
-[2022.04.29-03.36.30:493][632]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2022.04.29-03.36.30:570][634]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Pinball
-
-[2022.04.29-03.36.30:570][634]LogTemp:Display: CWD: F:\EpicGames\UE_4.14\Engine\Binaries\DotNet\IOS
-
-[2022.04.29-03.36.30:570][634]LogTemp:Display: Initial Dir: F:\EpicGames\UE_4.14
-
-[2022.04.29-03.36.30:570][634]LogTemp:Display: Env CWD: F:\EpicGames\UE_4.14\Engine\Binaries\DotNet\IOS
-
-[2022.04.29-03.36.30:573][634]LogTemp:Display: BranchPath = DESKTOP-GK7AF5R/F/EpicGames/UE_4.14/Engine/Binaries --- GameBranchPath = DESKTOP-GK7AF5R/F/EpicGames/UE_4.14/Engine/Binaries
-
-[2022.04.29-03.36.30:641][640]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\jerye\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
-
-[2022.04.29-03.36.30:641][640]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-
-[2022.04.29-03.36.30:641][640]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
-
-[2022.04.29-03.36.30:641][640]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
-
-[2022.04.29-03.36.30:641][640]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
-
-[2022.04.29-03.36.30:641][640]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
-
-[2022.04.29-03.36.30:641][640]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
-
-[2022.04.29-03.38.20:001][402]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.013
-[2022.04.29-03.38.20:235][402]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballPlayerController] ([1] browsable assets)...
-[2022.04.29-03.38.20:236][402]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballPlayerController]
-[2022.04.29-03.38.20:282][402]LogSavePackage: Save=39.89ms
-[2022.04.29-03.38.20:282][402]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController_Auto1A0E2EBB04748C5ECD468A9A11DDD095C.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto1.uasset'
-[2022.04.29-03.38.20:296][402]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto1.uasset
-[2022.04.29-03.38.20:296][402]LogFileHelpers: Auto-saving content packages took 0.293
-[2022.04.29-03.40.31:681][993]BlueprintLog: New page: Compile PinballPlayerController
-[2022.04.29-03.40.32:316][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
-[2022.04.29-03.40.32:341][ 50]LogSavePackage: Save=20.07ms
-[2022.04.29-03.40.32:341][ 50]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController14DC318F4372D5D58DDD8082D1ACAAF1.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
-[2022.04.29-03.40.32:343][ 50]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
-[2022.04.29-03.44.44:794][187]BlueprintLog: New page: Compile PinballPlayerController
-[2022.04.29-03.44.45:465][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
-[2022.04.29-03.44.45:530][250]LogSavePackage: Save=31.43ms
-[2022.04.29-03.44.45:530][250]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController02921A4D44EEC5CAD150C7B438488E5D.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
-[2022.04.29-03.44.45:532][250]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
-[2022.04.29-03.46.38:345][ 76]BlueprintLog: New page: Compile PinballPlayerController
-[2022.04.29-03.46.39:021][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
-[2022.04.29-03.46.39:075][140]LogSavePackage: Save=49.20ms
-[2022.04.29-03.46.39:075][140]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerControllerF14E0059431629D219EB1BBE32761A53.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
-[2022.04.29-03.46.39:077][140]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
-[2022.04.29-03.52.31:744][700]BlueprintLog: New page: Collapse to Function
-[2022.04.29-03.54.38:315][699]BlueprintLog: New page: Compile PinballPlayerController
-[2022.04.29-03.54.38:974][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
-[2022.04.29-03.54.39:230][759]LogSavePackage: Save=28.17ms
-[2022.04.29-03.54.39:230][759]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController5BC481DE498DD0EB50F80089327DFEDC.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
-[2022.04.29-03.54.39:232][759]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
-[2022.04.29-03.54.58:833][ 77]BlueprintLog: New page: Compile PinballPlayerController
-[2022.04.29-03.56.03:642][863]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.015
-[2022.04.29-03.56.03:644][863]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballPlayerController] ([1] browsable assets)...
-[2022.04.29-03.56.03:644][863]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballPlayerController]
-[2022.04.29-03.56.03:905][863]LogSavePackage: Save=255.95ms
-[2022.04.29-03.56.03:905][863]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController_Auto249860A944431658CB48987A67493E358.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto2.uasset'
-[2022.04.29-03.56.03:906][863]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto2.uasset
-[2022.04.29-03.56.03:906][863]LogFileHelpers: Auto-saving content packages took 0.263
-[2022.04.29-04.09.37:934][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
-[2022.04.29-04.09.38:186][587]LogSavePackage: Save=246.09ms
-[2022.04.29-04.09.38:186][587]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController09D88D7E464AD332FCE144B9C125718F.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
-[2022.04.29-04.09.38:187][587]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
-[2022.04.29-04.10.13:902][123]BlueprintLog: New page: Compile PinballGameMode
-[2022.04.29-04.10.14:623][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
-[2022.04.29-04.10.14:680][170]LogSavePackage: Save=46.42ms
-[2022.04.29-04.10.14:680][170]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballGameModeC1C8C54E49325AA9A8F49A82AFD8062C.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset'
-[2022.04.29-04.10.14:683][170]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset
-[2022.04.29-04.10.18:220][589]BlueprintLog: New page: Compile PinballGameMode
-[2022.04.29-04.10.18:974][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
-[2022.04.29-04.10.19:015][652]LogSavePackage: Save=36.56ms
-[2022.04.29-04.10.19:015][652]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballGameModeAB826F3F4DC6747BCDB4B8903E9FEC71.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset'
-[2022.04.29-04.10.19:018][652]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset
-[2022.04.29-04.11.49:486][552]LogEditorTransaction: Undo Move Node
-[2022.04.29-04.11.50:483][663]LogEditorTransaction: Undo Create Reroute Node
-[2022.04.29-04.11.55:023][199]LogEditorTransaction: Undo Move Node
-[2022.04.29-04.11.56:104][321]LogEditorTransaction: Undo Create Reroute Node
-[2022.04.29-04.12.23:196][561]LogEditorTransaction: Undo Move Node
-[2022.04.29-04.12.23:634][604]LogEditorTransaction: Undo Create Reroute Node
-[2022.04.29-04.12.48:937][626]BlueprintLog: New page: Compile PinballGameMode
-[2022.04.29-04.12.49:749][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
-[2022.04.29-04.12.49:791][697]LogSavePackage: Save=37.91ms
-[2022.04.29-04.12.49:791][697]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballGameMode67A395284EE5F63CE4651E944DCF3175.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset'
-[2022.04.29-04.12.49:793][697]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset
-[2022.04.29-04.14.44:738][409]BlueprintLog: New page: Compile PinballPlayerController
-[2022.04.29-04.14.45:518][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
-[2022.04.29-04.14.45:623][478]LogSavePackage: Save=99.85ms
-[2022.04.29-04.14.45:623][478]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController2149DD1040905BE16D14E7BD8D3BB142.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
-[2022.04.29-04.14.45:626][478]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
-[2022.04.29-04.15.20:206][114]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.017
-[2022.04.29-04.15.20:207][114]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballPlayerController] ([1] browsable assets)...
-[2022.04.29-04.15.20:207][114]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballPlayerController]
-[2022.04.29-04.15.20:239][114]LogSavePackage: Save=27.65ms
-[2022.04.29-04.15.20:239][114]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController_Auto3414C7D804F71DE9885EF109D275416C9.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto3.uasset'
-[2022.04.29-04.15.20:240][114]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto3.uasset
-[2022.04.29-04.15.20:240][114]LogFileHelpers: Auto-saving content packages took 0.034
-[2022.04.29-04.16.44:475][350]BlueprintLog: New page: Compile PinballPlayerController
-[2022.04.29-04.16.45:291][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
-[2022.04.29-04.16.45:326][424]LogSavePackage: Save=30.42ms
-[2022.04.29-04.16.45:326][424]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerControllerA1A1D0F54CFCC5CED47DBA90DB3EB3DE.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
-[2022.04.29-04.16.45:328][424]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
-[2022.04.29-04.17.03:030][268]LogTemp: Repeting last play command: Selected Viewport
-[2022.04.29-04.17.03:046][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.04.29-04.17.03:046][268]PIE: New page: PIE session: MainLevel (Apr 28, 2022, 8:17:03 PM)
-[2022.04.29-04.17.03:046][268]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
-[2022.04.29-04.17.03:083][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036957s)
-[2022.04.29-04.17.03:084][268]LogAIModule: Creating AISystem for world MainLevel
-[2022.04.29-04.17.03:084][268]LogPlayLevel: PIE: World Init took: (0.000779s)
-[2022.04.29-04.17.03:084][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.037952s)
-[2022.04.29-04.17.03:112][268]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.04.29-04.17.03:120][268]LogInit: FAudioDevice initialized.
-[2022.04.29-04.17.03:151][268]LogLoad: Game class is 'PinballGameMode_C'
-[2022.04.29-04.17.03:154][268]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.04.29-00.17.03
-[2022.04.29-04.17.03:154][268]LogWorld: Bringing up level for play took: 0.001522
-[2022.04.29-04.17.03:158][268]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 1.033
-[2022.04.29-04.17.03:164][268]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
-[2022.04.29-04.35.10:733][818]BlueprintLog: New page: Compile PinballPlayerController
-[2022.04.29-04.35.11:384][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
-[2022.04.29-04.35.11:446][872]LogSavePackage: Save=31.02ms
-[2022.04.29-04.35.11:446][872]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController195FC8C6405400F8C4B2E4B3AC429F3B.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
-[2022.04.29-04.35.11:448][872]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
-[2022.04.29-04.36.18:463][  2]BlueprintLog: New page: Compile TiltShake
-[2022.04.29-04.36.19:668][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TiltShake" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/TiltShake.uasset" SILENT=true
-[2022.04.29-04.36.19:670][134]LogSavePackage: Save=1.75ms
-[2022.04.29-04.36.19:671][134]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/TiltShake44C9207F4E07A532BBEECFACCD6509A9.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/TiltShake.uasset'
-[2022.04.29-04.36.19:672][134]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/TiltShake.uasset
-[2022.04.29-04.36.25:246][794]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2022.04.29-04.37.30:479][698]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.018
-[2022.04.29-04.37.30:481][698]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballPlayerController] ([1] browsable assets)...
-[2022.04.29-04.37.30:481][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballPlayerController]
-[2022.04.29-04.37.30:516][698]LogSavePackage: Save=30.24ms
-[2022.04.29-04.37.30:516][698]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController_Auto41CD29A474ED47BC83AC678B6C35D7B96.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto4.uasset'
-[2022.04.29-04.37.30:517][698]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto4.uasset
-[2022.04.29-04.37.30:517][698]LogFileHelpers: Auto-saving content packages took 0.037
-[2022.04.29-04.47.31:368][408]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.019
-[2022.04.29-04.47.31:370][408]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballPlayerController] ([1] browsable assets)...
-[2022.04.29-04.47.31:370][408]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballPlayerController]
-[2022.04.29-04.47.31:407][408]LogSavePackage: Save=31.16ms
-[2022.04.29-04.47.31:407][408]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController_Auto53FCBC293401E1317A7BDA8A7473F4AAA.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto5.uasset'
-[2022.04.29-04.47.31:595][408]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto5.uasset
-[2022.04.29-04.47.31:595][408]LogFileHelpers: Auto-saving content packages took 0.225
-[2022.04.29-04.55.15:987][635]BlueprintLog: New page: Compile PinballPlayerController
-[2022.04.29-04.55.16:543][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
-[2022.04.29-04.55.16:807][677]LogSavePackage: Save=257.59ms
-[2022.04.29-04.55.16:807][677]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerController0CA3D2984C71FACA605BAB903B1D18A2.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
-[2022.04.29-04.55.16:809][677]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
-[2022.04.29-04.57.36:757][238]BlueprintLog: New page: Compile PinballPlayerController
-[2022.04.29-04.57.37:737][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
-[2022.04.29-04.57.37:811][331]LogSavePackage: Save=69.70ms
-[2022.04.29-04.57.37:811][331]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballPlayerControllerE7FED0574213519C01CD859153861314.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset'
-[2022.04.29-04.57.37:813][331]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballPlayerController.uasset
-[2022.04.29-04.58.41:273][683]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2022.04.29-04.58.41:330][683]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2022.04.29-04.58.41:622][684]Cmd: QUIT_EDITOR
-[2022.04.29-04.58.42:027][684]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2022.04.29-04.58.42:047][684]LogExit: Preparing to exit.
-[2022.04.29-04.58.42:818][684]LogExit: Editor shut down
-[2022.04.29-04.58.42:818][684]LogExit: Transaction tracking system shut down
-[2022.04.29-04.58.42:944][684]LogObj: Freed 0b from 0 cluster array pools.
-[2022.04.29-04.58.42:944][684]LogExit: Object subsystem successfully closed.
-[2022.04.29-04.58.42:970][684]LogD3D11RHI: Shutdown
-[2022.04.29-04.58.42:970][684]LogD3D11RHI: CleanupD3DDevice
-[2022.04.29-04.58.43:119][684]LogD3D11RHI: ~FD3D11DynamicRHI
-[2022.04.29-04.58.43:134][684]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
-[2022.04.29-04.58.43:134][684]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB176BF2F-437E-ACBD-2EFA-7EA4295387EF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=d23f48a54f9141244e0964a7bb2ac381%7Cf5476c74213e466690d5d7ff3df1aed1%7C051aa251-e9c6-4825-b070-34c45b984ebd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2022.04.29-04.58.43:134][684]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB176BF2F-437E-ACBD-2EFA-7EA4295387EF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=d23f48a54f9141244e0964a7bb2ac381%7Cf5476c74213e466690d5d7ff3df1aed1%7C051aa251-e9c6-4825-b070-34c45b984ebd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2022.04.29-04.58.43:156][684]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (245)
-[2022.04.29-04.58.43:156][684]LogModuleManager: Shutting down and abandoning module BlueprintGraph (244)
-[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (243)
-[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (242)
-[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
-[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
-[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
-[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
-[2022.04.29-04.58.43:157][684]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
-[2022.04.29-04.58.43:158][684]LogDirectoryWatcher: A directory notification for 'F:/EpicGames/UE_4.14/FeaturePacks/' was aborted.
-[2022.04.29-04.58.43:160][684]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
-[2022.04.29-04.58.43:160][684]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
-[2022.04.29-04.58.43:160][684]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
-[2022.04.29-04.58.43:160][684]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Collections/' was aborted.
-[2022.04.29-04.58.43:160][684]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Developers/jerye/Collections/' was aborted.
-[2022.04.29-04.58.43:160][684]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Collections/' was aborted.
-[2022.04.29-04.58.43:160][684]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
-[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
-[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
-[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
-[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
-[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
-[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
-[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module BspMode (226)
-[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
-[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
-[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
-[2022.04.29-04.58.43:161][684]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
-[2022.04.29-04.58.43:162][684]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
-[2022.04.29-04.58.43:162][684]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module Media (215)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module SessionServices (208)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
-[2022.04.29-04.58.43:163][684]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
-[2022.04.29-04.58.44:023][684]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
-[2022.04.29-04.58.44:023][684]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
-[2022.04.29-04.58.44:023][684]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
-[2022.04.29-04.58.44:023][684]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
-[2022.04.29-04.58.44:023][684]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
-[2022.04.29-04.58.44:024][684]LogModuleManager: Shutting down and abandoning module MergeActors (193)
-[2022.04.29-04.58.44:024][684]LogModuleManager: Shutting down and abandoning module SizeMap (192)
-[2022.04.29-04.58.44:024][684]LogModuleManager: Shutting down and abandoning module TreeMap (191)
-[2022.04.29-04.58.44:024][684]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
-[2022.04.29-04.58.44:024][684]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
-[2022.04.29-04.58.44:025][684]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
-[2022.04.29-04.58.44:025][684]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
-[2022.04.29-04.58.44:025][684]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
-[2022.04.29-04.58.44:025][684]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
-[2022.04.29-04.58.44:025][684]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
-[2022.04.29-04.58.44:025][684]LogModuleManager: Shutting down and abandoning module XmlParser (183)
-[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module Blutility (182)
-[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
-[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
-[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
-[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
-[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
-[2022.04.29-04.58.44:026][684]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
-[2022.04.29-04.58.44:027][684]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
-[2022.04.29-04.58.44:027][684]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
-[2022.04.29-04.58.44:027][684]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
-[2022.04.29-04.58.44:060][684]LogModuleManager: Shutting down and abandoning module AutomationController (172)
-[2022.04.29-04.58.44:060][684]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
-[2022.04.29-04.58.44:061][684]LogModuleManager: Shutting down and abandoning module Layers (170)
-[2022.04.29-04.58.44:061][684]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
-[2022.04.29-04.58.44:061][684]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
-[2022.04.29-04.58.44:061][684]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
-[2022.04.29-04.58.44:061][684]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
-[2022.04.29-04.58.44:061][684]LogModuleManager: Shutting down and abandoning module Persona (165)
-[2022.04.29-04.58.44:062][684]LogModuleManager: Shutting down and abandoning module Kismet (164)
-[2022.04.29-04.58.44:070][684]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
-[2022.04.29-04.58.44:071][684]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
-[2022.04.29-04.58.44:072][684]LogModuleManager: Shutting down and abandoning module Toolbox (161)
-[2022.04.29-04.58.44:072][684]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
-[2022.04.29-04.58.44:072][684]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
-[2022.04.29-04.58.44:072][684]LogModuleManager: Shutting down and abandoning module OutputLog (158)
-[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module GammaUI (157)
-[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module Documentation (156)
-[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module Niagara (155)
-[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
-[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
-[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module PortalServices (152)
-[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
-[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
-[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
-[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
-[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module AIModule (147)
-[2022.04.29-04.58.44:073][684]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
-[2022.04.29-04.58.44:256][684]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
-[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
-[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
-[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module SteamVR (142)
-[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
-[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
-[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
-[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module OculusInput (138)
-[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
-[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
-[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module CableComponent (135)
-[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
-[2022.04.29-04.58.44:257][684]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
-[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
-[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
-[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
-[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
-[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
-[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
-[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
-[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
-[2022.04.29-04.58.44:259][684]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
-[2022.04.29-04.58.44:260][684]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
-[2022.04.29-04.58.44:260][684]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
-[2022.04.29-04.58.44:261][684]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
-[2022.04.29-04.58.44:261][684]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
-[2022.04.29-04.58.44:261][684]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
-[2022.04.29-04.58.44:261][684]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
-[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
-[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module SourceControl (115)
-[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
-[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
-[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
-[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
-[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
-[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
-[2022.04.29-04.58.44:262][684]LogModuleManager: Shutting down and abandoning module HotReload (108)
-[2022.04.29-04.58.44:263][684]LogModuleManager: Shutting down and abandoning module MainFrame (107)
-[2022.04.29-04.58.44:263][684]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
-[2022.04.29-04.58.44:264][684]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
-[2022.04.29-04.58.44:264][684]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
-[2022.04.29-04.58.44:265][684]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
-[2022.04.29-04.58.44:365][684]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
-[2022.04.29-04.58.44:466][684]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
-[2022.04.29-04.58.44:466][684]LogModuleManager: Shutting down and abandoning module Paper2D (100)
-[2022.04.29-04.58.44:466][684]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
-[2022.04.29-04.58.44:466][684]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
-[2022.04.29-04.58.44:467][684]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
-[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
-[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
-[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module VREditor (94)
-[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
-[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
-[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2022.04.29-04.58.44:468][684]LogModuleManager: Shutting down and abandoning module Sequencer (89)
-[2022.04.29-04.58.44:469][684]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
-[2022.04.29-04.58.44:469][684]LogModuleManager: Shutting down and abandoning module MessageLog (87)
-[2022.04.29-04.58.44:469][684]LogModuleManager: Shutting down and abandoning module AssetTools (86)
-[2022.04.29-04.58.44:469][684]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
-[2022.04.29-04.58.44:470][684]LogModuleManager: Shutting down and abandoning module UMG (84)
-[2022.04.29-04.58.44:470][684]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
-[2022.04.29-04.58.44:471][684]LogModuleManager: Shutting down and abandoning module Slate (82)
-[2022.04.29-04.58.44:471][684]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
-[2022.04.29-04.58.44:472][684]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
-[2022.04.29-04.58.44:472][684]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
-[2022.04.29-04.58.44:472][684]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
-[2022.04.29-04.58.44:472][684]LogModuleManager: Shutting down and abandoning module Networking (76)
-[2022.04.29-04.58.44:472][684]LogModuleManager: Shutting down and abandoning module Core (75)
-[2022.04.29-04.58.44:472][684]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
-[2022.04.29-04.58.44:472][684]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2022.04.29-04.58.44:473][684]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/' was aborted.
-[2022.04.29-04.58.44:473][684]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2022.04.29-04.58.44:474][684]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
-[2022.04.29-04.58.44:564][684]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
-[2022.04.29-04.58.44:564][684]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
-[2022.04.29-04.58.44:565][684]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
-[2022.04.29-04.58.44:565][684]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
-[2022.04.29-04.58.44:565][684]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
-[2022.04.29-04.58.44:565][684]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
-[2022.04.29-04.58.44:565][684]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2022.04.29-04.58.44:566][684]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2022.04.29-04.58.44:583][684]LogDerivedDataCache: Shutdown
-[2022.04.29-04.58.44:583][684]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2022.04.29-04.58.44:583][684]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2022.04.29-04.58.44:583][684]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2022.04.29-04.58.44:584][684]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2022.04.29-04.58.44:584][684]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2022.04.29-04.58.44:584][684]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2022.04.29-04.58.44:584][684]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2022.04.29-04.58.44:584][684]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2022.04.29-04.58.44:585][684]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2022.04.29-04.58.44:585][684]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2022.04.29-04.58.44:585][684]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2022.04.29-04.58.44:585][684]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2022.04.29-04.58.44:585][684]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2022.04.29-04.58.44:586][684]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
-[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
-[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
-[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
-[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
-[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
-[2022.04.29-04.58.44:587][684]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2022.04.29-04.58.44:587][684]LogOnline:Display: Unloading online subsystem: NULL
-[2022.04.29-04.58.44:588][684]LogModuleManager: Shutting down and abandoning module SSL (17)
-[2022.04.29-04.58.44:589][684]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2022.04.29-04.58.44:589][684]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2022.04.29-04.58.44:590][684]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2022.04.29-04.58.44:591][684]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2022.04.29-04.58.44:591][684]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2022.04.29-04.58.44:591][684]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2022.04.29-04.58.44:596][684]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2022.04.29-04.58.44:597][684]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2022.04.29-04.58.44:600][684]LogExit: Exiting.
-[2022.04.29-04.58.44:609][684]Log file closed, 04/29/22 00:58:44
+[2022.04.30-22.58.09:928][  0]LogInit: Selected Device Profile: [Windows]
+[2022.04.30-22.58.09:928][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.04.30-22.58.09:986][  0]LogInit: Computer: DESKTOP-GK7AF5R
+[2022.04.30-22.58.09:986][  0]LogInit: User: jerye
+[2022.04.30-22.58.09:986][  0]LogInit: CPU Page size=65536, Cores=6
+[2022.04.30-22.58.09:986][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.04.30-22.58.09:986][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.04.30-22.58.09:986][  0]LogMemory: Platform Memory Stats for Windows
+[2022.04.30-22.58.09:986][  0]LogMemory: Process Physical Memory: 265.86 MB used, 265.86 MB peak
+[2022.04.30-22.58.09:986][  0]LogMemory: Process Virtual Memory: 268.94 MB used, 268.94 MB peak
+[2022.04.30-22.58.09:986][  0]LogMemory: Physical Memory: 8107.25 MB used,  8186.16 MB free, 16293.42 MB total
+[2022.04.30-22.58.09:986][  0]LogMemory: Virtual Memory: 4810.20 MB used,  8186.16 MB free, 134217728.00 MB total
+[2022.04.30-22.58.10:180][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2022.04.30-22.58.12:540][  0]LogD3D11RHI: D3D11 adapters:
+[2022.04.30-22.58.12:608][  0]LogD3D11RHI:    0. 'AMD Radeon RX 5700 XT' (Feature Level 11_0)
+[2022.04.30-22.58.12:608][  0]LogD3D11RHI:       8151/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2022.04.30-22.58.12:611][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.04.30-22.58.12:611][  0]LogD3D11RHI:       0/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.04.30-22.58.12:611][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.04.30-22.58.12:618][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.04.30-22.58.12:618][  0]LogD3D11RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
+[2022.04.30-22.58.12:618][  0]LogWindows: EnumDisplayDevices:
+[2022.04.30-22.58.12:618][  0]LogWindows:    0. 'AMD Radeon RX 5700 XT' (P:1 D:1)
+[2022.04.30-22.58.12:618][  0]LogWindows:    1. 'AMD Radeon RX 5700 XT' (P:0 D:1)
+[2022.04.30-22.58.12:618][  0]LogWindows:    2. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2022.04.30-22.58.12:618][  0]LogWindows:    3. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2022.04.30-22.58.12:618][  0]LogWindows:    4. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2022.04.30-22.58.12:618][  0]LogWindows:    5. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2022.04.30-22.58.12:619][  0]LogWindows:    6. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2022.04.30-22.58.12:619][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2022.04.30-22.58.12:619][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 5700 XT
+[2022.04.30-22.58.12:619][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.04.30-22.58.12:619][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.04.30-22.58.12:619][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2022.04.30-22.58.12:645][  0]LogD3D11RHI: Async texture creation enabled
+[2022.04.30-22.58.12:672][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2022.04.30-22.58.12:676][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Intermediate/Shaders/WorkingDirectory/2636/).
+[2022.04.30-22.58.12:676][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jerye/AppData/Local/Temp/UnrealShaderWorkingDir/816488CB4D28D31A7B627496482C4E1D/'.
+[2022.04.30-22.58.12:676][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2022.04.30-22.58.17:074][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2022.04.30-22.58.17:114][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2022.04.30-22.58.17:154][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2022.04.30-22.58.17:191][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2022.04.30-22.58.17:235][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2022.04.30-22.58.17:275][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2022.04.30-22.58.17:318][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.04.30-22.58.17:357][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2022.04.30-22.58.17:388][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2022.04.30-22.58.17:431][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2022.04.30-22.58.17:470][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2022.04.30-22.58.17:509][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2022.04.30-22.58.17:549][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2022.04.30-22.58.17:587][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2022.04.30-22.58.17:625][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2022.04.30-22.58.17:703][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2022.04.30-22.58.17:703][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.04.30-22.58.17:727][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2022.04.30-22.58.17:822][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2022.04.30-22.58.17:846][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2022.04.30-22.58.17:884][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2022.04.30-22.58.17:922][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.04.30-22.58.17:959][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2022.04.30-22.58.18:001][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2022.04.30-22.58.18:001][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2022.04.30-22.58.18:624][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2022.04.30-22.58.18:868][  0]LogDerivedDataCache: Loaded boot cache 0.24s 50MB C:/Users/jerye/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2022.04.30-22.58.18:868][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jerye/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2022.04.30-22.58.18:868][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.04.30-22.58.18:868][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.04.30-22.58.18:869][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.04.30-22.58.18:869][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.04.30-22.58.18:891][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.04.30-22.58.18:903][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jerye/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.04.30-22.58.21:994][  0]LogInit: Selected Device Profile: [Windows]
+[2022.04.30-22.58.22:001][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2022.04.30-22.58.22:187][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.04.30-22.58.22:235][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2022.04.30-22.58.22:271][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2022.04.30-22.58.22:271][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2022.04.30-22.58.22:271][  0]LogMeshUtilities: No automatic mesh merging module available
+[2022.04.30-22.58.23:406][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: pinball, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1748929517
+[2022.04.30-22.58.23:467][  0]LogAssetRegistry: FAssetRegistry took 0.0234 seconds to start up
+[2022.04.30-22.58.23:632][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.152502 seconds
+[2022.04.30-22.58.23:637][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2022.04.30-22.58.23:637][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2022.04.30-22.58.23:637][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.04.30-22.58.23:669][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2022.04.30-22.58.24:217][  0]LogSlate: Using Freetype 2.6.0
+[2022.04.30-22.58.24:228][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.04.30-22.58.24:228][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.04.30-22.58.30:647][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.04.30-22.58.30:683][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.04.30-22.58.31:100][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2022.04.30-22.58.31:461][  0]SourceControl: Info Source control is disabled
+[2022.04.30-22.58.31:537][  0]SourceControl: Info Source control is disabled
+[2022.04.30-22.58.31:575][  0]SourceControl: Info Source control is disabled
+[2022.04.30-22.58.31:609][  0]SourceControl: Info Source control is disabled
+[2022.04.30-22.58.32:654][  0]LogEngine: Initializing Engine...
+[2022.04.30-22.58.32:655][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.04.30-22.58.32:958][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.04.30-22.58.32:985][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.30-22.58.32:998][  0]LogInit: FAudioDevice initialized.
+[2022.04.30-22.58.33:025][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/jerye/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2022.04.30-22.58.33:035][  0]LogInit: Texture streaming: Enabled
+[2022.04.30-22.58.33:160][  0]LogInit: Transaction tracking system initialized
+[2022.04.30-22.58.33:390][  0]BlueprintLog: New page: Editor Load
+[2022.04.30-22.58.33:970][  0]LocalizationService: Info Localization service is disabled
+[2022.04.30-22.58.34:426][  0]LogConsoleResponse:Display: 
+[2022.04.30-22.58.34:841][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.04.30-22.58.34:841][  0]LogCook:Display: Mobile HDR setting 1
+[2022.04.30-22.58.34:962][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/' took 0.02s
+[2022.04.30-22.58.35:630][  0]SourceControl: Info Source control is disabled
+[2022.04.30-22.58.35:630][  0]Cmd: MAP LOAD FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.04.30-22.58.35:713][  0]LightingResults: New page: Lighting Build
+[2022.04.30-22.58.35:745][  0]MapCheck: New page: Map Check
+[2022.04.30-22.58.35:745][  0]LightingResults: New page: Lighting Build
+[2022.04.30-22.58.37:594][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_755
+[2022.04.30-22.58.37:595][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_756
+[2022.04.30-22.58.37:595][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_757
+[2022.04.30-22.58.37:595][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_758
+[2022.04.30-22.58.37:595][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainLevel, Actor: /Game/Maps/MainLevel.MainLevel:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_759
+[2022.04.30-22.58.38:218][  0]LogAIModule: Creating AISystem for world MainLevel
+[2022.04.30-22.58.38:291][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.04.30-22.58.38:292][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.04.30-22.58.38:337][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.437ms to complete.
+[2022.04.30-22.58.38:337][  0]LogFileHelpers: Loading map 'MainLevel' took 2.707
+[2022.04.30-22.58.38:530][  0]LogCollectionManager: Loaded 0 collections in 0.016128 seconds
+[2022.04.30-22.58.38:601][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Collections/' took 0.01s
+[2022.04.30-22.58.38:601][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Developers/jerye/Collections/' took 0.01s
+[2022.04.30-22.58.38:601][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Collections/' took 0.01s
+[2022.04.30-22.58.38:601][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2022.04.30-22.58.38:611][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2190 classes and 428 folders.
+[2022.04.30-22.58.38:639][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.04.30-22.58.38:639][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.04.30-22.58.38:640][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
+[2022.04.30-22.58.38:676][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.04.30-22.58.39:042][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.04.30-22.58.39:074][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2022.04.30-22.58.39:122][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2022.04.30-22.58.39:135][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2022.04.30-22.58.39:189][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2022.04.30-22.58.39:189][  0]LogLoad: (Engine Initialization) Total time: 32.42 seconds
+[2022.04.30-22.58.39:189][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.32 seconds
+[2022.04.30-22.58.39:189][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2022.04.30-22.58.39:198][  0]LogOcInput: OculusInput pre-init called
+[2022.04.30-22.58.39:215][  0]LogAssetRegistry: Asset discovery search completed in 15.7710 seconds
+[2022.04.30-22.58.39:215][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2022.04.30-22.58.39:215][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000175 seconds (updated 0 objects)
+[2022.04.30-22.58.39:220][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.04.30-22.58.39:438][  0]LogRenderer: Reallocating scene render targets to support 1208x568 NumSamples 1 (Frame:2).
+[2022.04.30-23.09.01:997][241]LogEditorActor: Deleted Actor: AtmosphericFog
+[2022.04.30-23.09.02:019][241]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2022.04.30-23.09.12:006][824]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.04.30-23.09.13:938][ 48]Cmd: DELETE
+[2022.04.30-23.09.13:938][ 48]Cmd: ACTOR DELETE
+[2022.04.30-23.09.13:939][ 48]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2022.04.30-23.09.13:948][ 48]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.04.30-23.09.52:285][777]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2022.04.30-23.10.29:792][513]LogTemp: Repeting last play command: Selected Viewport
+[2022.04.30-23.10.29:804][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.30-23.10.29:805][513]PIE: New page: PIE session: MainLevel (Apr 30, 2022, 3:10:29 PM)
+[2022.04.30-23.10.29:805][513]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.04.30-23.10.29:812][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007320s)
+[2022.04.30-23.10.29:813][513]LogAIModule: Creating AISystem for world MainLevel
+[2022.04.30-23.10.29:813][513]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2022.04.30-23.10.29:813][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.008683s)
+[2022.04.30-23.10.29:839][513]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.30-23.10.29:851][513]LogInit: FAudioDevice initialized.
+[2022.04.30-23.10.29:910][513]LogLoad: Game class is 'PinballGameMode_C'
+[2022.04.30-23.10.29:915][513]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.04.30-19.10.29
+[2022.04.30-23.10.29:917][513]LogWorld: Bringing up level for play took: 0.003588
+[2022.04.30-23.10.29:951][513]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2022.04.30-23.10.30:015][513]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.889
+[2022.04.30-23.10.30:024][513]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.04.30-23.11.07:146][139]LogTemp: Repeting last play command: Selected Viewport
+[2022.04.30-23.11.07:156][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.30-23.11.07:156][139]PIE: New page: PIE session: MainLevel (Apr 30, 2022, 3:11:07 PM)
+[2022.04.30-23.11.07:156][139]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.04.30-23.11.07:163][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006629s)
+[2022.04.30-23.11.07:163][139]LogAIModule: Creating AISystem for world MainLevel
+[2022.04.30-23.11.07:163][139]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2022.04.30-23.11.07:164][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.007778s)
+[2022.04.30-23.11.07:187][139]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.30-23.11.07:197][139]LogInit: FAudioDevice initialized.
+[2022.04.30-23.11.07:233][139]LogLoad: Game class is 'PinballGameMode_C'
+[2022.04.30-23.11.07:235][139]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.04.30-19.11.07
+[2022.04.30-23.11.07:236][139]LogWorld: Bringing up level for play took: 0.001689
+[2022.04.30-23.11.07:237][139]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.112
+[2022.04.30-23.11.07:243][139]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.04.30-23.11.09:710][416]LogEditorViewport: Clicking Background
+[2022.04.30-23.11.39:996][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.04.30-23.11.40:386][222]LogSavePackage: Save=63.79ms
+[2022.04.30-23.11.40:386][222]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainLevel_Auto1B21351F24696808A5C87B79BB8AB0D4C.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto1.umap'
+[2022.04.30-23.11.40:417][222]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto1.umap
+[2022.04.30-23.11.40:419][222]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.469
+[2022.04.30-23.11.40:419][222]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.469
+[2022.04.30-23.11.52:474][263]LogEditorViewport: Clicking Background
+[2022.04.30-23.12.11:488][289]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2022.04.30-23.13.00:901][789]LogTemp: Repeting last play command: Selected Viewport
+[2022.04.30-23.13.00:910][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.30-23.13.00:911][789]PIE: New page: PIE session: MainLevel (Apr 30, 2022, 3:13:00 PM)
+[2022.04.30-23.13.00:911][789]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.04.30-23.13.00:918][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007675s)
+[2022.04.30-23.13.00:919][789]LogAIModule: Creating AISystem for world MainLevel
+[2022.04.30-23.13.00:920][789]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2022.04.30-23.13.00:920][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.009066s)
+[2022.04.30-23.13.00:968][789]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.30-23.13.00:975][789]LogInit: FAudioDevice initialized.
+[2022.04.30-23.13.01:008][789]LogLoad: Game class is 'PinballGameMode_C'
+[2022.04.30-23.13.01:011][789]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.04.30-19.13.01
+[2022.04.30-23.13.01:012][789]LogWorld: Bringing up level for play took: 0.002303
+[2022.04.30-23.13.01:014][789]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.111
+[2022.04.30-23.13.01:018][789]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.04.30-23.14.26:868][952]LogTemp: Repeting last play command: Selected Viewport
+[2022.04.30-23.14.26:878][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.30-23.14.26:878][952]PIE: New page: PIE session: MainLevel (Apr 30, 2022, 3:14:26 PM)
+[2022.04.30-23.14.26:878][952]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.04.30-23.14.26:884][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005348s)
+[2022.04.30-23.14.26:884][952]LogAIModule: Creating AISystem for world MainLevel
+[2022.04.30-23.14.26:884][952]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2022.04.30-23.14.26:884][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.005978s)
+[2022.04.30-23.14.26:907][952]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.30-23.14.26:915][952]LogInit: FAudioDevice initialized.
+[2022.04.30-23.14.26:948][952]LogLoad: Game class is 'PinballGameMode_C'
+[2022.04.30-23.14.26:951][952]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.04.30-19.14.26
+[2022.04.30-23.14.26:952][952]LogWorld: Bringing up level for play took: 0.001976
+[2022.04.30-23.14.26:954][952]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.171
+[2022.04.30-23.14.26:957][952]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.04.30-23.14.29:192][201]LogEditorViewport: Clicking Background
+[2022.04.30-23.14.34:179][796]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2022.04.30-23.15.12:775][140]LogTemp: Repeting last play command: Selected Viewport
+[2022.04.30-23.15.12:784][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.30-23.15.12:784][140]PIE: New page: PIE session: MainLevel (Apr 30, 2022, 3:15:12 PM)
+[2022.04.30-23.15.12:784][140]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.04.30-23.15.12:790][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006074s)
+[2022.04.30-23.15.12:791][140]LogAIModule: Creating AISystem for world MainLevel
+[2022.04.30-23.15.12:791][140]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2022.04.30-23.15.12:791][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.007214s)
+[2022.04.30-23.15.12:839][140]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.30-23.15.12:848][140]LogInit: FAudioDevice initialized.
+[2022.04.30-23.15.12:877][140]LogLoad: Game class is 'PinballGameMode_C'
+[2022.04.30-23.15.12:879][140]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.04.30-19.15.12
+[2022.04.30-23.15.12:880][140]LogWorld: Bringing up level for play took: 0.001538
+[2022.04.30-23.15.12:882][140]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.244
+[2022.04.30-23.15.12:884][140]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.04.30-23.15.56:093][277]LogEditorViewport: Clicking Background
+[2022.04.30-23.17.37:312][177]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\jerye\Downloads\PinballAssets\PinballAssets\SM_TableFrame.FBX)
+[2022.04.30-23.17.37:324][177]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2022.04.30-23.17.37:324][177]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2022.04.30-23.17.37:324][177]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2022.04.30-23.17.37:324][177]LogFbx: ItemName: Model, ItemCount : 1
+[2022.04.30-23.17.37:324][177]LogFbx: ItemName: Geometry, ItemCount : 1
+[2022.04.30-23.17.37:324][177]LogFbx: ItemName: Material, ItemCount : 3
+[2022.04.30-23.17.37:324][177]LogFbx: ItemName: Texture, ItemCount : 2
+[2022.04.30-23.17.37:324][177]LogFbx: ItemName: Video, ItemCount : 2
+[2022.04.30-23.17.37:331][177]LogFbx: Loading FBX Scene from C:\Users\jerye\Downloads\PinballAssets\PinballAssets\SM_TableFrame.FBX
+[2022.04.30-23.17.37:339][177]LogFbx: FBX Scene Loaded Succesfully
+[2022.04.30-23.17.53:267][177]LogFbx: Loading FBX Scene from C:\Users\jerye\Downloads\PinballAssets\PinballAssets\SM_TableFrame.FBX
+[2022.04.30-23.17.53:273][177]LogFbx: FBX Scene Loaded Succesfully
+[2022.04.30-23.17.53:276][177]LogStaticMesh: Building static mesh SM_TableFrame...
+[2022.04.30-23.17.53:280][177]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/SM_TableFrame.SM_TableFrame
+[2022.04.30-23.17.53:284][177]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.04.30-23.18.00:141][886]LogActorFactory: Actor Factory created SM_TableFrame
+[2022.04.30-23.18.00:829][941]LogActorFactory: Actor Factory created SM_TableFrame
+[2022.04.30-23.18.09:528][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.19.11:498][729]LogEditorViewport: Clicking Background
+[2022.04.30-23.19.43:100][338]Cmd: TRANSACTION UNDO
+[2022.04.30-23.19.43:100][338]LogEditorTransaction: Undo Move Actors
+[2022.04.30-23.19.53:646][490]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.19.54:359][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.20.24:735][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.21.29:396][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.21.29:946][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.21.30:109][662]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.04.30-23.22.25:241][852]Cmd: TRANSACTION UNDO
+[2022.04.30-23.22.25:241][852]LogEditorTransaction: Undo Scale Components
+[2022.04.30-23.22.59:274][455]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.04.30-23.23.13:179][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.23.13:379][947]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.04.30-23.23.13:925][  7]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.04.30-23.23.23:086][944]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.04.30-23.23.23:654][  5]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.04.30-23.24.08:301][511]LogEditorViewport: Clicking Background
+[2022.04.30-23.24.13:152][ 58]LogEditorViewport: Clicking Background
+[2022.04.30-23.24.16:575][429]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2022.04.30-23.24.20:511][833]LogEditorViewport: Clicking Background
+[2022.04.30-23.24.21:304][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.25.06:923][421]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.26.05:548][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.04.30-23.26.05:815][719]LogSavePackage: Save=259.93ms
+[2022.04.30-23.26.05:815][719]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainLevel_Auto2871269BB4AB9F2AB78193F991209B8AD.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto2.umap'
+[2022.04.30-23.26.05:830][719]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto2.umap
+[2022.04.30-23.26.05:832][719]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.295
+[2022.04.30-23.26.05:832][719]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.295
+[2022.04.30-23.26.05:833][719]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_TableFrame] ([1] browsable assets)...
+[2022.04.30-23.26.05:845][719]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_TableFrame.SM_TableFrame]
+[2022.04.30-23.26.05:845][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_TableFrame]
+[2022.04.30-23.26.05:845][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_TableFrame" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/SM_TableFrame_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.04.30-23.26.05:857][719]LogSavePackage: Save=8.66ms
+[2022.04.30-23.26.05:857][719]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/SM_TableFrame_Auto263E84DE444F7D4DA566D81A86ACD06FB.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/SM_TableFrame_Auto2.uasset'
+[2022.04.30-23.26.05:871][719]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/SM_TableFrame_Auto2.uasset
+[2022.04.30-23.26.05:871][719]LogFileHelpers: Auto-saving content packages took 0.038
+[2022.04.30-23.26.35:003][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.26.45:679][617]LogEditorViewport: Clicking Background
+[2022.04.30-23.26.48:537][945]LogEditorViewport: Clicking Background
+[2022.04.30-23.26.49:321][ 37]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.26.57:311][942]LogEditorViewport: Clicking Background
+[2022.04.30-23.27.11:782][404]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2022.04.30-23.27.51:427][351]LogTemp: Repeting last play command: Selected Viewport
+[2022.04.30-23.27.51:437][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.30-23.27.51:437][351]PIE: New page: PIE session: MainLevel (Apr 30, 2022, 3:27:51 PM)
+[2022.04.30-23.27.51:437][351]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.04.30-23.27.51:443][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005594s)
+[2022.04.30-23.27.51:444][351]LogAIModule: Creating AISystem for world MainLevel
+[2022.04.30-23.27.51:444][351]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2022.04.30-23.27.51:444][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.006546s)
+[2022.04.30-23.27.51:467][351]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.30-23.27.51:477][351]LogInit: FAudioDevice initialized.
+[2022.04.30-23.27.51:512][351]LogLoad: Game class is 'PinballGameMode_C'
+[2022.04.30-23.27.51:515][351]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.04.30-19.27.51
+[2022.04.30-23.27.51:515][351]LogWorld: Bringing up level for play took: 0.001467
+[2022.04.30-23.27.51:517][351]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.391
+[2022.04.30-23.27.51:521][351]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.04.30-23.27.57:961][ 99]LogEditorViewport: Clicking Background
+[2022.04.30-23.28.09:859][410]LogEditorViewport: Clicking Background
+[2022.04.30-23.28.45:646][271]LogEditorViewport: Clicking Background
+[2022.04.30-23.28.59:496][ 58]LogEditorViewport: Clicking Background
+[2022.04.30-23.29.42:877][585]LogTexture:Display: Building textures: DefaultCubemap (AutoDXT)
+[2022.04.30-23.29.54:280][398]LogTexture:Display: Building textures: daylight (RGBA16F)
+[2022.04.30-23.30.13:201][385]LogEditorViewport: Clicking Background
+[2022.04.30-23.30.28:545][221]LogTemp: Repeting last play command: Selected Viewport
+[2022.04.30-23.30.28:554][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.30-23.30.28:554][221]PIE: New page: PIE session: MainLevel (Apr 30, 2022, 3:30:28 PM)
+[2022.04.30-23.30.28:554][221]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.04.30-23.30.28:562][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007116s)
+[2022.04.30-23.30.28:562][221]LogAIModule: Creating AISystem for world MainLevel
+[2022.04.30-23.30.28:562][221]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2022.04.30-23.30.28:562][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.007924s)
+[2022.04.30-23.30.28:584][221]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.04.30-23.30.28:593][221]LogInit: FAudioDevice initialized.
+[2022.04.30-23.30.28:621][221]LogLoad: Game class is 'PinballGameMode_C'
+[2022.04.30-23.30.28:623][221]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.04.30-19.30.28
+[2022.04.30-23.30.28:624][221]LogWorld: Bringing up level for play took: 0.001493
+[2022.04.30-23.30.28:626][221]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.499
+[2022.04.30-23.30.28:638][221]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.04.30-23.30.58:835][319]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2022.04.30-23.31.31:221][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.31.33:146][694]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2022.04.30-23.33.55:481][941]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\jerye\Downloads\PinballAssets\PinballAssets\Textures\T_Fibers.tga)
+[2022.04.30-23.33.55:507][941]LogTexture:Display: Building textures: T_Fibers (AutoDXT)
+[2022.04.30-23.34.23:919][ 15]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.34.24:017][ 15]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.34.24:026][ 15]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.34.25:272][ 69]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.34.25:272][ 69]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.34.25:272][ 69]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.34.33:728][ 49]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.34.33:736][ 49]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.34.33:737][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2022.04.30-23.34.34:285][103]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.34.34:286][103]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.34.34:286][103]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.34.42:728][111]LogEditorTransaction: Undo Edit Desc
+[2022.04.30-23.34.42:730][111]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.34.42:738][111]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.34.42:769][111]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2022.04.30-23.34.43:301][143]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.34.43:301][143]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.34.43:301][143]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.34.44:162][245]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.34.44:170][245]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.34.44:654][294]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.34.44:654][294]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.34.44:654][294]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.34.45:311][372]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.34.45:318][372]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.34.45:319][372]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2022.04.30-23.34.45:918][426]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.34.45:918][426]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.34.45:918][426]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.34.53:009][ 37]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.34.53:017][ 37]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.34.53:048][ 37]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2022.04.30-23.34.53:444][ 80]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.34.53:444][ 80]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.34.53:444][ 80]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.35.00:615][937]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.35.00:623][937]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.35.00:650][937]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2022.04.30-23.35.01:069][982]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.35.01:069][982]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.35.01:069][982]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.35.06:882][165]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.35.06:889][165]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.35.06:920][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2022.04.30-23.35.07:442][211]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.35.07:442][211]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.35.07:442][211]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.35.10:489][571]LogMaterialEditor: Saving and Compiling material M_TableTop
+[2022.04.30-23.35.10:821][571]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.35.10:839][571]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.35.10:865][571]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.35.10:886][571]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.35.10:902][571]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.35.12:197][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_TableTop" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_TableTop.uasset" SILENT=true
+[2022.04.30-23.35.12:209][571]LogSavePackage: Save=11.17ms
+[2022.04.30-23.35.12:209][571]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/M_TableTop30E1A11F487C4FBBE946AA8F5FF79144.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_TableTop.uasset'
+[2022.04.30-23.35.12:211][571]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_TableTop.uasset
+[2022.04.30-23.35.12:219][571]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2022.04.30-23.35.12:219][571]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.35.12:219][571]MaterialEditorStats: Info Texture samplers: 3/16
+[2022.04.30-23.35.40:825][304]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.35.40:834][304]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.35.40:834][304]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.30-23.35.41:802][403]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.35.41:802][403]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.35.41:802][403]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.36.11:060][333]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.36.11:068][333]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.36.11:096][333]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.30-23.36.11:958][427]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.36.11:958][427]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.36.11:958][427]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.36.23:950][388]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.36.23:958][388]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.36.24:454][437]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.36.24:454][437]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.36.24:454][437]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.36.33:605][503]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.36.33:613][503]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.36.33:644][503]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2022.04.30-23.36.34:154][554]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.36.34:154][554]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.36.34:154][554]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.36.39:561][192]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.36.39:568][192]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.36.39:596][192]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.30-23.36.40:067][240]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.36.40:067][240]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2022.04.30-23.36.40:067][240]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.36.42:732][554]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.36.42:739][554]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.36.43:271][602]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.36.43:271][602]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.36.43:271][602]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.37.05:364][965]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.37.05:372][965]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.37.06:251][ 60]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.37.06:251][ 60]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.37.06:251][ 60]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.37.12:960][854]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.37.12:968][854]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.37.12:994][854]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2022.04.30-23.37.13:447][897]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.37.13:447][897]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.37.13:447][897]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.37.14:527][ 24]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.37.14:534][ 24]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.37.14:565][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.30-23.37.15:062][ 69]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.37.15:062][ 69]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.37.15:062][ 69]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.37.17:275][332]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.37.17:283][332]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.37.17:736][376]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.37.17:736][376]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.37.17:736][376]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.37.43:347][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.04.30-23.37.43:432][863]LogSavePackage: Save=55.08ms
+[2022.04.30-23.37.43:432][863]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainLevel_Auto360B7A89B4E6A1B62D3BA37A29E3D367E.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto3.umap'
+[2022.04.30-23.37.43:437][863]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto3.umap
+[2022.04.30-23.37.43:438][863]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.099
+[2022.04.30-23.37.43:438][863]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.099
+[2022.04.30-23.37.43:439][863]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/T_Fibers] ([1] browsable assets)...
+[2022.04.30-23.37.43:446][863]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/T_Fibers.T_Fibers]
+[2022.04.30-23.37.43:446][863]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/T_Fibers]
+[2022.04.30-23.37.43:446][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/T_Fibers" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/T_Fibers_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2022.04.30-23.37.43:456][863]LogSavePackage: Save=8.54ms
+[2022.04.30-23.37.43:456][863]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/T_Fibers_Auto3F2067B7248E2EBF3B02138B102C52C03.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/T_Fibers_Auto3.uasset'
+[2022.04.30-23.37.43:457][863]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/T_Fibers_Auto3.uasset
+[2022.04.30-23.37.43:457][863]LogFileHelpers: Auto-saving content packages took 0.019
+[2022.04.30-23.37.45:351][ 87]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.37.45:359][ 87]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.37.46:331][190]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.37.46:331][190]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.37.46:331][190]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.37.47:813][362]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.37.47:821][362]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.37.48:317][408]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2022.04.30-23.37.48:317][408]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.37.48:317][408]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.04.30-23.37.52:200][869]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.37.52:208][869]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.37.52:696][922]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2022.04.30-23.37.52:696][922]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.37.52:696][922]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.37.56:273][350]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.37.56:282][350]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.37.56:738][400]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.37.56:738][400]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.37.56:738][400]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.38.05:589][447]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.38.05:598][447]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.38.05:604][447]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.38.05:612][447]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.38.06:117][491]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.38.06:117][491]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.38.06:117][491]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.38.12:506][250]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.38.12:516][250]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.38.12:987][300]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.38.12:987][300]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.38.12:987][300]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.38.22:965][485]LogMaterialEditor: Applying material M_TableTop
+[2022.04.30-23.38.23:273][485]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.38.23:288][485]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.38.23:309][485]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.38.23:330][485]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.38.23:346][485]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.38.23:746][524]LogMaterialEditor: Saving and Compiling material M_TableTop
+[2022.04.30-23.38.24:784][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_TableTop" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_TableTop.uasset" SILENT=true
+[2022.04.30-23.38.24:804][524]LogSavePackage: Save=11.31ms
+[2022.04.30-23.38.24:804][524]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/M_TableTopD7AFFE084FC1A0A1D1FA5CA70A8D07FD.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_TableTop.uasset'
+[2022.04.30-23.38.24:807][524]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_TableTop.uasset
+[2022.04.30-23.38.24:814][524]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2022.04.30-23.38.24:814][524]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.38.24:814][524]MaterialEditorStats: Info Texture samplers: 4/16
+[2022.04.30-23.38.41:887][296]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.38.41:895][296]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.38.41:923][296]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2022.04.30-23.38.41:928][296]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2022.04.30-23.38.42:484][336]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.38.42:484][336]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.38.42:484][336]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.38.45:534][687]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.38.45:542][687]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.38.45:568][687]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2022.04.30-23.38.46:071][728]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.38.46:071][728]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.38.46:071][728]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.38.55:312][812]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.38.55:320][812]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.38.55:334][812]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.38.55:344][812]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.38.56:016][870]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.38.56:016][870]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.38.56:016][870]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.39.01:103][467]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.39.01:113][467]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.39.01:140][467]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2022.04.30-23.39.01:646][515]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.39.01:647][515]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.39.01:647][515]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.39.07:136][144]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.39.07:144][144]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.39.07:674][192]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.39.07:674][192]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.39.07:674][192]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.39.14:516][642]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.39.14:522][642]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.39.14:547][642]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2022.04.30-23.39.14:994][679]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.39.14:994][679]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.39.14:994][679]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.39.16:893][903]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.39.16:901][903]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.39.16:930][903]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2022.04.30-23.39.17:372][946]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.04.30-23.39.17:372][946]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.39.17:372][946]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.39.24:305][765]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.39.24:314][765]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.39.24:730][806]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2022.04.30-23.39.24:730][806]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.39.24:730][806]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.39.56:026][909]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.39.56:035][909]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.39.56:968][  6]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2022.04.30-23.39.56:968][  6]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.39.56:968][  6]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.40.00:228][392]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.40.00:236][392]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.40.00:717][438]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2022.04.30-23.40.00:717][438]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.40.00:717][438]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.40.07:097][198]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.40.07:105][198]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.40.07:590][245]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2022.04.30-23.40.07:590][245]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.40.07:590][245]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.40.25:785][361]LogMaterialEditor: Applying material M_TableTop
+[2022.04.30-23.40.26:102][361]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.40.26:119][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.40.26:142][361]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.40.26:163][361]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.40.26:178][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.40.27:594][512]LogMaterialEditor: Saving and Compiling material M_TableTop
+[2022.04.30-23.40.27:769][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_TableTop" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_TableTop.uasset" SILENT=true
+[2022.04.30-23.40.27:805][512]LogSavePackage: Save=31.31ms
+[2022.04.30-23.40.27:805][512]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/M_TableTop5E32433F43A8528624D837AA6943C7DB.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_TableTop.uasset'
+[2022.04.30-23.40.27:807][512]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_TableTop.uasset
+[2022.04.30-23.40.27:814][512]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2022.04.30-23.40.27:814][512]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.40.27:814][512]MaterialEditorStats: Info Texture samplers: 4/16
+[2022.04.30-23.40.47:650][859]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.40.47:658][859]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.40.48:548][948]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2022.04.30-23.40.48:548][948]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.40.48:548][948]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.41.00:239][119]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.41.00:246][119]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.41.00:792][171]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2022.04.30-23.41.00:792][171]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.41.00:792][171]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.41.03:353][475]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.41.03:362][475]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.41.03:802][517]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2022.04.30-23.41.03:802][517]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.41.03:802][517]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.41.06:631][851]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.41.06:638][851]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.41.06:665][851]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2022.04.30-23.41.07:198][896]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2022.04.30-23.41.07:198][896]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.41.07:198][896]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.41.17:698][668]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.41.17:706][668]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.41.18:166][713]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2022.04.30-23.41.18:166][713]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.41.18:166][713]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.41.27:131][775]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.41.27:139][775]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.41.27:606][821]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2022.04.30-23.41.27:606][821]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.41.27:606][821]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.41.32:302][382]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.41.32:310][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.41.32:787][430]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2022.04.30-23.41.32:787][430]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.41.32:787][430]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.41.50:554][538]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.41.50:564][538]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.41.51:069][588]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2022.04.30-23.41.51:069][588]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.41.51:069][588]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.41.54:286][959]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.41.54:294][959]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.41.54:750][  4]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2022.04.30-23.41.54:750][  4]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.41.54:750][  4]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.04.30-23.41.58:223][408]LogMaterialEditor: Applying material M_TableTop
+[2022.04.30-23.41.58:534][408]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.41.58:549][408]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.41.58:571][408]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.41.58:593][408]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.04.30-23.41.58:610][408]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.04.30-23.41.59:493][500]LogMaterialEditor: Saving and Compiling material M_TableTop
+[2022.04.30-23.42.00:102][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_TableTop" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_TableTop.uasset" SILENT=true
+[2022.04.30-23.42.00:145][500]LogSavePackage: Save=34.95ms
+[2022.04.30-23.42.00:145][500]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/M_TableTop8CA7A8DB4C6FF26830099EB10D7E46E9.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_TableTop.uasset'
+[2022.04.30-23.42.00:146][500]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_TableTop.uasset
+[2022.04.30-23.42.00:161][500]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2022.04.30-23.42.00:161][500]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.04.30-23.42.00:161][500]MaterialEditorStats: Info Texture samplers: 4/16
+[2022.04.30-23.42.03:964][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.43.28:797][415]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2022.04.30-23.44.24:087][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.04.30-23.47.43:865][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.04.30-23.47.43:925][971]LogSavePackage: Save=53.59ms
+[2022.04.30-23.47.43:925][971]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainLevel_Auto4D9039D8D4E3B621ABC29DF82AD576BEE.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto4.umap'
+[2022.04.30-23.47.43:929][971]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto4.umap
+[2022.04.30-23.47.43:931][971]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.292
+[2022.04.30-23.47.43:931][971]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.292
+[2022.05.01-02.35.21:524][571]Cmd: TRANSACTION UNDO
+[2022.05.01-02.35.21:524][571]LogEditorTransaction: Undo Create Actors
+[2022.05.01-02.35.21:531][571]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2022.05.01-02.35.21:541][571]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-02.35.22:445][637]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2022.05.01-02.35.22:445][637]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.05.01-02.35.22:445][637]MaterialEditorStats: Info Texture samplers: 1/16
+[2022.05.01-02.35.28:706][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.05.01-02.36.20:159][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.01-02.36.20:457][713]LogSavePackage: Save=53.54ms
+[2022.05.01-02.36.20:457][713]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainLevelDA3E8F1043B061B092ECF9A46F9D5963.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2022.05.01-02.36.20:471][713]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2022.05.01-02.54.01:782][676]LogEditorViewport: Clicking Background
+[2022.05.01-02.54.04:587][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.05.01-02.54.16:843][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.05.01-02.54.27:226][635]LogEditorViewport: Clicking Background
+[2022.05.01-02.54.27:867][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.05.01-02.55.11:749][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.05.01-02.55.11:851][879]LogSavePackage: Save=95.89ms
+[2022.05.01-02.55.11:851][879]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainLevel_Auto50A7C6A0B47545923BCAA5DB600AAC5B9.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto5.umap'
+[2022.05.01-02.55.11:852][879]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Maps/MainLevel_Auto5.umap
+[2022.05.01-02.55.11:854][879]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.115
+[2022.05.01-02.55.11:854][879]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.115
+[2022.05.01-02.56.54:456][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.01-02.56.54:790][325]LogSavePackage: Save=100.04ms
+[2022.05.01-02.56.54:790][325]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainLevelD3661E244573B62AB5171F9A4160ACFC.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2022.05.01-02.56.54:792][325]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2022.05.01-02.56.57:804][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_TableFrame" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/SM_TableFrame.uasset" SILENT=true
+[2022.05.01-02.56.57:835][642]LogSavePackage: Save=29.65ms
+[2022.05.01-02.56.57:835][642]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/SM_TableFrame37FE727D469C38048C51CEA2DA14C166.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/SM_TableFrame.uasset'
+[2022.05.01-02.56.57:837][642]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/SM_TableFrame.uasset
+[2022.05.01-02.56.57:846][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/T_Fibers" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/T_Fibers.uasset" SILENT=true
+[2022.05.01-02.56.58:050][642]LogSavePackage: Save=193.57ms
+[2022.05.01-02.56.58:050][642]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/T_FibersBEDDECBB4F08C6634F5583A1A569008D.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/T_Fibers.uasset'
+[2022.05.01-02.56.58:055][642]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/T_Fibers.uasset
