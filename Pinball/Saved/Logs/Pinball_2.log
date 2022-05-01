@@ -834,3 +834,367 @@ LogInit: Object subsystem initialized
 [2022.05.01-15.41.35:650][608]MaterialEditorStats: Info Texture samplers: 6/16
 [2022.05.01-15.41.50:842][272]LogEditorViewport: Clicking on Actor (LMB): DecalActor (DecalActor)
 [2022.05.01-15.43.42:670][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.01-15.43.42:741][501]LogSavePackage: Save=56.00ms
+[2022.05.01-15.43.42:741][501]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainLevelE00A84C34ED9DFB537309682F9F5244E.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2022.05.01-15.43.42:742][501]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2022.05.01-15.43.42:759][501]LogFileHelpers: Saving map 'MainLevel' took 0.137
+[2022.05.01-15.47.52:667][460]LogEditorViewport: Clicking Background
+[2022.05.01-15.49.09:953][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\jerye\Downloads\PinballAssets\PinballAssets\Textures\UI\T_PinballLogo.tga)
+[2022.05.01-15.49.10:030][532]LogTexture:Display: Building textures: T_PinballLogo (AutoDXT)
+[2022.05.01-15.49.10:463][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\jerye\Downloads\PinballAssets\PinballAssets\Textures\UI\T_BackPlateImage.png)
+[2022.05.01-15.49.10:613][532]LogTexture:Display: Building textures: T_BackPlateImage (AutoDXT)
+[2022.05.01-15.49.36:135][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/T_BackPlateImage" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_BackPlateImage.uasset" SILENT=true
+[2022.05.01-15.49.36:305][830]LogSavePackage: Save=169.45ms
+[2022.05.01-15.49.36:305][830]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/T_BackPlateImageE022964F4DEFDE4DF062049C3ED26C5E.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_BackPlateImage.uasset'
+[2022.05.01-15.49.36:307][830]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_BackPlateImage.uasset
+[2022.05.01-15.49.41:133][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/T_PinballLogo" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_PinballLogo.uasset" SILENT=true
+[2022.05.01-15.49.41:311][389]LogSavePackage: Save=177.21ms
+[2022.05.01-15.49.41:311][389]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/T_PinballLogo3AB37EA94251FA8D75E5108B106C3C2A.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_PinballLogo.uasset'
+[2022.05.01-15.49.41:313][389]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_PinballLogo.uasset
+[2022.05.01-15.49.51:350][417]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 111 classes and 0 folders.
+[2022.05.01-15.51.50:988][468]LogEditorTransaction: Undo Resize Widget
+[2022.05.01-15.51.51:011][468]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2022.05.01-15.51.51:013][468]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-15.51.51:015][468]LogMaterial: Missing cached shader map for material M_AdvancedDecal, compiling. 
+[2022.05.01-15.51.51:026][468]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-15.51.52:139][566]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2022.05.01-15.51.52:139][566]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2022.05.01-15.51.52:139][566]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-15.51.52:139][566]MaterialEditorStats: Info Texture samplers: 6/16
+[2022.05.01-15.51.52:230][577]LogEditorTransaction: Undo Edit Image
+[2022.05.01-15.51.52:249][577]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2022.05.01-15.51.52:252][577]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-15.51.52:254][577]LogMaterial: Missing cached shader map for material M_AdvancedDecal, compiling. 
+[2022.05.01-15.51.52:265][577]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-15.51.52:985][644]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2022.05.01-15.51.52:985][644]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2022.05.01-15.51.52:985][644]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2022.05.01-15.51.52:985][644]MaterialEditorStats: Info Texture samplers: 6/16
+[2022.05.01-15.52.09:403][925]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2022.05.01-15.52.09:407][925]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-15.52.09:411][925]LogMaterial: Missing cached shader map for material M_AdvancedDecal, compiling. 
+[2022.05.01-15.52.09:432][925]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-15.52.09:452][925]LogMaterial: Missing cached shader map for material M_AdvancedDecal, compiling. 
+[2022.05.01-15.52.09:474][925]LogMaterial: Missing cached shader map for material M_AdvancedDecal, compiling. 
+[2022.05.01-15.52.09:496][925]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.05.01-15.52.20:577][335]LogEditorFactories: Performing atomic reimport of [C:/Users/jerye/Downloads/PinballAssets/PinballAssets/Textures/UI/T_PinballLogo.tga]
+[2022.05.01-15.52.20:611][335]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/jerye/Downloads/PinballAssets/PinballAssets/Textures/UI/T_PinballLogo.tga)
+[2022.05.01-15.52.20:690][335]LogTexture:Display: Building textures: T_PinballLogo (AutoDXT)
+[2022.05.01-15.52.21:148][335]LogEditorFactories: -- imported successfully
+[2022.05.01-15.52.21:222][335]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\jerye\Downloads\PinballAssets\PinballAssets\Textures\UI\T_BackPlateImage.png)
+[2022.05.01-15.52.21:355][335]LogTexture:Display: Building textures: T_BackPlateImage (AutoDXT)
+[2022.05.01-15.52.27:936][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/T_BackPlateImage" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_BackPlateImage.uasset" SILENT=true
+[2022.05.01-15.52.28:097][952]LogSavePackage: Save=160.73ms
+[2022.05.01-15.52.28:097][952]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/T_BackPlateImage8DA41622465BEC16441F8893F95461C9.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_BackPlateImage.uasset'
+[2022.05.01-15.52.28:099][952]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_BackPlateImage.uasset
+[2022.05.01-15.52.28:299][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/T_BackPlateImage" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_BackPlateImage.uasset" SILENT=true
+[2022.05.01-15.52.28:317][975]LogSavePackage: Save=10.47ms
+[2022.05.01-15.52.28:317][975]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/T_BackPlateImageAAF122FB4E6E85A023FB168C65E18B05.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_BackPlateImage.uasset'
+[2022.05.01-15.52.28:318][975]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_BackPlateImage.uasset
+[2022.05.01-15.53.32:466][587]LogEditorTransaction: Undo Resize Widget
+[2022.05.01-15.54.21:234][423]LogEditorTransaction: Undo Edit Left
+[2022.05.01-15.56.06:587][646]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.015
+[2022.05.01-15.56.06:589][646]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu] ([1] browsable assets)...
+[2022.05.01-15.56.06:589][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu]
+[2022.05.01-15.56.06:589][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/MainMenu_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.05.01-15.56.06:603][646]LogSavePackage: Save=8.30ms
+[2022.05.01-15.56.06:603][646]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainMenu_Auto254C5826D41A50F92631DA1A26EE0A60F.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/MainMenu_Auto2.uasset'
+[2022.05.01-15.56.06:604][646]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/MainMenu_Auto2.uasset
+[2022.05.01-15.56.06:605][646]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/M_AdvancedDecal] ([1] browsable assets)...
+[2022.05.01-15.56.06:616][646]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/M_AdvancedDecal.M_AdvancedDecal]
+[2022.05.01-15.56.06:616][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/M_AdvancedDecal]
+[2022.05.01-15.56.06:616][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_AdvancedDecal" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/M_AdvancedDecal_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.05.01-15.56.06:633][646]LogSavePackage: Save=10.42ms
+[2022.05.01-15.56.06:633][646]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/M_AdvancedDecal_Auto2B35C18FA48C07F7F158745BA35448A77.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/M_AdvancedDecal_Auto2.uasset'
+[2022.05.01-15.56.06:633][646]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/M_AdvancedDecal_Auto2.uasset
+[2022.05.01-15.56.06:634][646]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/T_PinballLogo] ([1] browsable assets)...
+[2022.05.01-15.56.06:642][646]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/UI/T_PinballLogo.T_PinballLogo]
+[2022.05.01-15.56.06:642][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/T_PinballLogo]
+[2022.05.01-15.56.06:663][646]LogSavePackage: Save=13.26ms
+[2022.05.01-15.56.06:663][646]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/T_PinballLogo_Auto23535EEB54AC21AFCA8E1809970115537.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/UI/T_PinballLogo_Auto2.uasset'
+[2022.05.01-15.56.06:664][646]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/UI/T_PinballLogo_Auto2.uasset
+[2022.05.01-15.56.06:664][646]LogFileHelpers: Auto-saving content packages took 0.076
+[2022.05.01-16.03.51:939][ 49]BlueprintLog: New page: Compile MainMenu
+[2022.05.01-16.03.52:918][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2022.05.01-16.03.52:934][142]LogSavePackage: Save=9.88ms
+[2022.05.01-16.03.52:934][142]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainMenu1B1FC4FA4FC6270EB65B8AA19C64F56B.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset'
+[2022.05.01-16.03.52:936][142]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset
+[2022.05.01-16.04.29:183][740]BlueprintLog: New page: Compile MainMenu
+[2022.05.01-16.04.29:857][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2022.05.01-16.04.29:873][805]LogSavePackage: Save=10.97ms
+[2022.05.01-16.04.29:873][805]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainMenu9D2AB4924B2C2C37AB9AB7B6C340A9E3.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset'
+[2022.05.01-16.04.29:875][805]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset
+[2022.05.01-16.04.34:873][207]LogTemp: Repeting last play command: Selected Viewport
+[2022.05.01-16.04.34:890][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.01-16.04.34:890][207]PIE: New page: PIE session: MainLevel (May 1, 2022, 8:04:34 AM)
+[2022.05.01-16.04.34:890][207]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.05.01-16.04.34:897][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006730s)
+[2022.05.01-16.04.34:898][207]LogAIModule: Creating AISystem for world MainLevel
+[2022.05.01-16.04.34:898][207]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2022.05.01-16.04.34:898][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.007713s)
+[2022.05.01-16.04.34:930][207]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.05.01-16.04.34:938][207]LogInit: FAudioDevice initialized.
+[2022.05.01-16.04.34:999][207]LogLoad: Game class is 'PinballGameMode_C'
+[2022.05.01-16.04.35:001][207]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.05.01-12.04.35
+[2022.05.01-16.04.35:002][207]LogWorld: Bringing up level for play took: 0.002438
+[2022.05.01-16.04.35:031][207]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2022.05.01-16.04.35:054][207]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.929
+[2022.05.01-16.04.35:064][207]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.05.01-16.11.51:533][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_AdvancedDecal" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_AdvancedDecal.uasset" SILENT=true
+[2022.05.01-16.11.51:543][370]LogSavePackage: Save=3.83ms
+[2022.05.01-16.11.51:543][370]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/M_AdvancedDecal621DB3FE4DF4BFBADB274994B24194BB.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_AdvancedDecal.uasset'
+[2022.05.01-16.11.51:544][370]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/M_AdvancedDecal.uasset
+[2022.05.01-16.11.51:546][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/T_PinballLogo" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_PinballLogo.uasset" SILENT=true
+[2022.05.01-16.11.51:724][370]LogSavePackage: Save=171.13ms
+[2022.05.01-16.11.51:724][370]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/T_PinballLogoC8A99D3D4E792913F0147D97EC435282.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_PinballLogo.uasset'
+[2022.05.01-16.11.51:726][370]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/T_PinballLogo.uasset
+[2022.05.01-16.28.26:602][644]LogFactory: FactoryCreateFile: Font with FontFileImportFactory (0 0 C:\Users\jerye\Downloads\PinballAssets\PinballAssets\LeagueGothicFont\LeagueGothic-CondensedItalic.otf)
+[2022.05.01-16.28.55:621][  1]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.012
+[2022.05.01-16.28.55:622][  1]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/LeagueGothic-CondensedItalic] ([1] browsable assets)...
+[2022.05.01-16.28.55:631][  1]OBJ SavePackage:     Rendered thumbnail for [Font /Game/Assets/UI/LeagueGothic-CondensedItalic.LeagueGothic-CondensedItalic]
+[2022.05.01-16.28.55:631][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/LeagueGothic-CondensedItalic]
+[2022.05.01-16.28.55:638][  1]LogSavePackage: Save=5.86ms
+[2022.05.01-16.28.55:638][  1]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/LeagueGothic-CondensedItalic_Auto3475A0CAD4B2F51751EEBA9980482D9BC.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/UI/LeagueGothic-CondensedItalic_Auto3.uasset'
+[2022.05.01-16.28.55:639][  1]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Assets/UI/LeagueGothic-CondensedItalic_Auto3.uasset
+[2022.05.01-16.28.55:639][  1]LogFileHelpers: Auto-saving content packages took 0.017
+[2022.05.01-16.31.58:125][770]LogEditorTransaction: Undo Move Widget
+[2022.05.01-16.32.04:189][442]LogEditorTransaction: Undo Move Widget
+[2022.05.01-16.32.04:645][484]LogEditorTransaction: Undo Move Widget
+[2022.05.01-16.32.05:190][544]LogEditorTransaction: Undo Move Widget
+[2022.05.01-16.33.32:422][573]LogEditorTransaction: Undo Animatable Property Changed
+[2022.05.01-16.33.34:200][777]LogEditorTransaction: Undo Animatable Property Changed
+[2022.05.01-16.35.02:290][ 64]BlueprintLog: New page: Compile MainMenu
+[2022.05.01-16.35.04:835][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2022.05.01-16.35.04:857][352]LogSavePackage: Save=14.45ms
+[2022.05.01-16.35.04:857][352]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainMenuBD302E094C66318946BE3D901AF83E7D.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset'
+[2022.05.01-16.35.04:859][352]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset
+[2022.05.01-16.35.11:538][150]LogTemp: Repeting last play command: Selected Viewport
+[2022.05.01-16.35.11:553][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.01-16.35.11:553][150]PIE: New page: PIE session: MainLevel (May 1, 2022, 8:35:11 AM)
+[2022.05.01-16.35.11:553][150]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.05.01-16.35.11:559][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006157s)
+[2022.05.01-16.35.11:559][150]LogAIModule: Creating AISystem for world MainLevel
+[2022.05.01-16.35.11:560][150]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2022.05.01-16.35.11:560][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.006862s)
+[2022.05.01-16.35.11:588][150]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.05.01-16.35.11:596][150]LogInit: FAudioDevice initialized.
+[2022.05.01-16.35.11:633][150]LogLoad: Game class is 'PinballGameMode_C'
+[2022.05.01-16.35.11:636][150]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.05.01-12.35.11
+[2022.05.01-16.35.11:637][150]LogWorld: Bringing up level for play took: 0.002284
+[2022.05.01-16.35.11:639][150]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.487
+[2022.05.01-16.35.11:651][150]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.05.01-16.35.55:367][718]BlueprintLog: New page: Compile MainMenu
+[2022.05.01-16.35.56:186][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2022.05.01-16.35.56:206][799]LogSavePackage: Save=16.01ms
+[2022.05.01-16.35.56:206][799]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainMenu4F0301DD46AD92C266953E8003BD812C.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset'
+[2022.05.01-16.35.56:208][799]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset
+[2022.05.01-16.36.01:786][467]LogTemp: Repeting last play command: Selected Viewport
+[2022.05.01-16.36.01:801][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.01-16.36.01:801][467]PIE: New page: PIE session: MainLevel (May 1, 2022, 8:36:01 AM)
+[2022.05.01-16.36.01:801][467]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.05.01-16.36.01:808][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006695s)
+[2022.05.01-16.36.01:808][467]LogAIModule: Creating AISystem for world MainLevel
+[2022.05.01-16.36.01:808][467]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2022.05.01-16.36.01:809][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.007605s)
+[2022.05.01-16.36.01:833][467]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.05.01-16.36.01:841][467]LogInit: FAudioDevice initialized.
+[2022.05.01-16.36.01:878][467]LogLoad: Game class is 'PinballGameMode_C'
+[2022.05.01-16.36.01:880][467]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.05.01-12.36.01
+[2022.05.01-16.36.01:880][467]LogWorld: Bringing up level for play took: 0.001547
+[2022.05.01-16.36.01:882][467]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.243
+[2022.05.01-16.36.01:894][467]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.05.01-16.36.52:267][885]BlueprintLog: New page: Compile MainMenu
+[2022.05.01-16.36.53:105][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2022.05.01-16.36.53:126][967]LogSavePackage: Save=14.89ms
+[2022.05.01-16.36.53:126][967]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainMenuBE4BBC614E3429F6A06989843A9AFA10.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset'
+[2022.05.01-16.36.53:127][967]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset
+[2022.05.01-16.36.56:992][428]LogTemp: Repeting last play command: Selected Viewport
+[2022.05.01-16.36.57:006][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.01-16.36.57:007][428]PIE: New page: PIE session: MainLevel (May 1, 2022, 8:36:57 AM)
+[2022.05.01-16.36.57:007][428]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.05.01-16.36.57:013][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006281s)
+[2022.05.01-16.36.57:014][428]LogAIModule: Creating AISystem for world MainLevel
+[2022.05.01-16.36.57:014][428]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2022.05.01-16.36.57:014][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.007170s)
+[2022.05.01-16.36.57:040][428]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.05.01-16.36.57:048][428]LogInit: FAudioDevice initialized.
+[2022.05.01-16.36.57:080][428]LogLoad: Game class is 'PinballGameMode_C'
+[2022.05.01-16.36.57:083][428]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.05.01-12.36.57
+[2022.05.01-16.36.57:083][428]LogWorld: Bringing up level for play took: 0.001548
+[2022.05.01-16.36.57:085][428]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.959
+[2022.05.01-16.36.57:098][428]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.05.01-16.37.19:397][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/LeagueGothic-CondensedItalic" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/LeagueGothic-CondensedItalic.uasset" SILENT=true
+[2022.05.01-16.37.19:402][600]LogSavePackage: Save=4.23ms
+[2022.05.01-16.37.19:402][600]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/LeagueGothic-CondensedItalic5B8E334E430B1F808F1B71A39D775AD1.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/LeagueGothic-CondensedItalic.uasset'
+[2022.05.01-16.37.19:404][600]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Assets/UI/LeagueGothic-CondensedItalic.uasset
+[2022.05.01-16.54.21:636][235]BlueprintLog: New page: Compile HighScoreWidget
+[2022.05.01-16.54.22:566][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreWidget" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreWidget.uasset" SILENT=true
+[2022.05.01-16.54.22:585][324]LogSavePackage: Save=13.39ms
+[2022.05.01-16.54.22:585][324]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/HighScoreWidget1B5641E54D232AC3245FA9AF68E5B2A1.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreWidget.uasset'
+[2022.05.01-16.54.22:588][324]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreWidget.uasset
+[2022.05.01-16.57.21:503][928]LogTemp: Repeting last play command: Selected Viewport
+[2022.05.01-16.57.21:518][928]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.05.01-16.57.21:518][928]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2022.05.01-16.57.21:619][928]LogPlayLevel: PlayLevel: Blueprint regeneration took 101 ms (1 blueprints)
+[2022.05.01-16.57.21:619][928]PIE: New page: PIE session: MainLevel (May 1, 2022, 8:57:21 AM)
+[2022.05.01-16.57.21:620][928]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.05.01-16.57.21:626][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005988s)
+[2022.05.01-16.57.21:626][928]LogAIModule: Creating AISystem for world MainLevel
+[2022.05.01-16.57.21:626][928]LogPlayLevel: PIE: World Init took: (0.000509s)
+[2022.05.01-16.57.21:626][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.006674s)
+[2022.05.01-16.57.21:661][928]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.05.01-16.57.21:671][928]LogInit: FAudioDevice initialized.
+[2022.05.01-16.57.21:708][928]LogLoad: Game class is 'PinballGameMode_C'
+[2022.05.01-16.57.21:711][928]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.05.01-12.57.21
+[2022.05.01-16.57.21:711][928]LogWorld: Bringing up level for play took: 0.002122
+[2022.05.01-16.57.21:714][928]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.412
+[2022.05.01-16.57.21:727][928]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.05.01-16.57.45:400][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2022.05.01-16.57.45:427][670]LogSavePackage: Save=19.46ms
+[2022.05.01-16.57.45:427][670]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainMenu76A1480349381B9C9C9849B569FCF468.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset'
+[2022.05.01-16.57.45:429][670]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset
+[2022.05.01-17.00.24:074][774]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.014
+[2022.05.01-17.00.24:075][774]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HighScoreWidget] ([1] browsable assets)...
+[2022.05.01-17.00.24:075][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HighScoreWidget]
+[2022.05.01-17.00.24:095][774]LogSavePackage: Save=14.21ms
+[2022.05.01-17.00.24:095][774]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/HighScoreWidget_Auto4F60D2E1240BFCA5FF9B607959B2A9758.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/HighScoreWidget_Auto4.uasset'
+[2022.05.01-17.00.24:096][774]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/HighScoreWidget_Auto4.uasset
+[2022.05.01-17.00.24:097][774]LogFileHelpers: Auto-saving content packages took 0.022
+[2022.05.01-17.01.17:747][ 33]BlueprintLog: New page: Compile HighScoreWidget
+[2022.05.01-17.01.18:384][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreWidget" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreWidget.uasset" SILENT=true
+[2022.05.01-17.01.18:403][ 93]LogSavePackage: Save=13.74ms
+[2022.05.01-17.01.18:403][ 93]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/HighScoreWidget64B3285C489C89475F9F56AE93D2850D.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreWidget.uasset'
+[2022.05.01-17.01.18:405][ 93]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreWidget.uasset
+[2022.05.01-17.02.29:119][607]LogEditorTransaction: Undo Move Widget
+[2022.05.01-17.06.46:516][561]BlueprintLog: New page: Compile HighScoreEntry
+[2022.05.01-17.06.47:292][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreEntry" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreEntry.uasset" SILENT=true
+[2022.05.01-17.06.47:311][616]LogSavePackage: Save=12.58ms
+[2022.05.01-17.06.47:311][616]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/HighScoreEntryE88807BF4948AD7586F521AA3ADD2450.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreEntry.uasset'
+[2022.05.01-17.06.47:312][616]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreEntry.uasset
+[2022.05.01-17.10.24:579][286]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.019
+[2022.05.01-17.10.24:580][286]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HighScoreEntry] ([1] browsable assets)...
+[2022.05.01-17.10.24:580][286]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HighScoreEntry]
+[2022.05.01-17.10.24:601][286]LogSavePackage: Save=15.23ms
+[2022.05.01-17.10.24:601][286]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/HighScoreEntry_Auto5CE20161C4CE96082FDD3D8901EAAE8C8.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/HighScoreEntry_Auto5.uasset'
+[2022.05.01-17.10.24:602][286]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/HighScoreEntry_Auto5.uasset
+[2022.05.01-17.10.24:603][286]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu] ([1] browsable assets)...
+[2022.05.01-17.10.24:603][286]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu]
+[2022.05.01-17.10.24:603][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/MainMenu_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2022.05.01-17.10.24:625][286]LogSavePackage: Save=15.71ms
+[2022.05.01-17.10.24:625][286]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainMenu_Auto5DDCF66D04358E9466B57B086167FC573.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/MainMenu_Auto5.uasset'
+[2022.05.01-17.10.24:626][286]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/Autosaves/Game/Blueprints/MainMenu_Auto5.uasset
+[2022.05.01-17.10.24:626][286]LogFileHelpers: Auto-saving content packages took 0.046
+[2022.05.01-17.11.13:859][434]BlueprintLog: New page: Compile HighScoreEntry
+[2022.05.01-17.11.15:185][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreEntry" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreEntry.uasset" SILENT=true
+[2022.05.01-17.11.15:205][572]LogSavePackage: Save=14.41ms
+[2022.05.01-17.11.15:205][572]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/HighScoreEntryC51945734C4908BA83B9479515C50DF4.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreEntry.uasset'
+[2022.05.01-17.11.15:207][572]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreEntry.uasset
+[2022.05.01-17.14.07:375][646]BlueprintLog: New page: Compile MainMenu
+[2022.05.01-17.14.08:994][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2022.05.01-17.14.09:014][823]LogSavePackage: Save=15.30ms
+[2022.05.01-17.14.09:014][823]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainMenuCDEC322441F27A4797603F9D24DC2F1C.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset'
+[2022.05.01-17.14.09:016][823]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset
+[2022.05.01-17.14.11:288][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.05.01-17.14.23:174][496]LogTemp: Repeting last play command: Selected Viewport
+[2022.05.01-17.14.23:190][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.01-17.14.23:190][496]PIE: New page: PIE session: MainLevel (May 1, 2022, 9:14:23 AM)
+[2022.05.01-17.14.23:190][496]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.05.01-17.14.23:196][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005719s)
+[2022.05.01-17.14.23:196][496]LogAIModule: Creating AISystem for world MainLevel
+[2022.05.01-17.14.23:196][496]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2022.05.01-17.14.23:197][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.006436s)
+[2022.05.01-17.14.23:227][496]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.05.01-17.14.23:235][496]LogInit: FAudioDevice initialized.
+[2022.05.01-17.14.23:266][496]LogLoad: Game class is 'PinballGameMode_C'
+[2022.05.01-17.14.23:269][496]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.05.01-13.14.23
+[2022.05.01-17.14.23:270][496]LogWorld: Bringing up level for play took: 0.002146
+[2022.05.01-17.14.23:273][496]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.853
+[2022.05.01-17.14.23:285][496]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.05.01-17.15.52:933][172]BlueprintLog: New page: Compile HighScoreEntry
+[2022.05.01-17.15.53:844][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreEntry" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreEntry.uasset" SILENT=true
+[2022.05.01-17.15.53:865][265]LogSavePackage: Save=14.25ms
+[2022.05.01-17.15.53:865][265]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/HighScoreEntryABCD57E14DF06499C926428C63E0B86A.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreEntry.uasset'
+[2022.05.01-17.15.53:866][265]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreEntry.uasset
+[2022.05.01-17.16.41:923][307]BlueprintLog: New page: Compile HighScoreEntry
+[2022.05.01-17.16.42:822][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreEntry" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreEntry.uasset" SILENT=true
+[2022.05.01-17.16.42:842][394]LogSavePackage: Save=14.67ms
+[2022.05.01-17.16.42:842][394]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/HighScoreEntry63163EC74F84F0BE44EDB4B06CD7BDD2.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreEntry.uasset'
+[2022.05.01-17.16.42:844][394]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/HighScoreEntry.uasset
+[2022.05.01-17.17.12:151][575]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2022.05.01-17.17.12:209][575]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2022.05.01-17.18.45:496][417]BlueprintLog: New page: Compile PinballGameMode
+[2022.05.01-17.18.46:162][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2022.05.01-17.18.46:206][465]LogSavePackage: Save=38.36ms
+[2022.05.01-17.18.46:206][465]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballGameMode4CB1F34C43A09B5E96D2DBA4E2BB3A49.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2022.05.01-17.18.46:208][465]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset
+[2022.05.01-17.18.47:074][561]LogTemp: Repeting last play command: Selected Viewport
+[2022.05.01-17.18.47:090][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.01-17.18.47:090][561]PIE: New page: PIE session: MainLevel (May 1, 2022, 9:18:47 AM)
+[2022.05.01-17.18.47:090][561]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.05.01-17.18.47:097][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006808s)
+[2022.05.01-17.18.47:098][561]LogAIModule: Creating AISystem for world MainLevel
+[2022.05.01-17.18.47:098][561]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2022.05.01-17.18.47:098][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.007499s)
+[2022.05.01-17.18.47:127][561]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.05.01-17.18.47:134][561]LogInit: FAudioDevice initialized.
+[2022.05.01-17.18.47:178][561]LogLoad: Game class is 'PinballGameMode_C'
+[2022.05.01-17.18.47:180][561]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.05.01-13.18.47
+[2022.05.01-17.18.47:181][561]LogWorld: Bringing up level for play took: 0.001573
+[2022.05.01-17.18.47:181][561]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.05.01-17.18.47:188][561]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 1.063
+[2022.05.01-17.18.47:190][561]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.05.01-17.18.47:201][561]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:64162).
+[2022.05.01-17.20.27:228][765]BlueprintLog: New page: Compile PinballGameMode
+[2022.05.01-17.20.28:601][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2022.05.01-17.20.28:643][901]LogSavePackage: Save=36.77ms
+[2022.05.01-17.20.28:643][901]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/PinballGameModeA85A3B644CCB7F2B8D069CA02D1A504A.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2022.05.01-17.20.28:645][901]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset
+[2022.05.01-17.20.31:121][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2022.05.01-17.20.34:421][579]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2022.05.01-17.20.43:540][634]LogEditorViewport: Clicking Background
+[2022.05.01-17.20.44:484][746]LogTemp: Repeting last play command: Selected Viewport
+[2022.05.01-17.20.44:500][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.01-17.20.44:500][746]PIE: New page: PIE session: MainLevel (May 1, 2022, 9:20:44 AM)
+[2022.05.01-17.20.44:500][746]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.05.01-17.20.44:506][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006020s)
+[2022.05.01-17.20.44:506][746]LogAIModule: Creating AISystem for world MainLevel
+[2022.05.01-17.20.44:506][746]LogPlayLevel: PIE: World Init took: (0.000437s)
+[2022.05.01-17.20.44:506][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.006630s)
+[2022.05.01-17.20.44:534][746]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.05.01-17.20.44:541][746]LogInit: FAudioDevice initialized.
+[2022.05.01-17.20.44:575][746]LogLoad: Game class is 'PinballGameMode_C'
+[2022.05.01-17.20.44:578][746]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.05.01-13.20.44
+[2022.05.01-17.20.44:578][746]LogWorld: Bringing up level for play took: 0.001899
+[2022.05.01-17.20.44:580][746]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.455
+[2022.05.01-17.20.44:595][746]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.05.01-17.21.12:165][678]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
+[2022.05.01-17.21.15:778][ 35]Cmd: DELETE
+[2022.05.01-17.21.15:778][ 35]Cmd: ACTOR DELETE
+[2022.05.01-17.21.18:581][ 35]LogEditorActor: Deleted 0 Actors (2.802 secs)
+[2022.05.01-17.21.19:692][102]LogEditorViewport: Clicking Background
+[2022.05.01-17.21.29:131][147]LogTemp: Repeting last play command: Selected Viewport
+[2022.05.01-17.21.29:149][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.01-17.21.29:149][147]PIE: New page: PIE session: MainLevel (May 1, 2022, 9:21:29 AM)
+[2022.05.01-17.21.29:150][147]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2022.05.01-17.21.29:155][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005793s)
+[2022.05.01-17.21.29:156][147]LogAIModule: Creating AISystem for world MainLevel
+[2022.05.01-17.21.29:156][147]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2022.05.01-17.21.29:156][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.006470s)
+[2022.05.01-17.21.29:185][147]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.05.01-17.21.29:193][147]LogInit: FAudioDevice initialized.
+[2022.05.01-17.21.29:227][147]LogLoad: Game class is 'PinballGameMode_C'
+[2022.05.01-17.21.29:230][147]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.05.01-13.21.29
+[2022.05.01-17.21.29:230][147]LogWorld: Bringing up level for play took: 0.001623
+[2022.05.01-17.21.29:232][147]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.893
+[2022.05.01-17.21.29:243][147]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01'.
+[2022.05.01-17.21.58:946][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.01-17.21.59:023][137]LogSavePackage: Save=55.46ms
+[2022.05.01-17.21.59:023][137]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainLevel2E39B0A249067EA478BCA2B93F881941.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap'
+[2022.05.01-17.21.59:025][137]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Maps/MainLevel.umap
+[2022.05.01-17.21.59:069][137]LogFileHelpers: Saving map 'MainLevel' took 0.178
+[2022.05.01-17.21.59:072][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2022.05.01-17.21.59:094][137]LogSavePackage: Save=15.60ms
+[2022.05.01-17.21.59:094][137]LogSavePackage: Moving 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Saved/MainMenu127ADD964698494EEC62B08FF3C3AFD9.tmp' to 'D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset'
+[2022.05.01-17.21.59:096][137]LogSavePackage:Display: Finished SavePackage D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/MainMenu.uasset
+[2022.05.01-17.22.14:208][911]LogUObjectGlobals:Warning: Failed to find object 'Class None.None'
+[2022.05.01-17.22.28:557][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/EpicGames/Unreal Projects/Udemy_Pinball/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
